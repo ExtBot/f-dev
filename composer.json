@@ -1,0 +1,50 @@
+{
+    "name": "flarum/flarum",
+    "description": "Delightfully simple forum software.",
+    "type": "project",
+    "keywords": ["forum", "discussion"],
+    "homepage": "http://flarum.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toby Zerner",
+            "email": "toby.zerner@gmail.com"
+        },
+        {
+            "name": "Franz Liedke",
+            "email": "franz@develophp.org"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/flarum/core/issues",
+        "source": "https://github.com/flarum/flarum",
+        "docs": "http://flarum.org/docs"
+    },
+    "require": {
+        "flarum/core": "dev-master as 0.1",
+        "flarum/flarum-ext-akismet": "dev-master as 0.1",
+        "flarum/flarum-ext-approval": "dev-master as 0.1",
+        "flarum/flarum-ext-auth-facebook": "dev-master as 0.1",
+        "flarum/flarum-ext-auth-github": "dev-master as 0.1",
+        "flarum/flarum-ext-auth-twitter": "dev-master as 0.1",
+        "flarum/flarum-ext-bbcode": "dev-master as 0.1",
+        "flarum/flarum-ext-emoji": "dev-master as 0.1",
+        "flarum/flarum-ext-english": "dev-master as 0.1",
+        "flarum/flarum-ext-flags": "dev-master as 0.1",
+        "flarum/flarum-ext-likes": "dev-master as 0.1",
+        "flarum/flarum-ext-lock": "dev-master as 0.1",
+        "flarum/flarum-ext-markdown": "dev-master as 0.1",
+        "flarum/flarum-ext-mentions": "dev-master as 0.1",
+        "flarum/flarum-ext-pusher": "dev-master as 0.1",
+        "flarum/flarum-ext-statistics": "dev-master as 0.1",
+        "flarum/flarum-ext-sticky": "dev-master as 0.1",
+        "flarum/flarum-ext-subscriptions": "dev-master as 0.1",
+        "flarum/flarum-ext-suspend": "dev-master as 0.1",
+        "flarum/flarum-ext-tags": "dev-master as 0.1"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true
+}
