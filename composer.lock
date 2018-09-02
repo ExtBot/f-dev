@@ -838,12 +838,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "c5a3715701d19fb1839a29516a94ea3c9d0e3458"
+                "reference": "5a9b47cdf719a7bb6e208d95a3e116b7f235ee48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/c5a3715701d19fb1839a29516a94ea3c9d0e3458",
-                "reference": "c5a3715701d19fb1839a29516a94ea3c9d0e3458",
+                "url": "https://api.github.com/repos/flarum/core/zipball/5a9b47cdf719a7bb6e208d95a3e116b7f235ee48",
+                "reference": "5a9b47cdf719a7bb6e208d95a3e116b7f235ee48",
                 "shasum": ""
             },
             "require": {
@@ -929,7 +929,7 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2018-08-25T10:56:59+00:00"
+            "time": "2018-09-01T21:35:37+00:00"
         },
         {
             "name": "flarum/flarum-ext-akismet",
