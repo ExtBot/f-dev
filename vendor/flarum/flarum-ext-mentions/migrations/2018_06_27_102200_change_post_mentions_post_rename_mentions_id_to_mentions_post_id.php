@@ -10,8 +10,5 @@
  */
 
 use Flarum\Database\Migration;
-use Flarum\Group\Group;
 
-return Migration::addPermissions([
-    'discussion.hidePosts' => Group::MODERATOR_ID
-]);
+return Migration::renameColumn('post_mentions_post', 'mentions_id', 'mentions_post_id');
