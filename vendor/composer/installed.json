@@ -1283,17 +1283,17 @@
     },
     {
         "name": "s9e/text-formatter",
-        "version": "1.2.2",
-        "version_normalized": "1.2.2.0",
+        "version": "1.3.0",
+        "version_normalized": "1.3.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/s9e/TextFormatter.git",
-            "reference": "dce04b104c971471395df94a98710db6f1c1b456"
+            "reference": "ce8d49ba4d50e2c46a4d206faa3d48a3ae49f852"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/dce04b104c971471395df94a98710db6f1c1b456",
-            "reference": "dce04b104c971471395df94a98710db6f1c1b456",
+            "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/ce8d49ba4d50e2c46a4d206faa3d48a3ae49f852",
+            "reference": "ce8d49ba4d50e2c46a4d206faa3d48a3ae49f852",
             "shasum": ""
         },
         "require": {
@@ -1316,7 +1316,7 @@
             "ext-xsl": "Enables the XSLT renderer",
             "ext-zlib": "Enables gzip compression when scraping content via the MediaEmbed plugin"
         },
-        "time": "2018-07-29T19:33:10+00:00",
+        "time": "2018-09-20T21:09:06+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -5652,18 +5652,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-suspend.git",
-            "reference": "9bf2cffa784e1c3ed87b98d86adec2d59cc21c55"
+            "reference": "ccb0b84ad91b1110abfe7979b46d47dfb4fba86a"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-suspend/zipball/9bf2cffa784e1c3ed87b98d86adec2d59cc21c55",
-            "reference": "9bf2cffa784e1c3ed87b98d86adec2d59cc21c55",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-suspend/zipball/ccb0b84ad91b1110abfe7979b46d47dfb4fba86a",
+            "reference": "ccb0b84ad91b1110abfe7979b46d47dfb4fba86a",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-09-16T18:58:11+00:00",
+        "time": "2018-09-21T00:46:24+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -5706,18 +5706,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-tags.git",
-            "reference": "a5a4c7c2e9d0df164b241ae8935f0507ce2f081c"
+            "reference": "34689a18957c8d5bb584344c0e36af6bfb51911b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-tags/zipball/a5a4c7c2e9d0df164b241ae8935f0507ce2f081c",
-            "reference": "a5a4c7c2e9d0df164b241ae8935f0507ce2f081c",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-tags/zipball/34689a18957c8d5bb584344c0e36af6bfb51911b",
+            "reference": "34689a18957c8d5bb584344c0e36af6bfb51911b",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-09-16T18:53:38+00:00",
+        "time": "2018-09-21T00:45:09+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
