@@ -2411,17 +2411,17 @@
     },
     {
         "name": "nesbot/carbon",
-        "version": "1.33.0",
-        "version_normalized": "1.33.0.0",
+        "version": "1.34.0",
+        "version_normalized": "1.34.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/briannesbitt/Carbon.git",
-            "reference": "55667c1007a99e82030874b1bb14d24d07108413"
+            "reference": "1dbd3cb01c5645f3e7deda7aa46ef780d95fcc33"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/55667c1007a99e82030874b1bb14d24d07108413",
-            "reference": "55667c1007a99e82030874b1bb14d24d07108413",
+            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/1dbd3cb01c5645f3e7deda7aa46ef780d95fcc33",
+            "reference": "1dbd3cb01c5645f3e7deda7aa46ef780d95fcc33",
             "shasum": ""
         },
         "require": {
@@ -2432,7 +2432,7 @@
             "friendsofphp/php-cs-fixer": "~2",
             "phpunit/phpunit": "^4.8.35 || ^5.7"
         },
-        "time": "2018-08-07T08:39:47+00:00",
+        "time": "2018-09-20T19:36:25+00:00",
         "type": "library",
         "extra": {
             "laravel": {
@@ -4378,12 +4378,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "750d9d05a6815a80dee03f4de1f833473f0a04fd"
+            "reference": "6c0d73afa0ce346f2729bd22dfa3cb6f8a381028"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/750d9d05a6815a80dee03f4de1f833473f0a04fd",
-            "reference": "750d9d05a6815a80dee03f4de1f833473f0a04fd",
+            "url": "https://api.github.com/repos/flarum/core/zipball/6c0d73afa0ce346f2729bd22dfa3cb6f8a381028",
+            "reference": "6c0d73afa0ce346f2729bd22dfa3cb6f8a381028",
             "shasum": ""
         },
         "require": {
@@ -4435,7 +4435,7 @@
             "mockery/mockery": "^0.9.4",
             "phpunit/phpunit": "^6.0"
         },
-        "time": "2018-09-16T19:21:13+00:00",
+        "time": "2018-09-21T22:40:19+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4479,18 +4479,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-flags.git",
-            "reference": "59e062772447f1e02aae39f1ae607792766f9e4d"
+            "reference": "dbb131f25bc7328e4a9e3966eff37ab9f7866ee0"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-flags/zipball/59e062772447f1e02aae39f1ae607792766f9e4d",
-            "reference": "59e062772447f1e02aae39f1ae607792766f9e4d",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-flags/zipball/dbb131f25bc7328e4a9e3966eff37ab9f7866ee0",
+            "reference": "dbb131f25bc7328e4a9e3966eff37ab9f7866ee0",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-09-16T18:50:42+00:00",
+        "time": "2018-09-21T02:16:57+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -4533,19 +4533,19 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-approval.git",
-            "reference": "928619b9669220542828a16db1034d3fbe359a5d"
+            "reference": "fb4984acf79949b8001d583cee77354566af68c3"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-approval/zipball/928619b9669220542828a16db1034d3fbe359a5d",
-            "reference": "928619b9669220542828a16db1034d3fbe359a5d",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-approval/zipball/fb4984acf79949b8001d583cee77354566af68c3",
+            "reference": "fb4984acf79949b8001d583cee77354566af68c3",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8",
             "flarum/flarum-ext-flags": "^0.1.0-beta.6"
         },
-        "time": "2018-09-16T18:49:28+00:00",
+        "time": "2018-09-21T02:15:18+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -4629,12 +4629,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-akismet.git",
-            "reference": "87fff87fde03689ce2b54b8d52ad59f5a4b12617"
+            "reference": "f1c846897e3d5d17979604f738aeb47dcd53f2aa"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-akismet/zipball/87fff87fde03689ce2b54b8d52ad59f5a4b12617",
-            "reference": "87fff87fde03689ce2b54b8d52ad59f5a4b12617",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-akismet/zipball/f1c846897e3d5d17979604f738aeb47dcd53f2aa",
+            "reference": "f1c846897e3d5d17979604f738aeb47dcd53f2aa",
             "shasum": ""
         },
         "require": {
@@ -4642,7 +4642,7 @@
             "flarum/flarum-ext-approval": "^0.1.0-beta.6",
             "tijsverkoyen/akismet": "^1.1"
         },
-        "time": "2018-09-16T18:49:15+00:00",
+        "time": "2018-09-21T02:15:06+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -4739,19 +4739,19 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-auth-facebook.git",
-            "reference": "7362d526421b0dea29bf973b5fe642963e6d6f06"
+            "reference": "040d99ca1f8b2446c11aaf9aeba66402af778500"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-auth-facebook/zipball/7362d526421b0dea29bf973b5fe642963e6d6f06",
-            "reference": "7362d526421b0dea29bf973b5fe642963e6d6f06",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-auth-facebook/zipball/040d99ca1f8b2446c11aaf9aeba66402af778500",
+            "reference": "040d99ca1f8b2446c11aaf9aeba66402af778500",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8",
             "league/oauth2-facebook": "~1.0"
         },
-        "time": "2018-07-23T14:27:21+00:00",
+        "time": "2018-09-21T02:15:52+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -4852,19 +4852,19 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-auth-github.git",
-            "reference": "900fa9bfb70f7f3ee540d09160933db60bbba81a"
+            "reference": "24520beffa219277d4b6493b85f61659ced72e6c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-auth-github/zipball/900fa9bfb70f7f3ee540d09160933db60bbba81a",
-            "reference": "900fa9bfb70f7f3ee540d09160933db60bbba81a",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-auth-github/zipball/24520beffa219277d4b6493b85f61659ced72e6c",
+            "reference": "24520beffa219277d4b6493b85f61659ced72e6c",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8",
             "league/oauth2-github": "^0.2.0"
         },
-        "time": "2018-07-23T14:27:39+00:00",
+        "time": "2018-09-21T02:15:39+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -4972,19 +4972,19 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-auth-twitter.git",
-            "reference": "72e10977759168d001cac7918a0a11018d1b74f0"
+            "reference": "8d23f6b7a54a4d82b352170bc0847a3591bdccc8"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-auth-twitter/zipball/72e10977759168d001cac7918a0a11018d1b74f0",
-            "reference": "72e10977759168d001cac7918a0a11018d1b74f0",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-auth-twitter/zipball/8d23f6b7a54a4d82b352170bc0847a3591bdccc8",
+            "reference": "8d23f6b7a54a4d82b352170bc0847a3591bdccc8",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8",
             "league/oauth1-client": "^1.6"
         },
-        "time": "2018-07-23T14:27:54+00:00",
+        "time": "2018-09-21T02:16:08+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -5027,18 +5027,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-bbcode.git",
-            "reference": "34e4d3a78ed88f01c7c88a1091f937f0cf868b1e"
+            "reference": "944e7372e6422edca8187a69fcfb6a452b261229"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-bbcode/zipball/34e4d3a78ed88f01c7c88a1091f937f0cf868b1e",
-            "reference": "34e4d3a78ed88f01c7c88a1091f937f0cf868b1e",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-bbcode/zipball/944e7372e6422edca8187a69fcfb6a452b261229",
+            "reference": "944e7372e6422edca8187a69fcfb6a452b261229",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-06-17T05:30:15+00:00",
+        "time": "2018-09-21T02:14:32+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -5076,18 +5076,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-emoji.git",
-            "reference": "dbeea9a90c76c2f3f112e4337d62bf54a88e307d"
+            "reference": "8fe426b09a241196c99a5876691d05bfcba6248e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-emoji/zipball/dbeea9a90c76c2f3f112e4337d62bf54a88e307d",
-            "reference": "dbeea9a90c76c2f3f112e4337d62bf54a88e307d",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-emoji/zipball/8fe426b09a241196c99a5876691d05bfcba6248e",
+            "reference": "8fe426b09a241196c99a5876691d05bfcba6248e",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-07-23T14:28:11+00:00",
+        "time": "2018-09-21T01:02:07+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -5124,18 +5124,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-english.git",
-            "reference": "afad106eaace9d17f0b20e3316f225a3ec06f3f8"
+            "reference": "cc842317f073535dcced19dec2600ed56c62fdeb"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-english/zipball/afad106eaace9d17f0b20e3316f225a3ec06f3f8",
-            "reference": "afad106eaace9d17f0b20e3316f225a3ec06f3f8",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-english/zipball/cc842317f073535dcced19dec2600ed56c62fdeb",
+            "reference": "cc842317f073535dcced19dec2600ed56c62fdeb",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-07-20T23:22:30+00:00",
+        "time": "2018-09-21T02:14:32+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -5172,18 +5172,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-likes.git",
-            "reference": "92bda7c8206dd7fae7ca609323a740f283a94443"
+            "reference": "f0f1b24840ef36c77636b05449d8fbd3a8a64321"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-likes/zipball/92bda7c8206dd7fae7ca609323a740f283a94443",
-            "reference": "92bda7c8206dd7fae7ca609323a740f283a94443",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-likes/zipball/f0f1b24840ef36c77636b05449d8fbd3a8a64321",
+            "reference": "f0f1b24840ef36c77636b05449d8fbd3a8a64321",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-09-16T18:51:31+00:00",
+        "time": "2018-09-21T02:16:37+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -5226,18 +5226,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-lock.git",
-            "reference": "539c09ee25d82907d351830d25e445903aa3588e"
+            "reference": "f9b21f01878f694758d893cf526d339c5154f5de"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-lock/zipball/539c09ee25d82907d351830d25e445903aa3588e",
-            "reference": "539c09ee25d82907d351830d25e445903aa3588e",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-lock/zipball/f9b21f01878f694758d893cf526d339c5154f5de",
+            "reference": "f9b21f01878f694758d893cf526d339c5154f5de",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-09-16T18:51:58+00:00",
+        "time": "2018-09-21T02:17:09+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -5280,18 +5280,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-markdown.git",
-            "reference": "31d9b6226f875498ca788734edb7cd37e96aa384"
+            "reference": "61a0541297ed984c72074297b4f3d4fd2b26cc52"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-markdown/zipball/31d9b6226f875498ca788734edb7cd37e96aa384",
-            "reference": "31d9b6226f875498ca788734edb7cd37e96aa384",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-markdown/zipball/61a0541297ed984c72074297b4f3d4fd2b26cc52",
+            "reference": "61a0541297ed984c72074297b4f3d4fd2b26cc52",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-06-17T05:30:42+00:00",
+        "time": "2018-09-21T02:14:32+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -5332,18 +5332,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-mentions.git",
-            "reference": "089dc5547e0dad52d6ccd5cb8dd377887fb53629"
+            "reference": "4326d9fb0232c1009eb98871732b16977ba7229b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-mentions/zipball/089dc5547e0dad52d6ccd5cb8dd377887fb53629",
-            "reference": "089dc5547e0dad52d6ccd5cb8dd377887fb53629",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-mentions/zipball/4326d9fb0232c1009eb98871732b16977ba7229b",
+            "reference": "4326d9fb0232c1009eb98871732b16977ba7229b",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-09-16T18:52:34+00:00",
+        "time": "2018-09-21T02:23:13+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -5432,19 +5432,19 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-pusher.git",
-            "reference": "557a89b8050d2546dd8fcf89f07141cb42e40c9d"
+            "reference": "06714fdb0e9d6e957fa08b8cae98cce3852795d2"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-pusher/zipball/557a89b8050d2546dd8fcf89f07141cb42e40c9d",
-            "reference": "557a89b8050d2546dd8fcf89f07141cb42e40c9d",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-pusher/zipball/06714fdb0e9d6e957fa08b8cae98cce3852795d2",
+            "reference": "06714fdb0e9d6e957fa08b8cae98cce3852795d2",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8",
             "pusher/pusher-php-server": "^2.2"
         },
-        "time": "2018-08-22T12:13:02+00:00",
+        "time": "2018-09-21T02:17:24+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -5544,18 +5544,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-sticky.git",
-            "reference": "d22ab16e7c845b9abe51d8e9d7418380bfbaeae3"
+            "reference": "ff5066b71ed4913a80713eed7ce7c7c1d0602e27"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-sticky/zipball/d22ab16e7c845b9abe51d8e9d7418380bfbaeae3",
-            "reference": "d22ab16e7c845b9abe51d8e9d7418380bfbaeae3",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-sticky/zipball/ff5066b71ed4913a80713eed7ce7c7c1d0602e27",
+            "reference": "ff5066b71ed4913a80713eed7ce7c7c1d0602e27",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-09-16T18:52:33+00:00",
+        "time": "2018-09-21T02:17:36+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -5598,18 +5598,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-subscriptions.git",
-            "reference": "825eef506610e79c0a2396f9bf7fcd1fe0785135"
+            "reference": "cf94288e6925d10a1341773d901c14fab54f81a7"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-subscriptions/zipball/825eef506610e79c0a2396f9bf7fcd1fe0785135",
-            "reference": "825eef506610e79c0a2396f9bf7fcd1fe0785135",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-subscriptions/zipball/cf94288e6925d10a1341773d901c14fab54f81a7",
+            "reference": "cf94288e6925d10a1341773d901c14fab54f81a7",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-09-16T18:53:46+00:00",
+        "time": "2018-09-21T02:17:48+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -5652,18 +5652,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-suspend.git",
-            "reference": "ccb0b84ad91b1110abfe7979b46d47dfb4fba86a"
+            "reference": "b79eac14fe0c2542cf45a5efdbe5b3204f046e9d"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-suspend/zipball/ccb0b84ad91b1110abfe7979b46d47dfb4fba86a",
-            "reference": "ccb0b84ad91b1110abfe7979b46d47dfb4fba86a",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-suspend/zipball/b79eac14fe0c2542cf45a5efdbe5b3204f046e9d",
+            "reference": "b79eac14fe0c2542cf45a5efdbe5b3204f046e9d",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-09-21T00:46:24+00:00",
+        "time": "2018-09-21T02:18:00+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -5706,18 +5706,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-tags.git",
-            "reference": "34689a18957c8d5bb584344c0e36af6bfb51911b"
+            "reference": "84598a0ee407ae7668d53704560b7aaeaaf7edfe"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-tags/zipball/34689a18957c8d5bb584344c0e36af6bfb51911b",
-            "reference": "34689a18957c8d5bb584344c0e36af6bfb51911b",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-tags/zipball/84598a0ee407ae7668d53704560b7aaeaaf7edfe",
+            "reference": "84598a0ee407ae7668d53704560b7aaeaaf7edfe",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-09-21T00:45:09+00:00",
+        "time": "2018-09-21T02:14:33+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {

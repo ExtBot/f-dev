@@ -11,7 +11,7 @@
 
 namespace Flarum\Http;
 
-use Psr\Http\Server\RequestHandlerInterface;
+use Flarum\Foundation\SiteInterface;
 use Throwable;
 use Zend\Diactoros\Response;
 use Zend\Diactoros\ServerRequest;
@@ -22,17 +22,19 @@ use Zend\Stratigility\Middleware\ErrorResponseGenerator;
 
 class Server
 {
-    protected $requestHandler;
+    private $site;
 
-    public function __construct(RequestHandlerInterface $requestHandler)
+    public function __construct(SiteInterface $site)
     {
-        $this->requestHandler = $requestHandler;
+        $this->site = $site;
     }
 
     public function listen()
     {
+        $app = $this->safelyBootApp();
+
         $runner = new RequestHandlerRunner(
-            $this->requestHandler,
+            $app->getRequestHandler(),
             new SapiEmitter,
             [ServerRequestFactory::class, 'fromGlobals'],
             function (Throwable $e) {
@@ -42,5 +44,19 @@ class Server
             }
         );
         $runner->run();
+    }
+
+    /**
+     * Try to boot Flarum, and prevent exceptions from exposing sensitive info.
+     *
+     * @return \Flarum\Foundation\AppInterface
+     */
+    private function safelyBootApp()
+    {
+        try {
+            return $this->site->bootApp();
+        } catch (Throwable $e) {
+            exit('Error booting Flarum: '.$e->getMessage());
+        }
     }
 }
