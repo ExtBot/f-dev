@@ -75,7 +75,7 @@ return array(
     'Flarum\\Likes\\' => array($vendorDir . '/flarum/flarum-ext-likes/src'),
     'Flarum\\Flags\\' => array($vendorDir . '/flarum/flarum-ext-flags/src'),
     'Flarum\\Auth\\Twitter\\' => array($vendorDir . '/flarum/flarum-ext-auth-twitter/src'),
-    'Flarum\\Auth\\GitHub\\' => array($vendorDir . '/flarum/flarum-ext-auth-github/src'),
+    'Flarum\\Auth\\Github\\' => array($vendorDir . '/flarum/flarum-ext-auth-github/src'),
     'Flarum\\Auth\\Facebook\\' => array($vendorDir . '/flarum/flarum-ext-auth-facebook/src'),
     'Flarum\\Approval\\' => array($vendorDir . '/flarum/flarum-ext-approval/src'),
     'Flarum\\Akismet\\' => array($vendorDir . '/flarum/flarum-ext-akismet/src'),

@@ -823,32 +823,36 @@
     },
     {
         "name": "paragonie/random_compat",
-        "version": "v9.99.99",
-        "version_normalized": "9.99.99.0",
+        "version": "v2.0.17",
+        "version_normalized": "2.0.17.0",
         "source": {
             "type": "git",
             "url": "https://github.com/paragonie/random_compat.git",
-            "reference": "84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95"
+            "reference": "29af24f25bab834fcbb38ad2a69fa93b867e070d"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/paragonie/random_compat/zipball/84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95",
-            "reference": "84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95",
+            "url": "https://api.github.com/repos/paragonie/random_compat/zipball/29af24f25bab834fcbb38ad2a69fa93b867e070d",
+            "reference": "29af24f25bab834fcbb38ad2a69fa93b867e070d",
             "shasum": ""
         },
         "require": {
-            "php": "^7"
+            "php": ">=5.2.0"
         },
         "require-dev": {
-            "phpunit/phpunit": "4.*|5.*",
-            "vimeo/psalm": "^1"
+            "phpunit/phpunit": "4.*|5.*"
         },
         "suggest": {
             "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
         },
-        "time": "2018-07-02T15:55:56+00:00",
+        "time": "2018-07-04T16:31:37+00:00",
         "type": "library",
         "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "lib/random.php"
+            ]
+        },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"
@@ -1959,296 +1963,6 @@
             "javascript",
             "minifier",
             "minify"
-        ]
-    },
-    {
-        "name": "guzzlehttp/promises",
-        "version": "v1.3.1",
-        "version_normalized": "1.3.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/guzzle/promises.git",
-            "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
-            "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.5.0"
-        },
-        "require-dev": {
-            "phpunit/phpunit": "^4.0"
-        },
-        "time": "2016-12-20T10:07:11+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.4-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "GuzzleHttp\\Promise\\": "src/"
-            },
-            "files": [
-                "src/functions_include.php"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Michael Dowling",
-                "email": "mtdowling@gmail.com",
-                "homepage": "https://github.com/mtdowling"
-            }
-        ],
-        "description": "Guzzle promises library",
-        "keywords": [
-            "promise"
-        ]
-    },
-    {
-        "name": "guzzlehttp/guzzle",
-        "version": "6.3.3",
-        "version_normalized": "6.3.3.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/guzzle/guzzle.git",
-            "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/guzzle/guzzle/zipball/407b0cb880ace85c9b63c5f9551db498cb2d50ba",
-            "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba",
-            "shasum": ""
-        },
-        "require": {
-            "guzzlehttp/promises": "^1.0",
-            "guzzlehttp/psr7": "^1.4",
-            "php": ">=5.5"
-        },
-        "require-dev": {
-            "ext-curl": "*",
-            "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
-            "psr/log": "^1.0"
-        },
-        "suggest": {
-            "psr/log": "Required for using the Log middleware"
-        },
-        "time": "2018-04-22T15:46:56+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "6.3-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "files": [
-                "src/functions_include.php"
-            ],
-            "psr-4": {
-                "GuzzleHttp\\": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Michael Dowling",
-                "email": "mtdowling@gmail.com",
-                "homepage": "https://github.com/mtdowling"
-            }
-        ],
-        "description": "Guzzle is a PHP HTTP client library",
-        "homepage": "http://guzzlephp.org/",
-        "keywords": [
-            "client",
-            "curl",
-            "framework",
-            "http",
-            "http client",
-            "rest",
-            "web service"
-        ]
-    },
-    {
-        "name": "ircmaxell/security-lib",
-        "version": "v1.1.0",
-        "version_normalized": "1.1.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/ircmaxell/SecurityLib.git",
-            "reference": "f3db6de12c20c9bcd1aa3db4353a1bbe0e44e1b5"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/ircmaxell/SecurityLib/zipball/f3db6de12c20c9bcd1aa3db4353a1bbe0e44e1b5",
-            "reference": "f3db6de12c20c9bcd1aa3db4353a1bbe0e44e1b5",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.2"
-        },
-        "require-dev": {
-            "mikey179/vfsstream": "1.1.*"
-        },
-        "time": "2015-03-20T14:31:23+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.0.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "SecurityLib": "lib"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Anthony Ferrara",
-                "email": "ircmaxell@ircmaxell.com",
-                "homepage": "http://blog.ircmaxell.com"
-            }
-        ],
-        "description": "A Base Security Library",
-        "homepage": "https://github.com/ircmaxell/SecurityLib"
-    },
-    {
-        "name": "ircmaxell/random-lib",
-        "version": "v1.2.0",
-        "version_normalized": "1.2.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/ircmaxell/RandomLib.git",
-            "reference": "e9e0204f40e49fa4419946c677eccd3fa25b8cf4"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/ircmaxell/RandomLib/zipball/e9e0204f40e49fa4419946c677eccd3fa25b8cf4",
-            "reference": "e9e0204f40e49fa4419946c677eccd3fa25b8cf4",
-            "shasum": ""
-        },
-        "require": {
-            "ircmaxell/security-lib": "^1.1",
-            "php": ">=5.3.2"
-        },
-        "require-dev": {
-            "friendsofphp/php-cs-fixer": "^1.11",
-            "mikey179/vfsstream": "^1.6",
-            "phpunit/phpunit": "^4.8|^5.0"
-        },
-        "time": "2016-09-07T15:52:06+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.1.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "RandomLib": "lib"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Anthony Ferrara",
-                "email": "ircmaxell@ircmaxell.com",
-                "homepage": "http://blog.ircmaxell.com"
-            }
-        ],
-        "description": "A Library For Generating Secure Random Numbers",
-        "homepage": "https://github.com/ircmaxell/RandomLib",
-        "keywords": [
-            "cryptography",
-            "random",
-            "random-numbers",
-            "random-strings"
-        ]
-    },
-    {
-        "name": "league/oauth2-client",
-        "version": "1.4.2",
-        "version_normalized": "1.4.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/thephpleague/oauth2-client.git",
-            "reference": "01f955b85040b41cf48885b078f7fd39a8be5411"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/thephpleague/oauth2-client/zipball/01f955b85040b41cf48885b078f7fd39a8be5411",
-            "reference": "01f955b85040b41cf48885b078f7fd39a8be5411",
-            "shasum": ""
-        },
-        "require": {
-            "ext-curl": "*",
-            "guzzlehttp/guzzle": "~6.0",
-            "ircmaxell/random-lib": "~1.1",
-            "php": ">=5.5.0"
-        },
-        "require-dev": {
-            "jakub-onderka/php-parallel-lint": "0.8.*",
-            "mockery/mockery": "~0.9",
-            "phpunit/phpunit": "~4.0",
-            "satooshi/php-coveralls": "0.6.*",
-            "squizlabs/php_codesniffer": "~2.0"
-        },
-        "time": "2016-07-28T13:20:43+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.0.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "League\\OAuth2\\Client\\": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Alex Bilbie",
-                "email": "hello@alexbilbie.com",
-                "homepage": "http://www.alexbilbie.com",
-                "role": "Developer"
-            }
-        ],
-        "description": "OAuth 2.0 Client Library",
-        "keywords": [
-            "Authentication",
-            "SSO",
-            "authorization",
-            "identity",
-            "idp",
-            "oauth",
-            "oauth2",
-            "single sign on"
         ]
     },
     {
@@ -4378,12 +4092,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "6c0d73afa0ce346f2729bd22dfa3cb6f8a381028"
+            "reference": "70cb2f6f2ed97d7646e8de8f1372474200d86baf"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/6c0d73afa0ce346f2729bd22dfa3cb6f8a381028",
-            "reference": "6c0d73afa0ce346f2729bd22dfa3cb6f8a381028",
+            "url": "https://api.github.com/repos/flarum/core/zipball/70cb2f6f2ed97d7646e8de8f1372474200d86baf",
+            "reference": "70cb2f6f2ed97d7646e8de8f1372474200d86baf",
             "shasum": ""
         },
         "require": {
@@ -4408,7 +4122,6 @@
             "illuminate/view": "5.5.*",
             "intervention/image": "^2.3.0",
             "league/flysystem": "^1.0.11",
-            "league/oauth2-client": "~1.0",
             "matthiasmullie/minify": "^1.3",
             "middlewares/base-path": "^1.1",
             "middlewares/base-path-router": "^0.2.1",
@@ -4435,7 +4148,7 @@
             "mockery/mockery": "^0.9.4",
             "phpunit/phpunit": "^6.0"
         },
-        "time": "2018-09-21T22:40:19+00:00",
+        "time": "2018-09-23T00:46:47+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4680,30 +4393,219 @@
         ]
     },
     {
-        "name": "league/oauth2-facebook",
-        "version": "1.4.5",
-        "version_normalized": "1.4.5.0",
+        "name": "guzzlehttp/promises",
+        "version": "v1.3.1",
+        "version_normalized": "1.3.1.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/thephpleague/oauth2-facebook.git",
-            "reference": "c68e09f67b1364eefcc7614897100391dac71518"
+            "url": "https://github.com/guzzle/promises.git",
+            "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/thephpleague/oauth2-facebook/zipball/c68e09f67b1364eefcc7614897100391dac71518",
-            "reference": "c68e09f67b1364eefcc7614897100391dac71518",
+            "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+            "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
             "shasum": ""
         },
         "require": {
-            "league/oauth2-client": "~1.0",
             "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.0"
+        },
+        "time": "2016-12-20T10:07:11+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Promise\\": "src/"
+            },
+            "files": [
+                "src/functions_include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Guzzle promises library",
+        "keywords": [
+            "promise"
+        ]
+    },
+    {
+        "name": "guzzlehttp/guzzle",
+        "version": "6.3.3",
+        "version_normalized": "6.3.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/guzzle.git",
+            "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/guzzle/zipball/407b0cb880ace85c9b63c5f9551db498cb2d50ba",
+            "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba",
+            "shasum": ""
+        },
+        "require": {
+            "guzzlehttp/promises": "^1.0",
+            "guzzlehttp/psr7": "^1.4",
+            "php": ">=5.5"
+        },
+        "require-dev": {
+            "ext-curl": "*",
+            "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
+            "psr/log": "^1.0"
+        },
+        "suggest": {
+            "psr/log": "Required for using the Log middleware"
+        },
+        "time": "2018-04-22T15:46:56+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "6.3-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/functions_include.php"
+            ],
+            "psr-4": {
+                "GuzzleHttp\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Guzzle is a PHP HTTP client library",
+        "homepage": "http://guzzlephp.org/",
+        "keywords": [
+            "client",
+            "curl",
+            "framework",
+            "http",
+            "http client",
+            "rest",
+            "web service"
+        ]
+    },
+    {
+        "name": "league/oauth2-client",
+        "version": "2.3.0",
+        "version_normalized": "2.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thephpleague/oauth2-client.git",
+            "reference": "aa2e3df188f0bfd87f7880cc880e906e99923580"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/thephpleague/oauth2-client/zipball/aa2e3df188f0bfd87f7880cc880e906e99923580",
+            "reference": "aa2e3df188f0bfd87f7880cc880e906e99923580",
+            "shasum": ""
+        },
+        "require": {
+            "guzzlehttp/guzzle": "^6.0",
+            "paragonie/random_compat": "^1|^2",
+            "php": "^5.6|^7.0"
+        },
+        "require-dev": {
+            "eloquent/liberator": "^2.0",
+            "eloquent/phony-phpunit": "^1.0|^3.0",
+            "jakub-onderka/php-parallel-lint": "^0.9.2",
+            "phpunit/phpunit": "^5.7|^6.0",
+            "squizlabs/php_codesniffer": "^2.3|^3.0"
+        },
+        "time": "2018-01-13T05:27:58+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-2.x": "2.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "League\\OAuth2\\Client\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Alex Bilbie",
+                "email": "hello@alexbilbie.com",
+                "homepage": "http://www.alexbilbie.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Woody Gilk",
+                "homepage": "https://github.com/shadowhand",
+                "role": "Contributor"
+            }
+        ],
+        "description": "OAuth 2.0 Client Library",
+        "keywords": [
+            "Authentication",
+            "SSO",
+            "authorization",
+            "identity",
+            "idp",
+            "oauth",
+            "oauth2",
+            "single sign on"
+        ]
+    },
+    {
+        "name": "league/oauth2-facebook",
+        "version": "2.0.1",
+        "version_normalized": "2.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thephpleague/oauth2-facebook.git",
+            "reference": "bcbcd540fb66ae16b4f82671c8ae7752b6a89556"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/thephpleague/oauth2-facebook/zipball/bcbcd540fb66ae16b4f82671c8ae7752b6a89556",
+            "reference": "bcbcd540fb66ae16b4f82671c8ae7752b6a89556",
+            "shasum": ""
+        },
+        "require": {
+            "league/oauth2-client": "^2.0",
+            "php": "^5.6 || ^7.0"
         },
         "require-dev": {
             "mockery/mockery": "~0.9",
             "phpunit/phpunit": "~4.0",
             "squizlabs/php_codesniffer": "~2.0"
         },
-        "time": "2017-07-22T01:43:12+00:00",
+        "time": "2017-07-22T01:25:00+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -4739,19 +4641,19 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-auth-facebook.git",
-            "reference": "040d99ca1f8b2446c11aaf9aeba66402af778500"
+            "reference": "6708b43b5b92e574d64b455cc21c69cfec22c4ec"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-auth-facebook/zipball/040d99ca1f8b2446c11aaf9aeba66402af778500",
-            "reference": "040d99ca1f8b2446c11aaf9aeba66402af778500",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-auth-facebook/zipball/6708b43b5b92e574d64b455cc21c69cfec22c4ec",
+            "reference": "6708b43b5b92e574d64b455cc21c69cfec22c4ec",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8",
-            "league/oauth2-facebook": "~1.0"
+            "league/oauth2-facebook": "^2.0"
         },
-        "time": "2018-09-21T02:15:52+00:00",
+        "time": "2018-09-22T04:22:33+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -4789,29 +4691,28 @@
     },
     {
         "name": "league/oauth2-github",
-        "version": "0.2.2",
-        "version_normalized": "0.2.2.0",
+        "version": "2.0.0",
+        "version_normalized": "2.0.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/thephpleague/oauth2-github.git",
-            "reference": "3d734abe82839fbffdf60ff1c2d019dc170b0c38"
+            "reference": "e63d64f3ec167c09232d189c6b0c397458a99357"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/thephpleague/oauth2-github/zipball/3d734abe82839fbffdf60ff1c2d019dc170b0c38",
-            "reference": "3d734abe82839fbffdf60ff1c2d019dc170b0c38",
+            "url": "https://api.github.com/repos/thephpleague/oauth2-github/zipball/e63d64f3ec167c09232d189c6b0c397458a99357",
+            "reference": "e63d64f3ec167c09232d189c6b0c397458a99357",
             "shasum": ""
         },
         "require": {
-            "league/oauth2-client": "~1.4",
-            "php": ">=5.5.0"
+            "league/oauth2-client": "^2.0"
         },
         "require-dev": {
             "mockery/mockery": "~0.9",
             "phpunit/phpunit": "~4.0",
             "squizlabs/php_codesniffer": "~2.0"
         },
-        "time": "2016-11-22T05:14:51+00:00",
+        "time": "2017-01-26T01:14:51+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4852,19 +4753,19 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-auth-github.git",
-            "reference": "24520beffa219277d4b6493b85f61659ced72e6c"
+            "reference": "168d0223ac2f82c481c324dbfa8d3ea2f0cb58aa"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-auth-github/zipball/24520beffa219277d4b6493b85f61659ced72e6c",
-            "reference": "24520beffa219277d4b6493b85f61659ced72e6c",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-auth-github/zipball/168d0223ac2f82c481c324dbfa8d3ea2f0cb58aa",
+            "reference": "168d0223ac2f82c481c324dbfa8d3ea2f0cb58aa",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8",
-            "league/oauth2-github": "^0.2.0"
+            "league/oauth2-github": "^2.0"
         },
-        "time": "2018-09-21T02:15:39+00:00",
+        "time": "2018-09-22T04:27:47+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -4882,7 +4783,7 @@
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
-                "Flarum\\Auth\\GitHub\\": "src/"
+                "Flarum\\Auth\\Github\\": "src/"
             }
         },
         "notification-url": "https://packagist.org/downloads/",
@@ -4972,19 +4873,19 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-auth-twitter.git",
-            "reference": "8d23f6b7a54a4d82b352170bc0847a3591bdccc8"
+            "reference": "fba520a792824372c436bf824dcdd8a1a96d989a"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-auth-twitter/zipball/8d23f6b7a54a4d82b352170bc0847a3591bdccc8",
-            "reference": "8d23f6b7a54a4d82b352170bc0847a3591bdccc8",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-auth-twitter/zipball/fba520a792824372c436bf824dcdd8a1a96d989a",
+            "reference": "fba520a792824372c436bf824dcdd8a1a96d989a",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8",
             "league/oauth1-client": "^1.6"
         },
-        "time": "2018-09-21T02:16:08+00:00",
+        "time": "2018-09-22T04:21:41+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -5124,18 +5025,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-english.git",
-            "reference": "cc842317f073535dcced19dec2600ed56c62fdeb"
+            "reference": "53f8a7acb6b6950d7208590a92bd6472e0faf9a0"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-english/zipball/cc842317f073535dcced19dec2600ed56c62fdeb",
-            "reference": "cc842317f073535dcced19dec2600ed56c62fdeb",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-english/zipball/53f8a7acb6b6950d7208590a92bd6472e0faf9a0",
+            "reference": "53f8a7acb6b6950d7208590a92bd6472e0faf9a0",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-09-21T02:14:32+00:00",
+        "time": "2018-09-22T21:56:21+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -5226,18 +5127,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-lock.git",
-            "reference": "f9b21f01878f694758d893cf526d339c5154f5de"
+            "reference": "aacd12dd2ff8a24f79bab4941c3993fef122cba4"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-lock/zipball/f9b21f01878f694758d893cf526d339c5154f5de",
-            "reference": "f9b21f01878f694758d893cf526d339c5154f5de",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-lock/zipball/aacd12dd2ff8a24f79bab4941c3993fef122cba4",
+            "reference": "aacd12dd2ff8a24f79bab4941c3993fef122cba4",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-09-21T02:17:09+00:00",
+        "time": "2018-09-22T02:52:22+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -5706,18 +5607,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-tags.git",
-            "reference": "84598a0ee407ae7668d53704560b7aaeaaf7edfe"
+            "reference": "be9477d8b0ff07c0deecf749bcf2eb3f8d522e2c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-tags/zipball/84598a0ee407ae7668d53704560b7aaeaaf7edfe",
-            "reference": "84598a0ee407ae7668d53704560b7aaeaaf7edfe",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-tags/zipball/be9477d8b0ff07c0deecf749bcf2eb3f8d522e2c",
+            "reference": "be9477d8b0ff07c0deecf749bcf2eb3f8d522e2c",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-09-21T02:14:33+00:00",
+        "time": "2018-09-22T21:51:01+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
