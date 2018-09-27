@@ -4092,12 +4092,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "bf617533619515fb72fc1b6150586ccef07d99ad"
+            "reference": "1f0e9b62801ccae8339ed3d66919af8ccbbfe953"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/bf617533619515fb72fc1b6150586ccef07d99ad",
-            "reference": "bf617533619515fb72fc1b6150586ccef07d99ad",
+            "url": "https://api.github.com/repos/flarum/core/zipball/1f0e9b62801ccae8339ed3d66919af8ccbbfe953",
+            "reference": "1f0e9b62801ccae8339ed3d66919af8ccbbfe953",
             "shasum": ""
         },
         "require": {
@@ -4148,7 +4148,7 @@
             "mockery/mockery": "^0.9.4",
             "phpunit/phpunit": "^6.0"
         },
-        "time": "2018-09-24T21:49:23+00:00",
+        "time": "2018-09-26T07:30:27+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4977,18 +4977,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-emoji.git",
-            "reference": "8fe426b09a241196c99a5876691d05bfcba6248e"
+            "reference": "8b725b32f791faa3ad1e1f9e903aa4b2c7c17e72"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-emoji/zipball/8fe426b09a241196c99a5876691d05bfcba6248e",
-            "reference": "8fe426b09a241196c99a5876691d05bfcba6248e",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-emoji/zipball/8b725b32f791faa3ad1e1f9e903aa4b2c7c17e72",
+            "reference": "8b725b32f791faa3ad1e1f9e903aa4b2c7c17e72",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-09-21T01:02:07+00:00",
+        "time": "2018-09-26T20:07:16+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
