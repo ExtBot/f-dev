@@ -2232,17 +2232,17 @@
     },
     {
         "name": "illuminate/contracts",
-        "version": "v5.5.43",
-        "version_normalized": "5.5.43.0",
+        "version": "v5.5.44",
+        "version_normalized": "5.5.44.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/contracts.git",
-            "reference": "04fbae936ed14e673dddd18a39662f49e7d199f5"
+            "reference": "b2a62b4a85485fca9cf5fa61a933ad64006ff528"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/contracts/zipball/04fbae936ed14e673dddd18a39662f49e7d199f5",
-            "reference": "04fbae936ed14e673dddd18a39662f49e7d199f5",
+            "url": "https://api.github.com/repos/illuminate/contracts/zipball/b2a62b4a85485fca9cf5fa61a933ad64006ff528",
+            "reference": "b2a62b4a85485fca9cf5fa61a933ad64006ff528",
             "shasum": ""
         },
         "require": {
@@ -2347,17 +2347,17 @@
     },
     {
         "name": "illuminate/support",
-        "version": "v5.5.43",
-        "version_normalized": "5.5.43.0",
+        "version": "v5.5.44",
+        "version_normalized": "5.5.44.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/support.git",
-            "reference": "ebe5d19b3ef3e73bca839b8614287fbe2b06ab7d"
+            "reference": "5c405512d75dcaf5d37791badce02d86ed8e4bc4"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/support/zipball/ebe5d19b3ef3e73bca839b8614287fbe2b06ab7d",
-            "reference": "ebe5d19b3ef3e73bca839b8614287fbe2b06ab7d",
+            "url": "https://api.github.com/repos/illuminate/support/zipball/5c405512d75dcaf5d37791badce02d86ed8e4bc4",
+            "reference": "5c405512d75dcaf5d37791badce02d86ed8e4bc4",
             "shasum": ""
         },
         "require": {
@@ -2457,17 +2457,17 @@
     },
     {
         "name": "illuminate/filesystem",
-        "version": "v5.5.43",
-        "version_normalized": "5.5.43.0",
+        "version": "v5.5.44",
+        "version_normalized": "5.5.44.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/filesystem.git",
-            "reference": "31921ef731567fc0b80c110437a028ae8a3add13"
+            "reference": "b8c0e36d47cfde3a0727bc6e2057775ff98a1bcd"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/filesystem/zipball/31921ef731567fc0b80c110437a028ae8a3add13",
-            "reference": "31921ef731567fc0b80c110437a028ae8a3add13",
+            "url": "https://api.github.com/repos/illuminate/filesystem/zipball/b8c0e36d47cfde3a0727bc6e2057775ff98a1bcd",
+            "reference": "b8c0e36d47cfde3a0727bc6e2057775ff98a1bcd",
             "shasum": ""
         },
         "require": {
@@ -2509,17 +2509,17 @@
     },
     {
         "name": "illuminate/container",
-        "version": "v5.5.43",
-        "version_normalized": "5.5.43.0",
+        "version": "v5.5.44",
+        "version_normalized": "5.5.44.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/container.git",
-            "reference": "25821159f2bb12dc9e5720a4b13ea3372ffa8216"
+            "reference": "7917f4c86ecf7f4d0efcfd83248ad3e301e08858"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/container/zipball/25821159f2bb12dc9e5720a4b13ea3372ffa8216",
-            "reference": "25821159f2bb12dc9e5720a4b13ea3372ffa8216",
+            "url": "https://api.github.com/repos/illuminate/container/zipball/7917f4c86ecf7f4d0efcfd83248ad3e301e08858",
+            "reference": "7917f4c86ecf7f4d0efcfd83248ad3e301e08858",
             "shasum": ""
         },
         "require": {
@@ -2555,17 +2555,17 @@
     },
     {
         "name": "illuminate/events",
-        "version": "v5.5.43",
-        "version_normalized": "5.5.43.0",
+        "version": "v5.5.44",
+        "version_normalized": "5.5.44.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/events.git",
-            "reference": "1b558bfa1013f25b35e593c83fce7990d20c4d97"
+            "reference": "11b4b917c3f02140b528e849f883a4a9e7ff8af7"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/events/zipball/1b558bfa1013f25b35e593c83fce7990d20c4d97",
-            "reference": "1b558bfa1013f25b35e593c83fce7990d20c4d97",
+            "url": "https://api.github.com/repos/illuminate/events/zipball/11b4b917c3f02140b528e849f883a4a9e7ff8af7",
+            "reference": "11b4b917c3f02140b528e849f883a4a9e7ff8af7",
             "shasum": ""
         },
         "require": {
@@ -2602,17 +2602,17 @@
     },
     {
         "name": "illuminate/view",
-        "version": "v5.5.43",
-        "version_normalized": "5.5.43.0",
+        "version": "v5.5.44",
+        "version_normalized": "5.5.44.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/view.git",
-            "reference": "6d53e16273cdebd03290307660e0a88fcb987bca"
+            "reference": "892aa32a1b496cbafa5125bcc3f97ff795265f95"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/view/zipball/6d53e16273cdebd03290307660e0a88fcb987bca",
-            "reference": "6d53e16273cdebd03290307660e0a88fcb987bca",
+            "url": "https://api.github.com/repos/illuminate/view/zipball/892aa32a1b496cbafa5125bcc3f97ff795265f95",
+            "reference": "892aa32a1b496cbafa5125bcc3f97ff795265f95",
             "shasum": ""
         },
         "require": {
@@ -2624,7 +2624,7 @@
             "php": ">=7.0",
             "symfony/debug": "~3.3"
         },
-        "time": "2018-09-02T11:44:56+00:00",
+        "time": "2018-10-04T14:46:49+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2652,17 +2652,17 @@
     },
     {
         "name": "illuminate/translation",
-        "version": "v5.5.43",
-        "version_normalized": "5.5.43.0",
+        "version": "v5.5.44",
+        "version_normalized": "5.5.44.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/translation.git",
-            "reference": "c45b419a412eefe9064654a790d759b6feafeb93"
+            "reference": "587734f44981cae0a7d98c89bfead040059b1636"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/translation/zipball/c45b419a412eefe9064654a790d759b6feafeb93",
-            "reference": "c45b419a412eefe9064654a790d759b6feafeb93",
+            "url": "https://api.github.com/repos/illuminate/translation/zipball/587734f44981cae0a7d98c89bfead040059b1636",
+            "reference": "587734f44981cae0a7d98c89bfead040059b1636",
             "shasum": ""
         },
         "require": {
@@ -2699,17 +2699,17 @@
     },
     {
         "name": "illuminate/validation",
-        "version": "v5.5.43",
-        "version_normalized": "5.5.43.0",
+        "version": "v5.5.44",
+        "version_normalized": "5.5.44.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/validation.git",
-            "reference": "328c545682cc966fb973864bf4c1904a2445a47a"
+            "reference": "6590d61858f78c301bced7308593abfcd1c7e527"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/validation/zipball/328c545682cc966fb973864bf4c1904a2445a47a",
-            "reference": "328c545682cc966fb973864bf4c1904a2445a47a",
+            "url": "https://api.github.com/repos/illuminate/validation/zipball/6590d61858f78c301bced7308593abfcd1c7e527",
+            "reference": "6590d61858f78c301bced7308593abfcd1c7e527",
             "shasum": ""
         },
         "require": {
@@ -2723,7 +2723,7 @@
         "suggest": {
             "illuminate/database": "Required to use the database presence verifier (5.5.*)."
         },
-        "time": "2018-08-14T12:58:51+00:00",
+        "time": "2018-10-01T13:28:19+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2751,17 +2751,17 @@
     },
     {
         "name": "illuminate/session",
-        "version": "v5.5.43",
-        "version_normalized": "5.5.43.0",
+        "version": "v5.5.44",
+        "version_normalized": "5.5.44.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/session.git",
-            "reference": "2fc48dab343126a0530fb14caa6c9c5c21ef4284"
+            "reference": "248422140e7898ae0d5a4ed42e6e314c52677814"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/session/zipball/2fc48dab343126a0530fb14caa6c9c5c21ef4284",
-            "reference": "2fc48dab343126a0530fb14caa6c9c5c21ef4284",
+            "url": "https://api.github.com/repos/illuminate/session/zipball/248422140e7898ae0d5a4ed42e6e314c52677814",
+            "reference": "248422140e7898ae0d5a4ed42e6e314c52677814",
             "shasum": ""
         },
         "require": {
@@ -3131,17 +3131,17 @@
     },
     {
         "name": "illuminate/mail",
-        "version": "v5.5.43",
-        "version_normalized": "5.5.43.0",
+        "version": "v5.5.44",
+        "version_normalized": "5.5.44.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/mail.git",
-            "reference": "fa98d0fce6375092a80849a6046d62564e456c92"
+            "reference": "42302d779d1762c1ae7f872c92c16623a641c398"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/mail/zipball/fa98d0fce6375092a80849a6046d62564e456c92",
-            "reference": "fa98d0fce6375092a80849a6046d62564e456c92",
+            "url": "https://api.github.com/repos/illuminate/mail/zipball/42302d779d1762c1ae7f872c92c16623a641c398",
+            "reference": "42302d779d1762c1ae7f872c92c16623a641c398",
             "shasum": ""
         },
         "require": {
@@ -3186,17 +3186,17 @@
     },
     {
         "name": "illuminate/hashing",
-        "version": "v5.5.43",
-        "version_normalized": "5.5.43.0",
+        "version": "v5.5.44",
+        "version_normalized": "5.5.44.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/hashing.git",
-            "reference": "f10644103876340dc72ecc484899308c4ab1fec7"
+            "reference": "6cabc9f2cf7ecc27cc5ad16e9ed3375a8c74a0ed"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/hashing/zipball/f10644103876340dc72ecc484899308c4ab1fec7",
-            "reference": "f10644103876340dc72ecc484899308c4ab1fec7",
+            "url": "https://api.github.com/repos/illuminate/hashing/zipball/6cabc9f2cf7ecc27cc5ad16e9ed3375a8c74a0ed",
+            "reference": "6cabc9f2cf7ecc27cc5ad16e9ed3375a8c74a0ed",
             "shasum": ""
         },
         "require": {
@@ -3232,17 +3232,17 @@
     },
     {
         "name": "illuminate/database",
-        "version": "v5.5.43",
-        "version_normalized": "5.5.43.0",
+        "version": "v5.5.44",
+        "version_normalized": "5.5.44.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/database.git",
-            "reference": "4775855da87cdf99b5d8ca331c2e37525d8c7beb"
+            "reference": "f5403b3dd774eb89ff0ef5e633e57458c3dc537d"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/database/zipball/4775855da87cdf99b5d8ca331c2e37525d8c7beb",
-            "reference": "4775855da87cdf99b5d8ca331c2e37525d8c7beb",
+            "url": "https://api.github.com/repos/illuminate/database/zipball/f5403b3dd774eb89ff0ef5e633e57458c3dc537d",
+            "reference": "f5403b3dd774eb89ff0ef5e633e57458c3dc537d",
             "shasum": ""
         },
         "require": {
@@ -3259,7 +3259,7 @@
             "illuminate/filesystem": "Required to use the migrations (5.5.*).",
             "illuminate/pagination": "Required to paginate the result set (5.5.*)."
         },
-        "time": "2018-08-27T13:16:27+00:00",
+        "time": "2018-09-23T18:58:54+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -3293,17 +3293,17 @@
     },
     {
         "name": "illuminate/config",
-        "version": "v5.5.43",
-        "version_normalized": "5.5.43.0",
+        "version": "v5.5.44",
+        "version_normalized": "5.5.44.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/config.git",
-            "reference": "09bb7534fb6c33c2bf5a4157a539c8e2c876a1fa"
+            "reference": "2abd46c4948b474cb8ac08141f1c8359d93d5f2e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/config/zipball/09bb7534fb6c33c2bf5a4157a539c8e2c876a1fa",
-            "reference": "09bb7534fb6c33c2bf5a4157a539c8e2c876a1fa",
+            "url": "https://api.github.com/repos/illuminate/config/zipball/2abd46c4948b474cb8ac08141f1c8359d93d5f2e",
+            "reference": "2abd46c4948b474cb8ac08141f1c8359d93d5f2e",
             "shasum": ""
         },
         "require": {
@@ -3339,17 +3339,17 @@
     },
     {
         "name": "illuminate/cache",
-        "version": "v5.5.43",
-        "version_normalized": "5.5.43.0",
+        "version": "v5.5.44",
+        "version_normalized": "5.5.44.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/cache.git",
-            "reference": "6fdc951a4a2c9456e1b8fbef68d4d7cde3392e82"
+            "reference": "5306a5d099395323d2e0c93beb12fa03c310d374"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/cache/zipball/6fdc951a4a2c9456e1b8fbef68d4d7cde3392e82",
-            "reference": "6fdc951a4a2c9456e1b8fbef68d4d7cde3392e82",
+            "url": "https://api.github.com/repos/illuminate/cache/zipball/5306a5d099395323d2e0c93beb12fa03c310d374",
+            "reference": "5306a5d099395323d2e0c93beb12fa03c310d374",
             "shasum": ""
         },
         "require": {
@@ -3390,17 +3390,17 @@
     },
     {
         "name": "illuminate/pipeline",
-        "version": "v5.5.43",
-        "version_normalized": "5.5.43.0",
+        "version": "v5.5.44",
+        "version_normalized": "5.5.44.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/pipeline.git",
-            "reference": "a0bdc1c04e9a67aece36b595888674114c5c0a9e"
+            "reference": "40b611615de9acac288d08bef1370cbda5f86d7d"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/pipeline/zipball/a0bdc1c04e9a67aece36b595888674114c5c0a9e",
-            "reference": "a0bdc1c04e9a67aece36b595888674114c5c0a9e",
+            "url": "https://api.github.com/repos/illuminate/pipeline/zipball/40b611615de9acac288d08bef1370cbda5f86d7d",
+            "reference": "40b611615de9acac288d08bef1370cbda5f86d7d",
             "shasum": ""
         },
         "require": {
@@ -3436,17 +3436,17 @@
     },
     {
         "name": "illuminate/bus",
-        "version": "v5.5.43",
-        "version_normalized": "5.5.43.0",
+        "version": "v5.5.44",
+        "version_normalized": "5.5.44.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/bus.git",
-            "reference": "e89bf3970d6c34abf119d3c197307f85c48e1901"
+            "reference": "f0d87cca7c46c4b898677abf1e2881d75463fe49"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/bus/zipball/e89bf3970d6c34abf119d3c197307f85c48e1901",
-            "reference": "e89bf3970d6c34abf119d3c197307f85c48e1901",
+            "url": "https://api.github.com/repos/illuminate/bus/zipball/f0d87cca7c46c4b898677abf1e2881d75463fe49",
+            "reference": "f0d87cca7c46c4b898677abf1e2881d75463fe49",
             "shasum": ""
         },
         "require": {
@@ -4092,12 +4092,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "737d33826e9d4caf1d07fa8ee5509d1ff06066d6"
+            "reference": "8474dfd6e2cc8298176f0e088f0786ef099d0b73"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/737d33826e9d4caf1d07fa8ee5509d1ff06066d6",
-            "reference": "737d33826e9d4caf1d07fa8ee5509d1ff06066d6",
+            "url": "https://api.github.com/repos/flarum/core/zipball/8474dfd6e2cc8298176f0e088f0786ef099d0b73",
+            "reference": "8474dfd6e2cc8298176f0e088f0786ef099d0b73",
             "shasum": ""
         },
         "require": {
@@ -4148,7 +4148,7 @@
             "mockery/mockery": "^0.9.4",
             "phpunit/phpunit": "^6.0"
         },
-        "time": "2018-09-29T23:59:11+00:00",
+        "time": "2018-10-04T07:08:43+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
