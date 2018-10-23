@@ -1148,13 +1148,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/flarum/flarum-ext-auth-facebook.git",
-                "reference": "6708b43b5b92e574d64b455cc21c69cfec22c4ec"
+                "url": "https://github.com/flarum/auth-facebook.git",
+                "reference": "b545417ac90348e0389ce3444415fa4482c8cfb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flarum-ext-auth-facebook/zipball/6708b43b5b92e574d64b455cc21c69cfec22c4ec",
-                "reference": "6708b43b5b92e574d64b455cc21c69cfec22c4ec",
+                "url": "https://api.github.com/repos/flarum/auth-facebook/zipball/b545417ac90348e0389ce3444415fa4482c8cfb6",
+                "reference": "b545417ac90348e0389ce3444415fa4482c8cfb6",
                 "shasum": ""
             },
             "require": {
@@ -1194,7 +1194,7 @@
             "keywords": [
                 "Authentication"
             ],
-            "time": "2018-09-22T04:22:33+00:00"
+            "time": "2018-10-21T04:48:12+00:00"
         },
         {
             "name": "flarum/flarum-ext-auth-github",
@@ -1254,13 +1254,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/flarum/flarum-ext-auth-twitter.git",
-                "reference": "fba520a792824372c436bf824dcdd8a1a96d989a"
+                "url": "https://github.com/flarum/auth-twitter.git",
+                "reference": "3f84ab5788ada9cc00e83b79d2d9a0d07baccca3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flarum-ext-auth-twitter/zipball/fba520a792824372c436bf824dcdd8a1a96d989a",
-                "reference": "fba520a792824372c436bf824dcdd8a1a96d989a",
+                "url": "https://api.github.com/repos/flarum/auth-twitter/zipball/3f84ab5788ada9cc00e83b79d2d9a0d07baccca3",
+                "reference": "3f84ab5788ada9cc00e83b79d2d9a0d07baccca3",
                 "shasum": ""
             },
             "require": {
@@ -1300,7 +1300,7 @@
             "keywords": [
                 "Authentication"
             ],
-            "time": "2018-09-22T04:21:41+00:00"
+            "time": "2018-10-21T04:49:28+00:00"
         },
         {
             "name": "flarum/flarum-ext-bbcode",
@@ -1968,13 +1968,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/flarum/flarum-ext-tags.git",
-                "reference": "be9477d8b0ff07c0deecf749bcf2eb3f8d522e2c"
+                "url": "https://github.com/flarum/tags.git",
+                "reference": "87fdf0b8079b71a588f936915f7ed64e75516c78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flarum-ext-tags/zipball/be9477d8b0ff07c0deecf749bcf2eb3f8d522e2c",
-                "reference": "be9477d8b0ff07c0deecf749bcf2eb3f8d522e2c",
+                "url": "https://api.github.com/repos/flarum/tags/zipball/87fdf0b8079b71a588f936915f7ed64e75516c78",
+                "reference": "87fdf0b8079b71a588f936915f7ed64e75516c78",
                 "shasum": ""
             },
             "require": {
@@ -2013,7 +2013,7 @@
             "keywords": [
                 "discussion"
             ],
-            "time": "2018-09-22T21:51:01+00:00"
+            "time": "2018-10-21T04:53:04+00:00"
         },
         {
             "name": "franzl/whoops-middleware",
