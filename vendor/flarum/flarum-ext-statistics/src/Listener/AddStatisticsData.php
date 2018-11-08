@@ -14,12 +14,12 @@ namespace Flarum\Statistics\Listener;
 use DateTime;
 use DateTimeZone;
 use Flarum\Discussion\Discussion;
+use Flarum\Frontend\HtmlDocument;
 use Flarum\Post\Post;
 use Flarum\User\User;
 use Flarum\Frontend\Event\Rendering;
 use Flarum\Settings\SettingsRepositoryInterface;
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Contracts\Events\Dispatcher;
 
 class AddStatisticsData
 {
@@ -36,33 +36,20 @@ class AddStatisticsData
         $this->settings = $settings;
     }
 
-    /**
-     * @param Dispatcher $events
-     */
-    public function subscribe(Dispatcher $events)
+    public function __invoke(HtmlDocument $view)
     {
-        $events->listen(Rendering::class, [$this, 'addStatisticsData']);
-    }
-
-    /**
-     * @param Rendering $event
-     */
-    public function addStatisticsData(Rendering $event)
-    {
-        if ($event->isAdmin()) {
-            $event->view->setVariable('statistics', array_merge(
-                $this->getStatistics(),
-                ['timezoneOffset' => $this->getUserTimezone()->getOffset(new DateTime)]
-            ));
-        }
+        $view->payload['statistics'] = array_merge(
+            $this->getStatistics(),
+            ['timezoneOffset' => $this->getUserTimezone()->getOffset(new DateTime)]
+        );
     }
 
     private function getStatistics()
     {
         $entities = [
-            'users' => [User::query(), 'join_time'],
-            'discussions' => [Discussion::query(), 'start_time'],
-            'posts' => [Post::where('type', 'comment'), 'time']
+            'users' => [User::query(), 'joined_at'],
+            'discussions' => [Discussion::query(), 'created_at'],
+            'posts' => [Post::where('type', 'comment'), 'created_at']
         ];
 
         return array_map(function ($entity) {
@@ -121,5 +108,4 @@ class AddStatisticsData
     {
         return new DateTimeZone($this->settings->get('flarum-statistics.timezone', date_default_timezone_get()));
     }
-
 }

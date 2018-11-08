@@ -4093,12 +4093,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "4b915c688cad183b93f732c540e881e2c9f7ec1b"
+            "reference": "bb0fc165afa6f41feb03d1a509b83a3bdebe1663"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/4b915c688cad183b93f732c540e881e2c9f7ec1b",
-            "reference": "4b915c688cad183b93f732c540e881e2c9f7ec1b",
+            "url": "https://api.github.com/repos/flarum/core/zipball/bb0fc165afa6f41feb03d1a509b83a3bdebe1663",
+            "reference": "bb0fc165afa6f41feb03d1a509b83a3bdebe1663",
             "shasum": ""
         },
         "require": {
@@ -4149,7 +4149,7 @@
             "mockery/mockery": "^0.9.4",
             "phpunit/phpunit": "^6.0"
         },
-        "time": "2018-11-06T21:41:21+00:00",
+        "time": "2018-11-07T21:34:09+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -5500,19 +5500,19 @@
         "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/flarum/flarum-ext-statistics.git",
-            "reference": "b77d2b5c41f74e035f856ef2b50f1e23f1652ae6"
+            "url": "https://github.com/flarum/statistics.git",
+            "reference": "b52c28d1564aa40fc8942e6128d447868e9906e6"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-statistics/zipball/b77d2b5c41f74e035f856ef2b50f1e23f1652ae6",
-            "reference": "b77d2b5c41f74e035f856ef2b50f1e23f1652ae6",
+            "url": "https://api.github.com/repos/flarum/statistics/zipball/b52c28d1564aa40fc8942e6128d447868e9906e6",
+            "reference": "b52c28d1564aa40fc8942e6128d447868e9906e6",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-08-19T21:34:22+00:00",
+        "time": "2018-10-21T20:36:19+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
