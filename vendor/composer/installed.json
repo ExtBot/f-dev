@@ -4093,12 +4093,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "4de5accfc157972849572c570a39ff3151f39d3c"
+            "reference": "e99f7fcdace74211bec5627e6adf20ddf7dad2a7"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/4de5accfc157972849572c570a39ff3151f39d3c",
-            "reference": "4de5accfc157972849572c570a39ff3151f39d3c",
+            "url": "https://api.github.com/repos/flarum/core/zipball/e99f7fcdace74211bec5627e6adf20ddf7dad2a7",
+            "reference": "e99f7fcdace74211bec5627e6adf20ddf7dad2a7",
             "shasum": ""
         },
         "require": {
@@ -4149,7 +4149,7 @@
             "mockery/mockery": "^0.9.4",
             "phpunit/phpunit": "^6.0"
         },
-        "time": "2018-11-08T22:41:51+00:00",
+        "time": "2018-11-09T11:02:26+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -5086,19 +5086,19 @@
         "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/flarum/flarum-ext-emoji.git",
-            "reference": "18442f4a9cd0a37bac777d28926e8c6b49559fb5"
+            "url": "https://github.com/flarum/emoji.git",
+            "reference": "2bec2fd9ee6ffcd3c3d1725418488d0ce3ed720e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-emoji/zipball/18442f4a9cd0a37bac777d28926e8c6b49559fb5",
-            "reference": "18442f4a9cd0a37bac777d28926e8c6b49559fb5",
+            "url": "https://api.github.com/repos/flarum/emoji/zipball/2bec2fd9ee6ffcd3c3d1725418488d0ce3ed720e",
+            "reference": "2bec2fd9ee6ffcd3c3d1725418488d0ce3ed720e",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-10-09T22:36:08+00:00",
+        "time": "2018-10-21T04:49:43+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
