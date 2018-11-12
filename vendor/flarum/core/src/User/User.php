@@ -125,6 +125,8 @@ class User extends AbstractModel
 
         static::deleted(function (User $user) {
             $user->raise(new Deleted($user));
+
+            Notification::whereSubject($user)->delete();
         });
 
         static::$dispatcher->dispatch(
@@ -437,6 +439,7 @@ class User extends AbstractModel
                 ->whereIn('type', $this->getAlertableNotificationTypes())
                 ->whereNull('read_at')
                 ->where('is_deleted', false)
+                ->whereSubjectVisibleTo($this)
                 ->get();
         }
 
