@@ -68,11 +68,20 @@ class MigrateCommand extends AbstractCommand
         $extensions->getMigrator()->setOutput($this->output);
 
         foreach ($extensions->getEnabledExtensions() as $name => $extension) {
-            $this->info('Migrating extension: '.$name);
+            if ($extension->hasMigrations()) {
+                $this->info('Migrating extension: '.$name);
 
-            $extensions->migrate($extension);
+                $extensions->migrate($extension);
+            }
         }
 
         $this->container->make('Flarum\Settings\SettingsRepositoryInterface')->set('version', $this->container->version());
+
+        $this->info('Publishing assets...');
+
+        $this->container->make('files')->copyDirectory(
+            base_path().'/vendor/components/font-awesome/webfonts',
+            public_path().'/assets/fonts'
+        );
     }
 }
