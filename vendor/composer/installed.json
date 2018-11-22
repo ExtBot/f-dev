@@ -987,23 +987,23 @@
     },
     {
         "name": "psr/log",
-        "version": "1.0.2",
-        "version_normalized": "1.0.2.0",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/php-fig/log.git",
-            "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+            "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
-            "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+            "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
             "shasum": ""
         },
         "require": {
             "php": ">=5.3.0"
         },
-        "time": "2016-10-10T12:19:37+00:00",
+        "time": "2018-11-20T15:27:04+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2122,17 +2122,17 @@
     },
     {
         "name": "nesbot/carbon",
-        "version": "1.35.1",
-        "version_normalized": "1.35.1.0",
+        "version": "1.36.0",
+        "version_normalized": "1.36.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/briannesbitt/Carbon.git",
-            "reference": "5c05a2be472b22f63291d192410df9f0e0de3b19"
+            "reference": "f5e9fa283fa389ffa49e58391a02f063dcdd1815"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/5c05a2be472b22f63291d192410df9f0e0de3b19",
-            "reference": "5c05a2be472b22f63291d192410df9f0e0de3b19",
+            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/f5e9fa283fa389ffa49e58391a02f063dcdd1815",
+            "reference": "f5e9fa283fa389ffa49e58391a02f063dcdd1815",
             "shasum": ""
         },
         "require": {
@@ -2146,7 +2146,7 @@
             "friendsofphp/php-cs-fixer": "Needed for the `composer phpcs` command. Allow to automatically fix code style.",
             "phpstan/phpstan": "Needed for the `composer phpstan` command. Allow to detect potential errors."
         },
-        "time": "2018-11-14T21:55:58+00:00",
+        "time": "2018-11-16T11:47:11+00:00",
         "type": "library",
         "extra": {
             "laravel": {
@@ -4092,12 +4092,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "c3b2d8e7d808a67ed305e49ebb9bc01fa6c23d4b"
+            "reference": "9115b9e28f9c5d1b53708090f183d71e095678ce"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/c3b2d8e7d808a67ed305e49ebb9bc01fa6c23d4b",
-            "reference": "c3b2d8e7d808a67ed305e49ebb9bc01fa6c23d4b",
+            "url": "https://api.github.com/repos/flarum/core/zipball/9115b9e28f9c5d1b53708090f183d71e095678ce",
+            "reference": "9115b9e28f9c5d1b53708090f183d71e095678ce",
             "shasum": ""
         },
         "require": {
@@ -4148,7 +4148,7 @@
             "mockery/mockery": "^0.9.4",
             "phpunit/phpunit": "^6.0"
         },
-        "time": "2018-11-16T04:49:51+00:00",
+        "time": "2018-11-22T01:39:50+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4342,12 +4342,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/akismet.git",
-            "reference": "c1feef7f5e5ddcb200c97226440ccb76d6202842"
+            "reference": "ea8d47cef136775981a99a04e0400b33c0eb88d3"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/akismet/zipball/c1feef7f5e5ddcb200c97226440ccb76d6202842",
-            "reference": "c1feef7f5e5ddcb200c97226440ccb76d6202842",
+            "url": "https://api.github.com/repos/flarum/akismet/zipball/ea8d47cef136775981a99a04e0400b33c0eb88d3",
+            "reference": "ea8d47cef136775981a99a04e0400b33c0eb88d3",
             "shasum": ""
         },
         "require": {
@@ -4355,7 +4355,7 @@
             "flarum/core": "^0.1.0-beta.8",
             "tijsverkoyen/akismet": "^1.1"
         },
-        "time": "2018-10-17T03:05:22+00:00",
+        "time": "2018-11-17T08:23:38+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -4453,19 +4453,19 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/approval.git",
-            "reference": "0e6d4ff3c2f63448e1fb8328c09c7e4cb7136cd8"
+            "reference": "0822b094302f7027c955ca0457b70214545fe64c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/approval/zipball/0e6d4ff3c2f63448e1fb8328c09c7e4cb7136cd8",
-            "reference": "0e6d4ff3c2f63448e1fb8328c09c7e4cb7136cd8",
+            "url": "https://api.github.com/repos/flarum/approval/zipball/0822b094302f7027c955ca0457b70214545fe64c",
+            "reference": "0822b094302f7027c955ca0457b70214545fe64c",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8",
             "flarum/flags": "^0.1.0-beta.6"
         },
-        "time": "2018-10-17T03:05:40+00:00",
+        "time": "2018-11-17T08:23:38+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -4623,17 +4623,17 @@
     },
     {
         "name": "league/oauth2-client",
-        "version": "2.3.1",
-        "version_normalized": "2.3.1.0",
+        "version": "2.4.0",
+        "version_normalized": "2.4.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/thephpleague/oauth2-client.git",
-            "reference": "4dfceb5b25fe89dba7034de75bb097dfb2ec4b46"
+            "reference": "88f8381dfdf0dafe59f6694ca914a788918204ca"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/thephpleague/oauth2-client/zipball/4dfceb5b25fe89dba7034de75bb097dfb2ec4b46",
-            "reference": "4dfceb5b25fe89dba7034de75bb097dfb2ec4b46",
+            "url": "https://api.github.com/repos/thephpleague/oauth2-client/zipball/88f8381dfdf0dafe59f6694ca914a788918204ca",
+            "reference": "88f8381dfdf0dafe59f6694ca914a788918204ca",
             "shasum": ""
         },
         "require": {
@@ -4648,7 +4648,7 @@
             "phpunit/phpunit": "^5.7|^6.0",
             "squizlabs/php_codesniffer": "^2.3|^3.0"
         },
-        "time": "2018-11-19T23:15:14+00:00",
+        "time": "2018-11-21T20:26:42+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -5182,18 +5182,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/likes.git",
-            "reference": "d4b0bdb920c040da1dd0e16ed0a50771c7db3360"
+            "reference": "b97f18a3b7ac95e64067d6ab8b2eb1320248eca2"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/likes/zipball/d4b0bdb920c040da1dd0e16ed0a50771c7db3360",
-            "reference": "d4b0bdb920c040da1dd0e16ed0a50771c7db3360",
+            "url": "https://api.github.com/repos/flarum/likes/zipball/b97f18a3b7ac95e64067d6ab8b2eb1320248eca2",
+            "reference": "b97f18a3b7ac95e64067d6ab8b2eb1320248eca2",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-10-17T03:14:47+00:00",
+        "time": "2018-11-17T08:23:38+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -5290,18 +5290,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/markdown.git",
-            "reference": "df49e78a9a73d1cffd7f80092f8f9c107e208770"
+            "reference": "621cd1afa15c9ff512ddecbc78184765af6e9104"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/markdown/zipball/df49e78a9a73d1cffd7f80092f8f9c107e208770",
-            "reference": "df49e78a9a73d1cffd7f80092f8f9c107e208770",
+            "url": "https://api.github.com/repos/flarum/markdown/zipball/621cd1afa15c9ff512ddecbc78184765af6e9104",
+            "reference": "621cd1afa15c9ff512ddecbc78184765af6e9104",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-10-17T03:14:48+00:00",
+        "time": "2018-11-17T08:36:18+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -5342,18 +5342,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/mentions.git",
-            "reference": "f4ce316a901b87900ffba18c57ddb16ad2065338"
+            "reference": "a200f914165e2abcc5767892e459da3435b12100"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/mentions/zipball/f4ce316a901b87900ffba18c57ddb16ad2065338",
-            "reference": "f4ce316a901b87900ffba18c57ddb16ad2065338",
+            "url": "https://api.github.com/repos/flarum/mentions/zipball/a200f914165e2abcc5767892e459da3435b12100",
+            "reference": "a200f914165e2abcc5767892e459da3435b12100",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-10-17T03:14:48+00:00",
+        "time": "2018-11-17T08:37:36+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -5442,19 +5442,19 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/pusher.git",
-            "reference": "0b100405970b993098614b3c16a762ea2d8ee78b"
+            "reference": "a034de92ccc813cbbc755e8c39bea69e4df21ca6"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/pusher/zipball/0b100405970b993098614b3c16a762ea2d8ee78b",
-            "reference": "0b100405970b993098614b3c16a762ea2d8ee78b",
+            "url": "https://api.github.com/repos/flarum/pusher/zipball/a034de92ccc813cbbc755e8c39bea69e4df21ca6",
+            "reference": "a034de92ccc813cbbc755e8c39bea69e4df21ca6",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8",
             "pusher/pusher-php-server": "^2.2"
         },
-        "time": "2018-10-17T03:14:48+00:00",
+        "time": "2018-11-17T08:23:38+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -5608,18 +5608,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/subscriptions.git",
-            "reference": "3ebd3678c3082255bb74718b424841463848f4bc"
+            "reference": "ada12f7b7423b6a78da400aad8d6cc4d99ce8425"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/subscriptions/zipball/3ebd3678c3082255bb74718b424841463848f4bc",
-            "reference": "3ebd3678c3082255bb74718b424841463848f4bc",
+            "url": "https://api.github.com/repos/flarum/subscriptions/zipball/ada12f7b7423b6a78da400aad8d6cc4d99ce8425",
+            "reference": "ada12f7b7423b6a78da400aad8d6cc4d99ce8425",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-10-17T03:14:48+00:00",
+        "time": "2018-11-17T08:28:16+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -5662,18 +5662,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/suspend.git",
-            "reference": "fc2f63670b0cb743127915e0e021746c4fd99904"
+            "reference": "2b9244d587a81fa30259206ef1d90ed85f8a8d03"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/suspend/zipball/fc2f63670b0cb743127915e0e021746c4fd99904",
-            "reference": "fc2f63670b0cb743127915e0e021746c4fd99904",
+            "url": "https://api.github.com/repos/flarum/suspend/zipball/2b9244d587a81fa30259206ef1d90ed85f8a8d03",
+            "reference": "2b9244d587a81fa30259206ef1d90ed85f8a8d03",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-10-17T03:14:48+00:00",
+        "time": "2018-11-17T08:23:39+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
