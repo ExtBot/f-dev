@@ -2122,17 +2122,17 @@
     },
     {
         "name": "nesbot/carbon",
-        "version": "1.36.0",
-        "version_normalized": "1.36.0.0",
+        "version": "1.36.1",
+        "version_normalized": "1.36.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/briannesbitt/Carbon.git",
-            "reference": "f5e9fa283fa389ffa49e58391a02f063dcdd1815"
+            "reference": "63da8cdf89d7a5efe43aabc794365f6e7b7b8983"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/f5e9fa283fa389ffa49e58391a02f063dcdd1815",
-            "reference": "f5e9fa283fa389ffa49e58391a02f063dcdd1815",
+            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/63da8cdf89d7a5efe43aabc794365f6e7b7b8983",
+            "reference": "63da8cdf89d7a5efe43aabc794365f6e7b7b8983",
             "shasum": ""
         },
         "require": {
@@ -2146,7 +2146,7 @@
             "friendsofphp/php-cs-fixer": "Needed for the `composer phpcs` command. Allow to automatically fix code style.",
             "phpstan/phpstan": "Needed for the `composer phpstan` command. Allow to detect potential errors."
         },
-        "time": "2018-11-16T11:47:11+00:00",
+        "time": "2018-11-22T18:23:02+00:00",
         "type": "library",
         "extra": {
             "laravel": {
@@ -4092,12 +4092,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "9115b9e28f9c5d1b53708090f183d71e095678ce"
+            "reference": "24ff8899a0a94ae8b2235154103d63a015cb6bc5"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/9115b9e28f9c5d1b53708090f183d71e095678ce",
-            "reference": "9115b9e28f9c5d1b53708090f183d71e095678ce",
+            "url": "https://api.github.com/repos/flarum/core/zipball/24ff8899a0a94ae8b2235154103d63a015cb6bc5",
+            "reference": "24ff8899a0a94ae8b2235154103d63a015cb6bc5",
             "shasum": ""
         },
         "require": {
@@ -4148,7 +4148,7 @@
             "mockery/mockery": "^0.9.4",
             "phpunit/phpunit": "^6.0"
         },
-        "time": "2018-11-22T01:39:50+00:00",
+        "time": "2018-11-22T22:40:38+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4623,17 +4623,17 @@
     },
     {
         "name": "league/oauth2-client",
-        "version": "2.4.0",
-        "version_normalized": "2.4.0.0",
+        "version": "2.4.1",
+        "version_normalized": "2.4.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/thephpleague/oauth2-client.git",
-            "reference": "88f8381dfdf0dafe59f6694ca914a788918204ca"
+            "reference": "cc114abc622a53af969e8664722e84ca36257530"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/thephpleague/oauth2-client/zipball/88f8381dfdf0dafe59f6694ca914a788918204ca",
-            "reference": "88f8381dfdf0dafe59f6694ca914a788918204ca",
+            "url": "https://api.github.com/repos/thephpleague/oauth2-client/zipball/cc114abc622a53af969e8664722e84ca36257530",
+            "reference": "cc114abc622a53af969e8664722e84ca36257530",
             "shasum": ""
         },
         "require": {
@@ -4648,7 +4648,7 @@
             "phpunit/phpunit": "^5.7|^6.0",
             "squizlabs/php_codesniffer": "^2.3|^3.0"
         },
-        "time": "2018-11-21T20:26:42+00:00",
+        "time": "2018-11-22T18:33:57+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4750,19 +4750,19 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/auth-facebook.git",
-            "reference": "b545417ac90348e0389ce3444415fa4482c8cfb6"
+            "reference": "f266439277a6b5412d777007894ff0619ef5cc1f"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/auth-facebook/zipball/b545417ac90348e0389ce3444415fa4482c8cfb6",
-            "reference": "b545417ac90348e0389ce3444415fa4482c8cfb6",
+            "url": "https://api.github.com/repos/flarum/auth-facebook/zipball/f266439277a6b5412d777007894ff0619ef5cc1f",
+            "reference": "f266439277a6b5412d777007894ff0619ef5cc1f",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8",
             "league/oauth2-facebook": "^2.0"
         },
-        "time": "2018-10-21T04:48:12+00:00",
+        "time": "2018-11-21T08:23:48+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -4982,19 +4982,19 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/auth-twitter.git",
-            "reference": "3f84ab5788ada9cc00e83b79d2d9a0d07baccca3"
+            "reference": "c928d9b5c75137f9e635e05bdb1db978c57e92dc"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/auth-twitter/zipball/3f84ab5788ada9cc00e83b79d2d9a0d07baccca3",
-            "reference": "3f84ab5788ada9cc00e83b79d2d9a0d07baccca3",
+            "url": "https://api.github.com/repos/flarum/auth-twitter/zipball/c928d9b5c75137f9e635e05bdb1db978c57e92dc",
+            "reference": "c928d9b5c75137f9e635e05bdb1db978c57e92dc",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8",
             "league/oauth1-client": "^1.6"
         },
-        "time": "2018-10-21T04:49:28+00:00",
+        "time": "2018-11-21T08:27:14+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -5716,18 +5716,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/tags.git",
-            "reference": "87fdf0b8079b71a588f936915f7ed64e75516c78"
+            "reference": "6fd4263a914d659377134fdb49d8d496b0d5d0f0"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/tags/zipball/87fdf0b8079b71a588f936915f7ed64e75516c78",
-            "reference": "87fdf0b8079b71a588f936915f7ed64e75516c78",
+            "url": "https://api.github.com/repos/flarum/tags/zipball/6fd4263a914d659377134fdb49d8d496b0d5d0f0",
+            "reference": "6fd4263a914d659377134fdb49d8d496b0d5d0f0",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-10-21T04:53:04+00:00",
+        "time": "2018-11-21T08:27:15+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
