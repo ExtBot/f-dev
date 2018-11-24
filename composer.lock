@@ -1202,12 +1202,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/auth-github.git",
-                "reference": "4ce92ce1f54a6fad55b2c867835a9ce06e66dc48"
+                "reference": "bb749145fad46e85ba4739275b9ae4fa99e0c4e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/auth-github/zipball/4ce92ce1f54a6fad55b2c867835a9ce06e66dc48",
-                "reference": "4ce92ce1f54a6fad55b2c867835a9ce06e66dc48",
+                "url": "https://api.github.com/repos/flarum/auth-github/zipball/bb749145fad46e85ba4739275b9ae4fa99e0c4e7",
+                "reference": "bb749145fad46e85ba4739275b9ae4fa99e0c4e7",
                 "shasum": ""
             },
             "require": {
@@ -1247,7 +1247,7 @@
             "keywords": [
                 "Authentication"
             ],
-            "time": "2018-10-22T20:43:28+00:00"
+            "time": "2018-11-21T08:23:50+00:00"
         },
         {
             "name": "flarum/flarum-ext-auth-twitter",
@@ -3069,16 +3069,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.48",
+            "version": "1.0.49",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "a6ded5b2f6055e2db97b4b859fdfca2b952b78aa"
+                "reference": "a63cc83d8a931b271be45148fa39ba7156782ffd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/a6ded5b2f6055e2db97b4b859fdfca2b952b78aa",
-                "reference": "a6ded5b2f6055e2db97b4b859fdfca2b952b78aa",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/a63cc83d8a931b271be45148fa39ba7156782ffd",
+                "reference": "a63cc83d8a931b271be45148fa39ba7156782ffd",
                 "shasum": ""
             },
             "require": {
@@ -3149,7 +3149,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2018-10-15T13:53:10+00:00"
+            "time": "2018-11-23T23:41:29+00:00"
         },
         {
             "name": "league/oauth1-client",
