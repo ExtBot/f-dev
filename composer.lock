@@ -1447,12 +1447,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/flags.git",
-                "reference": "87cd4e44b0c2a1b6ebbf265c2de24b57990d0c0c"
+                "reference": "2b3f421318414f68a1e5edc7bce81b31f4e37b6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flags/zipball/87cd4e44b0c2a1b6ebbf265c2de24b57990d0c0c",
-                "reference": "87cd4e44b0c2a1b6ebbf265c2de24b57990d0c0c",
+                "url": "https://api.github.com/repos/flarum/flags/zipball/2b3f421318414f68a1e5edc7bce81b31f4e37b6f",
+                "reference": "2b3f421318414f68a1e5edc7bce81b31f4e37b6f",
                 "shasum": ""
             },
             "require": {
@@ -1491,7 +1491,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2018-10-21T04:49:52+00:00"
+            "time": "2018-11-21T08:27:14+00:00"
         },
         {
             "name": "flarum/flarum-ext-likes",
@@ -1551,12 +1551,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/lock.git",
-                "reference": "c924356fece3bf9d9e2f3b9f8b2da443b1ece52f"
+                "reference": "df8fd9d56f44eb6d0a66116d3fe7d75a52348357"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/lock/zipball/c924356fece3bf9d9e2f3b9f8b2da443b1ece52f",
-                "reference": "c924356fece3bf9d9e2f3b9f8b2da443b1ece52f",
+                "url": "https://api.github.com/repos/flarum/lock/zipball/df8fd9d56f44eb6d0a66116d3fe7d75a52348357",
+                "reference": "df8fd9d56f44eb6d0a66116d3fe7d75a52348357",
                 "shasum": ""
             },
             "require": {
@@ -1595,7 +1595,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2018-10-21T04:50:46+00:00"
+            "time": "2018-11-21T08:27:14+00:00"
         },
         {
             "name": "flarum/flarum-ext-markdown",
@@ -1813,12 +1813,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/sticky.git",
-                "reference": "94b519cfd829dec30e774ad7ac5b6ff1d8bb56fa"
+                "reference": "d85cd7c518421be2e4304db2bb91ae248b5e3421"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/sticky/zipball/94b519cfd829dec30e774ad7ac5b6ff1d8bb56fa",
-                "reference": "94b519cfd829dec30e774ad7ac5b6ff1d8bb56fa",
+                "url": "https://api.github.com/repos/flarum/sticky/zipball/d85cd7c518421be2e4304db2bb91ae248b5e3421",
+                "reference": "d85cd7c518421be2e4304db2bb91ae248b5e3421",
                 "shasum": ""
             },
             "require": {
@@ -1857,7 +1857,7 @@
             "keywords": [
                 "discussion"
             ],
-            "time": "2018-10-21T04:51:59+00:00"
+            "time": "2018-11-21T08:27:14+00:00"
         },
         {
             "name": "flarum/flarum-ext-subscriptions",
