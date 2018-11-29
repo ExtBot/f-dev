@@ -11,10 +11,10 @@
 
 namespace Flarum\Flags\Command;
 
-use Flarum\Core\Access\AssertPermissionTrait;
-use Flarum\Core\Post\CommentPost;
-use Flarum\Core\Repository\PostRepository;
 use Flarum\Flags\Flag;
+use Flarum\Post\CommentPost;
+use Flarum\Post\PostRepository;
+use Flarum\User\AssertPermissionTrait;
 use Tobscure\JsonApi\Exception\InvalidParameterException;
 
 class CreateFlagHandler
@@ -65,7 +65,7 @@ class CreateFlagHandler
         $flag->type = 'user';
         $flag->reason = array_get($data, 'attributes.reason');
         $flag->reason_detail = array_get($data, 'attributes.reasonDetail');
-        $flag->time = time();
+        $flag->created_at = time();
 
         $flag->save();
 

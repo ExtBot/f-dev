@@ -73,7 +73,7 @@ return array(
     'Flarum\\Mentions\\' => array($vendorDir . '/flarum/flarum-ext-mentions/src'),
     'Flarum\\Lock\\' => array($vendorDir . '/flarum/flarum-ext-lock/src'),
     'Flarum\\Likes\\' => array($vendorDir . '/flarum/flarum-ext-likes/src'),
-    'Flarum\\Flags\\' => array($vendorDir . '/flarum/flarum-ext-flags/src', $vendorDir . '/flarum/flags/src'),
+    'Flarum\\Flags\\' => array($vendorDir . '/flarum/flags/src', $vendorDir . '/flarum/flarum-ext-flags/src'),
     'Flarum\\Auth\\Twitter\\' => array($vendorDir . '/flarum/flarum-ext-auth-twitter/src'),
     'Flarum\\Auth\\Github\\' => array($vendorDir . '/flarum/flarum-ext-auth-github/src'),
     'Flarum\\Auth\\Facebook\\' => array($vendorDir . '/flarum/flarum-ext-auth-facebook/src'),

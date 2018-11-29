@@ -11,16 +11,14 @@
 
 namespace Flarum\Flags\Listener;
 
+use Flarum\Api\Event\Serializing;
 use Flarum\Api\Serializer\CurrentUserSerializer;
 use Flarum\Api\Serializer\ForumSerializer;
 use Flarum\Api\Serializer\PostSerializer;
-use Flarum\Core\User;
-use Flarum\Event\ConfigureApiRoutes;
 use Flarum\Event\ConfigureModelDates;
-use Flarum\Event\PrepareApiAttributes;
-use Flarum\Flags\Api\Controller;
 use Flarum\Flags\Flag;
 use Flarum\Settings\SettingsRepositoryInterface;
+use Flarum\User\User;
 use Illuminate\Contracts\Events\Dispatcher;
 
 class AddFlagsApi
@@ -44,8 +42,7 @@ class AddFlagsApi
     public function subscribe(Dispatcher $events)
     {
         $events->listen(ConfigureModelDates::class, [$this, 'configureModelDates']);
-        $events->listen(PrepareApiAttributes::class, [$this, 'prepareApiAttributes']);
-        $events->listen(ConfigureApiRoutes::class, [$this, 'configureApiRoutes']);
+        $events->listen(Serializing::class, [$this, 'prepareApiAttributes']);
     }
 
     /**
@@ -54,27 +51,27 @@ class AddFlagsApi
     public function configureModelDates(ConfigureModelDates $event)
     {
         if ($event->isModel(User::class)) {
-            $event->dates[] = 'flags_read_time';
+            $event->dates[] = 'read_flags_at';
         }
     }
 
     /**
-     * @param PrepareApiAttributes $event
+     * @param Serializing $event
      */
-    public function prepareApiAttributes(PrepareApiAttributes $event)
+    public function prepareApiAttributes(Serializing $event)
     {
         if ($event->isSerializer(ForumSerializer::class)) {
             $event->attributes['canViewFlags'] = $event->actor->hasPermissionLike('discussion.viewFlags');
 
             if ($event->attributes['canViewFlags']) {
-                $event->attributes['flagsCount'] = (int) $this->getFlagsCount($event->actor);
+                $event->attributes['flagCount'] = (int) $this->getFlagCount($event->actor);
             }
 
             $event->attributes['guidelinesUrl'] = $this->settings->get('flarum-flags.guidelines_url');
         }
 
         if ($event->isSerializer(CurrentUserSerializer::class)) {
-            $event->attributes['newFlagsCount'] = (int) $this->getNewFlagsCount($event->model);
+            $event->attributes['newFlagCount'] = (int) $this->getNewFlagCount($event->model);
         }
 
         if ($event->isSerializer(PostSerializer::class)) {
@@ -83,20 +80,10 @@ class AddFlagsApi
     }
 
     /**
-     * @param ConfigureApiRoutes $event
-     */
-    public function configureApiRoutes(ConfigureApiRoutes $event)
-    {
-        $event->get('/flags', 'flags.index', Controller\ListFlagsController::class);
-        $event->post('/flags', 'flags.create', Controller\CreateFlagController::class);
-        $event->delete('/posts/{id}/flags', 'flags.delete', Controller\DeleteFlagsController::class);
-    }
-
-    /**
      * @param User $actor
      * @return int
      */
-    protected function getFlagsCount(User $actor)
+    protected function getFlagCount(User $actor)
     {
         return Flag::whereVisibleTo($actor)->distinct()->count('flags.post_id');
     }
@@ -105,12 +92,12 @@ class AddFlagsApi
      * @param User $actor
      * @return int
      */
-    protected function getNewFlagsCount(User $actor)
+    protected function getNewFlagCount(User $actor)
     {
         $query = Flag::whereVisibleTo($actor);
 
-        if ($time = $actor->flags_read_time) {
-            $query->where('flags.time', '>', $time);
+        if ($time = $actor->read_flags_at) {
+            $query->where('flags.created_at', '>', $time);
         }
 
         return $query->distinct()->count('flags.post_id');

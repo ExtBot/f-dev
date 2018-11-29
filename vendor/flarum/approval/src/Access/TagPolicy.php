@@ -11,9 +11,9 @@
 
 namespace Flarum\Approval\Access;
 
-use Flarum\Core\Access\AbstractPolicy;
-use Flarum\Core\User;
 use Flarum\Tags\Tag;
+use Flarum\User\AbstractPolicy;
+use Flarum\User\User;
 
 class TagPolicy extends AbstractPolicy
 {
@@ -29,7 +29,11 @@ class TagPolicy extends AbstractPolicy
      */
     public function addToDiscussion(User $actor, Tag $tag)
     {
-        $disallowedTags = Tag::getIdsWhereCannot($actor, 'discussion.startWithoutApproval');
+        static $disallowedTags;
+
+        if (! isset($disallowedTags[$actor->id])) {
+            $disallowedTags[$actor->id] = Tag::getIdsWhereCannot($actor, 'discussion.startWithoutApproval');
+        }
 
         if (in_array($tag->id, $disallowedTags)) {
             return false;

@@ -834,21 +834,21 @@
         },
         {
             "name": "flarum/approval",
-            "version": "v0.1.0-beta.7",
+            "version": "v0.1.0-beta.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/approval.git",
-                "reference": "0a98a85347cc1fc8c81a7170ac4aa97c90dfc867"
+                "reference": "6ed2a7fa68f50dcee6570b90a66ed9af75c95e32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/approval/zipball/0a98a85347cc1fc8c81a7170ac4aa97c90dfc867",
-                "reference": "0a98a85347cc1fc8c81a7170ac4aa97c90dfc867",
+                "url": "https://api.github.com/repos/flarum/approval/zipball/6ed2a7fa68f50dcee6570b90a66ed9af75c95e32",
+                "reference": "6ed2a7fa68f50dcee6570b90a66ed9af75c95e32",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.7",
-                "flarum/flarum-ext-flags": "^0.1.0-beta.6"
+                "flarum/core": "^0.1.0-beta.8",
+                "flarum/flags": "^0.1.0-beta.6"
             },
             "type": "flarum-extension",
             "extra": {
@@ -858,7 +858,7 @@
                 "flarum-extension": {
                     "title": "Approval",
                     "icon": {
-                        "name": "check",
+                        "name": "fas fa-check",
                         "backgroundColor": "#ABDC88",
                         "color": "#3F8A32"
                     }
@@ -883,7 +883,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2017-07-22T02:52:03+00:00"
+            "time": "2018-11-21T08:27:14+00:00"
         },
         {
             "name": "flarum/core",
@@ -891,12 +891,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "546b4f01ac9c82852672dc8333e8e8d54cb43c47"
+                "reference": "213fd62be312890d609222b83e4941115dbfc8be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/546b4f01ac9c82852672dc8333e8e8d54cb43c47",
-                "reference": "546b4f01ac9c82852672dc8333e8e8d54cb43c47",
+                "url": "https://api.github.com/repos/flarum/core/zipball/213fd62be312890d609222b83e4941115dbfc8be",
+                "reference": "213fd62be312890d609222b83e4941115dbfc8be",
                 "shasum": ""
             },
             "require": {
@@ -981,24 +981,24 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2018-11-27T12:02:17+00:00"
+            "time": "2018-11-28T23:34:49+00:00"
         },
         {
             "name": "flarum/flags",
-            "version": "v0.1.0-beta.7",
+            "version": "v0.1.0-beta.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/flags.git",
-                "reference": "8c55eb4e6e737dba47853cc04a5c112d19f7d7d8"
+                "reference": "988a317709c01aa621c74eeeac65f2bd2a9b2770"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flags/zipball/8c55eb4e6e737dba47853cc04a5c112d19f7d7d8",
-                "reference": "8c55eb4e6e737dba47853cc04a5c112d19f7d7d8",
+                "url": "https://api.github.com/repos/flarum/flags/zipball/988a317709c01aa621c74eeeac65f2bd2a9b2770",
+                "reference": "988a317709c01aa621c74eeeac65f2bd2a9b2770",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.7"
+                "flarum/core": "^0.1.0-beta.8"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1008,7 +1008,7 @@
                 "flarum-extension": {
                     "title": "Flags",
                     "icon": {
-                        "name": "flag",
+                        "name": "fas fa-flag",
                         "backgroundColor": "#D659B5",
                         "color": "#fff"
                     }
@@ -1033,7 +1033,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2017-07-22T02:50:24+00:00"
+            "time": "2018-11-27T12:03:21+00:00"
         },
         {
             "name": "flarum/flarum-ext-akismet",
