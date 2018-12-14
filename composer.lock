@@ -894,12 +894,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "c76180290056ddbab67baf5ede814fcedf1dcf14"
+                "reference": "f0da3cf304bb4251cd6b251535bcf953ead28149"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/c76180290056ddbab67baf5ede814fcedf1dcf14",
-                "reference": "c76180290056ddbab67baf5ede814fcedf1dcf14",
+                "url": "https://api.github.com/repos/flarum/core/zipball/f0da3cf304bb4251cd6b251535bcf953ead28149",
+                "reference": "f0da3cf304bb4251cd6b251535bcf953ead28149",
                 "shasum": ""
             },
             "require": {
@@ -984,7 +984,7 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2018-12-12T23:16:03+00:00"
+            "time": "2018-12-14T00:58:11+00:00"
         },
         {
             "name": "flarum/flags",
