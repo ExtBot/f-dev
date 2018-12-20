@@ -14,8 +14,6 @@ namespace Flarum\User;
 use Flarum\Http\UrlGenerator;
 use Flarum\Settings\SettingsRepositoryInterface;
 use Flarum\User\Event\EmailChangeRequested;
-use Flarum\User\Event\Registered;
-use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Contracts\Mail\Mailer;
 use Illuminate\Contracts\Translation\Translator;
 use Illuminate\Mail\Message;
@@ -50,34 +48,7 @@ class EmailConfirmationMailer
         $this->translator = $translator;
     }
 
-    /**
-     * @param Dispatcher $events
-     */
-    public function subscribe(Dispatcher $events)
-    {
-        $events->listen(Registered::class, [$this, 'whenUserWasRegistered']);
-        $events->listen(EmailChangeRequested::class, [$this, 'whenUserEmailChangeWasRequested']);
-    }
-
-    public function whenUserWasRegistered(Registered $event)
-    {
-        $user = $event->user;
-
-        if ($user->is_email_confirmed) {
-            return;
-        }
-
-        $data = $this->getEmailData($user, $user->email);
-
-        $body = $this->translator->trans('core.email.activate_account.body', $data);
-
-        $this->mailer->raw($body, function (Message $message) use ($user, $data) {
-            $message->to($user->email);
-            $message->subject('['.$data['{forum}'].'] '.$this->translator->trans('core.email.activate_account.subject'));
-        });
-    }
-
-    public function whenUserEmailChangeWasRequested(EmailChangeRequested $event)
+    public function handle(EmailChangeRequested $event)
     {
         $email = $event->email;
         $data = $this->getEmailData($event->user, $email);

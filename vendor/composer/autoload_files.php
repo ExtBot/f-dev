@@ -19,7 +19,6 @@ return array(
     '40360c0b9b437e69bcbb7f1349ce029e' => $vendorDir . '/zendframework/zend-diactoros/src/functions/parse_cookie_header.php',
     '7b11c4dc42b3b3023073cb14e519683c' => $vendorDir . '/ralouphie/getallheaders/src/getallheaders.php',
     'a0edc8309cc5e1d60e3047b5df6b7052' => $vendorDir . '/guzzlehttp/psr7/src/functions_include.php',
-    '023d27dca8066ef29e6739335ea73bad' => $vendorDir . '/symfony/polyfill-php70/bootstrap.php',
     '2c102faa651ef8ea5874edb585946bce' => $vendorDir . '/swiftmailer/swiftmailer/lib/swift_required.php',
     'c0c684e103c597a31a3e514398f79ec1' => $vendorDir . '/zendframework/zend-stratigility/src/functions/double-pass-middleware.php',
     '968cb91a78f08ea033c0e1afe256c864' => $vendorDir . '/zendframework/zend-stratigility/src/functions/host.php',
