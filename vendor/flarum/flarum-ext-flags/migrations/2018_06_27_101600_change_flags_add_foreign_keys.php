@@ -38,7 +38,8 @@ return [
 
     'down' => function (Builder $schema) {
         $schema->table('flags', function (Blueprint $table) {
-            $table->dropForeign(['post_id', 'user_id']);
+            $table->dropForeign(['post_id']);
+            $table->dropForeign(['user_id']);
         });
     }
 ];

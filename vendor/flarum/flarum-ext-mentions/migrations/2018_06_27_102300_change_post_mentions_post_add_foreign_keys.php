@@ -34,7 +34,8 @@ return [
 
     'down' => function (Builder $schema) {
         $schema->table('posts_mentions_posts', function (Blueprint $table) {
-            $table->dropForeign(['post_id', 'mentions_post_id']);
+            $table->dropForeign(['post_id']);
+            $table->dropForeign(['mentions_post_id']);
         });
     }
 ];

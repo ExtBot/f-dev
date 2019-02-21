@@ -23,7 +23,7 @@ return [
     'down' => function (Builder $schema) {
         $schema->table('tags', function (Blueprint $table) {
             $table->string('slug', 255)->change();
-            $table->dropUnique('tags_slug_unique');
+            $table->dropUnique(['slug']);
         });
     }
 ];

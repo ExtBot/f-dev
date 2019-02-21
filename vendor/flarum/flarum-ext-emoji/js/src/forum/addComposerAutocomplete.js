@@ -2,6 +2,8 @@ import getCaretCoordinates from 'textarea-caret';
 
 import { extend } from 'flarum/extend';
 import ComposerBody from 'flarum/components/ComposerBody';
+import TextEditor from 'flarum/components/TextEditor';
+import TextEditorButton from 'flarum/components/TextEditorButton';
 import emojiMap from './generated/emojiMap.json';
 import getEmojiIconCode from './helpers/getEmojiIconCode';
 import KeyboardNavigatable from 'flarum/utils/KeyboardNavigatable';
@@ -9,7 +11,6 @@ import KeyboardNavigatable from 'flarum/utils/KeyboardNavigatable';
 import AutocompleteDropdown from './components/AutocompleteDropdown';
 
 export default function addComposerAutocomplete() {
-
   const emojiKeys = Object.keys(emojiMap);
 
   extend(ComposerBody.prototype, 'config', function(original, isInitialized) {
@@ -25,10 +26,12 @@ export default function addComposerAutocomplete() {
     const applySuggestion = function(replacement) {
       const insert = replacement + ' ';
 
+      // When calling setValue(), emojiStart will be set back to 0 so we need to compute this beforehand
+      const index = emojiStart - 1 + insert.length;
+
       const content = composer.content();
       composer.editor.setValue(content.substring(0, emojiStart - 1) + insert + content.substr($textarea[0].selectionStart));
 
-      const index = emojiStart - 1 + insert.length;
       composer.editor.setSelectionRange(index, index);
 
       dropdown.hide();
@@ -45,7 +48,7 @@ export default function addComposerAutocomplete() {
 
     $textarea
       .after($container)
-      .on('click keyup', function(e) {
+      .on('click keyup input', function(e) {
         // Up, down, enter, tab, escape, left, right.
         if ([9, 13, 27, 40, 38, 37, 39].indexOf(e.which) !== -1) return;
 
@@ -82,7 +85,7 @@ export default function addComposerAutocomplete() {
                 key={emoji}
                 onclick={() => applySuggestion(emoji)}
                 onmouseenter={function() {
-                  dropdown.setIndex($(this).parent().index());
+                  dropdown.setIndex($(this).parent().index() - 1);
                 }}>
                   <img alt={emoji} class="emoji" draggable="false" src={'//twemoji.maxcdn.com/2/72x72/' + code + '.png'}/>
                   {name}
@@ -129,9 +132,7 @@ export default function addComposerAutocomplete() {
                 emoji,
                 name: emojiMap[emoji][0],
                 code: getEmojiIconCode(emoji),
-              })).sort((a, b) => {
-                return a.name.length - b.name.length;
-              }).map(makeSuggestion);
+              })).map(makeSuggestion);
 
             if (suggestions.length) {
               dropdown.props.items = suggestions;
@@ -150,6 +151,8 @@ export default function addComposerAutocomplete() {
               if (left + width > parent.width()) {
                 left = parent.width() - width;
               }
+              top = Math.max(-$(this).offset().top, top);
+              left = Math.max(-$(this).offset().left, left);
               dropdown.show(left, top);
             }
           };
@@ -161,5 +164,13 @@ export default function addComposerAutocomplete() {
           dropdown.active = true;
         }
       });
+  });
+
+  extend(TextEditor.prototype, 'toolbarItems', function(items) {
+    items.add('emoji', (
+      <TextEditorButton onclick={() => this.insertAtCursor(':')} icon="far fa-smile">
+        {app.translator.trans('flarum-emoji.forum.composer.emoji_tooltip')}
+      </TextEditorButton>
+    ));
   });
 }
