@@ -662,7 +662,7 @@
             },
             {
                 "name": "Gert de Pagter",
-                "email": "BackEndTea@gmail.com"
+                "email": "backendtea@gmail.com"
             }
         ],
         "description": "Symfony polyfill for ctype functions",
@@ -4110,12 +4110,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "20227a220148eb060af4d514cf5b78a74489fafb"
+            "reference": "d292aaabf8b3d078dd186fd5c806ffeae09d255c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/20227a220148eb060af4d514cf5b78a74489fafb",
-            "reference": "20227a220148eb060af4d514cf5b78a74489fafb",
+            "url": "https://api.github.com/repos/flarum/core/zipball/d292aaabf8b3d078dd186fd5c806ffeae09d255c",
+            "reference": "d292aaabf8b3d078dd186fd5c806ffeae09d255c",
             "shasum": ""
         },
         "require": {
@@ -4165,7 +4165,7 @@
             "mockery/mockery": "^0.9.4",
             "phpunit/phpunit": "^6.0"
         },
-        "time": "2019-03-03T19:45:38+00:00",
+        "time": "2019-03-06T23:33:25+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
