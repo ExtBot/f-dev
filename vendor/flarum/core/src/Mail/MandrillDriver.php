@@ -12,18 +12,24 @@
 namespace Flarum\Mail;
 
 use Flarum\Settings\SettingsRepositoryInterface;
-use Swift_SendmailTransport;
+use GuzzleHttp\Client;
+use Illuminate\Mail\Transport\MandrillTransport;
 use Swift_Transport;
 
-class SendmailDriver implements DriverInterface
+class MandrillDriver implements DriverInterface
 {
     public function availableSettings(): array
     {
-        return [];
+        return [
+            'mail_mandrill_secret',
+        ];
     }
 
     public function buildTransport(SettingsRepositoryInterface $settings): Swift_Transport
     {
-        return new Swift_SendmailTransport;
+        return new MandrillTransport(
+            new Client(['connect_timeout' => 60]),
+            $settings->get('mail_mandrill_secret')
+        );
     }
 }

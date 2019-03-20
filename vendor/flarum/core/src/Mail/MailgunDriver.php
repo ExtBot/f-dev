@@ -12,18 +12,26 @@
 namespace Flarum\Mail;
 
 use Flarum\Settings\SettingsRepositoryInterface;
-use Swift_SendmailTransport;
+use GuzzleHttp\Client;
+use Illuminate\Mail\Transport\MailgunTransport;
 use Swift_Transport;
 
-class SendmailDriver implements DriverInterface
+class MailgunDriver implements DriverInterface
 {
     public function availableSettings(): array
     {
-        return [];
+        return [
+            'mail_mailgun_secret', // the secret key
+            'mail_mailgun_domain', // the API base URL
+        ];
     }
 
     public function buildTransport(SettingsRepositoryInterface $settings): Swift_Transport
     {
-        return new Swift_SendmailTransport;
+        return new MailgunTransport(
+            new Client(['connect_timeout' => 60]),
+            $settings->get('mail_mailgun_secret'),
+            $settings->get('mail_mailgun_domain')
+        );
     }
 }
