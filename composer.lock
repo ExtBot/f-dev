@@ -4574,7 +4574,7 @@
         },
         {
             "name": "symfony/config",
-            "version": "v3.4.25",
+            "version": "v3.4.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
@@ -4638,7 +4638,7 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.2.6",
+            "version": "v4.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
@@ -4778,7 +4778,7 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v4.2.6",
+            "version": "v4.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
@@ -4831,7 +4831,7 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v4.2.6",
+            "version": "v4.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
@@ -4887,7 +4887,7 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.2.6",
+            "version": "v4.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -4937,7 +4937,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v4.2.6",
+            "version": "v4.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -4986,16 +4986,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v4.2.6",
+            "version": "v4.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "5b7ab6beaa5b053b8d3c9b13367ada9b292e12e1"
+                "reference": "6ebbe61f48069033225c9d3fa7eb5ed116d766d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/5b7ab6beaa5b053b8d3c9b13367ada9b292e12e1",
-                "reference": "5b7ab6beaa5b053b8d3c9b13367ada9b292e12e1",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/6ebbe61f48069033225c9d3fa7eb5ed116d766d6",
+                "reference": "6ebbe61f48069033225c9d3fa7eb5ed116d766d6",
                 "shasum": ""
             },
             "require": {
@@ -5036,7 +5036,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2019-03-30T15:58:42+00:00"
+            "time": "2019-04-17T14:56:00+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -5333,7 +5333,7 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v3.4.25",
+            "version": "v3.4.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
@@ -5403,7 +5403,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.4.25",
+            "version": "v3.4.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
