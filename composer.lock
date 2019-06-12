@@ -900,17 +900,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "f42142979dfdfa8f3fd7b1c28a2c876cb415f27d"
+                "reference": "1a62b7e07a2bfc00b2280180482798c12db36115"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/f42142979dfdfa8f3fd7b1c28a2c876cb415f27d",
-                "reference": "f42142979dfdfa8f3fd7b1c28a2c876cb415f27d",
+                "url": "https://api.github.com/repos/flarum/core/zipball/1a62b7e07a2bfc00b2280180482798c12db36115",
+                "reference": "1a62b7e07a2bfc00b2280180482798c12db36115",
                 "shasum": ""
             },
             "require": {
                 "axy/sourcemap": "^0.1.4",
-                "components/font-awesome": "^5.4.2",
+                "components/font-awesome": "5.9.*",
                 "dflydev/fig-cookies": "^1.0.2",
                 "doctrine/dbal": "^2.7",
                 "franzl/whoops-middleware": "^0.4.0",
@@ -989,7 +989,7 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2019-06-08T22:19:06+00:00"
+            "time": "2019-06-11T22:43:57+00:00"
         },
         {
             "name": "flarum/flags",
