@@ -3560,17 +3560,17 @@
     },
     {
         "name": "zendframework/zend-stratigility",
-        "version": "3.1.0",
-        "version_normalized": "3.1.0.0",
+        "version": "3.2.0",
+        "version_normalized": "3.2.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/zendframework/zend-stratigility.git",
-            "reference": "2ef1189a1c6d42647e9a018fcb4e35c5f8b9884f"
+            "reference": "880c4a72de84e07c406bccee6f5bf32fce950abf"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/zendframework/zend-stratigility/zipball/2ef1189a1c6d42647e9a018fcb4e35c5f8b9884f",
-            "reference": "2ef1189a1c6d42647e9a018fcb4e35c5f8b9884f",
+            "url": "https://api.github.com/repos/zendframework/zend-stratigility/zipball/880c4a72de84e07c406bccee6f5bf32fce950abf",
+            "reference": "880c4a72de84e07c406bccee6f5bf32fce950abf",
             "shasum": ""
         },
         "require": {
@@ -3592,12 +3592,12 @@
         "suggest": {
             "psr/http-message-implementation": "Please install a psr/http-message-implementation to consume Stratigility; e.g., zendframework/zend-diactoros"
         },
-        "time": "2019-02-06T18:17:09+00:00",
+        "time": "2019-06-12T15:22:39+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "3.1.x-dev",
-                "dev-develop": "3.2.x-dev"
+                "dev-master": "3.2.x-dev",
+                "dev-develop": "3.3.x-dev"
             }
         },
         "installation-source": "dist",
@@ -4469,12 +4469,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "1a62b7e07a2bfc00b2280180482798c12db36115"
+            "reference": "ba956f51ac30f141ee5153cef08126537fed7e10"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/1a62b7e07a2bfc00b2280180482798c12db36115",
-            "reference": "1a62b7e07a2bfc00b2280180482798c12db36115",
+            "url": "https://api.github.com/repos/flarum/core/zipball/ba956f51ac30f141ee5153cef08126537fed7e10",
+            "reference": "ba956f51ac30f141ee5153cef08126537fed7e10",
             "shasum": ""
         },
         "require": {
@@ -4524,7 +4524,7 @@
             "mockery/mockery": "^0.9.4",
             "phpunit/phpunit": "^6.0"
         },
-        "time": "2019-06-11T22:43:57+00:00",
+        "time": "2019-06-12T23:03:39+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
