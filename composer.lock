@@ -900,12 +900,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "b669490d33bb27881aa2afe974e722b3ce6f24de"
+                "reference": "a6aa28566cdce0a9e7ab56714ceb1aaa56e7ea64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/b669490d33bb27881aa2afe974e722b3ce6f24de",
-                "reference": "b669490d33bb27881aa2afe974e722b3ce6f24de",
+                "url": "https://api.github.com/repos/flarum/core/zipball/a6aa28566cdce0a9e7ab56714ceb1aaa56e7ea64",
+                "reference": "a6aa28566cdce0a9e7ab56714ceb1aaa56e7ea64",
                 "shasum": ""
             },
             "require": {
@@ -989,24 +989,24 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2019-06-13T07:13:31+00:00"
+            "time": "2019-06-24T12:57:13+00:00"
         },
         {
             "name": "flarum/flags",
-            "version": "v0.1.0-beta.8.1",
+            "version": "v0.1.0-beta.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/flags.git",
-                "reference": "93c72cc864b6befc641df709ca90f89adae612f6"
+                "reference": "6ed3da0a08f64603a9906163643b1f21c16a4cd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flags/zipball/93c72cc864b6befc641df709ca90f89adae612f6",
-                "reference": "93c72cc864b6befc641df709ca90f89adae612f6",
+                "url": "https://api.github.com/repos/flarum/flags/zipball/6ed3da0a08f64603a9906163643b1f21c16a4cd8",
+                "reference": "6ed3da0a08f64603a9906163643b1f21c16a4cd8",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.8"
+                "flarum/core": "^0.1.0-beta.9"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1041,7 +1041,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2018-12-03T23:46:33+00:00"
+            "time": "2019-06-24T10:02:29+00:00"
         },
         {
             "name": "flarum/flarum-ext-akismet",
@@ -3033,16 +3033,16 @@
         },
         {
             "name": "intervention/image",
-            "version": "2.4.2",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Intervention/image.git",
-                "reference": "e82d274f786e3d4b866a59b173f42e716f0783eb"
+                "reference": "39eaef720d082ecc54c64bf54541c55f10db546d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Intervention/image/zipball/e82d274f786e3d4b866a59b173f42e716f0783eb",
-                "reference": "e82d274f786e3d4b866a59b173f42e716f0783eb",
+                "url": "https://api.github.com/repos/Intervention/image/zipball/39eaef720d082ecc54c64bf54541c55f10db546d",
+                "reference": "39eaef720d082ecc54c64bf54541c55f10db546d",
                 "shasum": ""
             },
             "require": {
@@ -3099,7 +3099,7 @@
                 "thumbnail",
                 "watermark"
             ],
-            "time": "2018-05-29T14:19:03+00:00"
+            "time": "2019-06-24T14:06:31+00:00"
         },
         {
             "name": "kylekatarnls/update-helper",
