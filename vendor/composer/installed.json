@@ -4473,12 +4473,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "54d7c0d3b620f7dc60b785c08d6ad93eaed92c34"
+            "reference": "9fb3a31b5141ebf60cd10a5d7581ab645424d873"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/54d7c0d3b620f7dc60b785c08d6ad93eaed92c34",
-            "reference": "54d7c0d3b620f7dc60b785c08d6ad93eaed92c34",
+            "url": "https://api.github.com/repos/flarum/core/zipball/9fb3a31b5141ebf60cd10a5d7581ab645424d873",
+            "reference": "9fb3a31b5141ebf60cd10a5d7581ab645424d873",
             "shasum": ""
         },
         "require": {
@@ -4525,10 +4525,10 @@
             "zendframework/zend-stratigility": "^3.0"
         },
         "require-dev": {
-            "mockery/mockery": "^0.9.4",
-            "phpunit/phpunit": "^6.0"
+            "mockery/mockery": "^1.0",
+            "phpunit/phpunit": "^7.0"
         },
-        "time": "2019-06-27T19:23:54+00:00",
+        "time": "2019-07-06T00:25:06+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
