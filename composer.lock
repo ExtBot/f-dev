@@ -901,12 +901,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "ed97989ca26840a8f406c392163f4b09b8eb1a5d"
+                "reference": "1502fc98d8cf599b28683e5f8f29c1365de06378"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/ed97989ca26840a8f406c392163f4b09b8eb1a5d",
-                "reference": "ed97989ca26840a8f406c392163f4b09b8eb1a5d",
+                "url": "https://api.github.com/repos/flarum/core/zipball/1502fc98d8cf599b28683e5f8f29c1365de06378",
+                "reference": "1502fc98d8cf599b28683e5f8f29c1365de06378",
                 "shasum": ""
             },
             "require": {
@@ -976,12 +976,12 @@
             ],
             "authors": [
                 {
-                    "name": "Franz Liedke",
-                    "email": "franz@develophp.org"
-                },
-                {
                     "name": "Toby Zerner",
                     "email": "toby.zerner@gmail.com"
+                },
+                {
+                    "name": "Franz Liedke",
+                    "email": "franz@develophp.org"
                 }
             ],
             "description": "Delightfully simple forum software.",
@@ -990,7 +990,7 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2019-07-14T20:22:06+00:00"
+            "time": "2019-07-23T21:55:06+00:00"
         },
         {
             "name": "flarum/flags",
