@@ -501,17 +501,17 @@
     },
     {
         "name": "symfony/translation",
-        "version": "v3.4.29",
-        "version_normalized": "3.4.29.0",
+        "version": "v3.4.30",
+        "version_normalized": "3.4.30.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/translation.git",
-            "reference": "5c07632afb8cb14b422051b651213ed17bf7c249"
+            "reference": "2c1d800807cfaf5a2c72102f3a7452cd28a12cc0"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/translation/zipball/5c07632afb8cb14b422051b651213ed17bf7c249",
-            "reference": "5c07632afb8cb14b422051b651213ed17bf7c249",
+            "url": "https://api.github.com/repos/symfony/translation/zipball/2c1d800807cfaf5a2c72102f3a7452cd28a12cc0",
+            "reference": "2c1d800807cfaf5a2c72102f3a7452cd28a12cc0",
             "shasum": ""
         },
         "require": {
@@ -538,7 +538,7 @@
             "symfony/config": "",
             "symfony/yaml": ""
         },
-        "time": "2019-06-13T10:34:15+00:00",
+        "time": "2019-07-15T07:11:40+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -3693,17 +3693,17 @@
     },
     {
         "name": "symfony/yaml",
-        "version": "v3.4.29",
-        "version_normalized": "3.4.29.0",
+        "version": "v3.4.30",
+        "version_normalized": "3.4.30.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/yaml.git",
-            "reference": "212a27b731e5bfb735679d1ffaac82bd6a1dc996"
+            "reference": "051d045c684148060ebfc9affb7e3f5e0899d40b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/yaml/zipball/212a27b731e5bfb735679d1ffaac82bd6a1dc996",
-            "reference": "212a27b731e5bfb735679d1ffaac82bd6a1dc996",
+            "url": "https://api.github.com/repos/symfony/yaml/zipball/051d045c684148060ebfc9affb7e3f5e0899d40b",
+            "reference": "051d045c684148060ebfc9affb7e3f5e0899d40b",
             "shasum": ""
         },
         "require": {
@@ -3719,7 +3719,7 @@
         "suggest": {
             "symfony/console": "For validating YAML files using the lint command"
         },
-        "time": "2019-03-25T07:48:46+00:00",
+        "time": "2019-07-24T13:01:31+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -3806,17 +3806,17 @@
     },
     {
         "name": "symfony/config",
-        "version": "v3.4.29",
-        "version_normalized": "3.4.29.0",
+        "version": "v3.4.30",
+        "version_normalized": "3.4.30.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/config.git",
-            "reference": "29a33f66194fbe2ed4555981810f15fd8440e4a8"
+            "reference": "623fd6be3e5d4112d667003488c8c3ec12b66f62"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/config/zipball/29a33f66194fbe2ed4555981810f15fd8440e4a8",
-            "reference": "29a33f66194fbe2ed4555981810f15fd8440e4a8",
+            "url": "https://api.github.com/repos/symfony/config/zipball/623fd6be3e5d4112d667003488c8c3ec12b66f62",
+            "reference": "623fd6be3e5d4112d667003488c8c3ec12b66f62",
             "shasum": ""
         },
         "require": {
@@ -3837,7 +3837,7 @@
         "suggest": {
             "symfony/yaml": "To use the yaml reference dumper"
         },
-        "time": "2019-05-30T15:47:52+00:00",
+        "time": "2019-07-17T15:23:18+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4474,12 +4474,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "1502fc98d8cf599b28683e5f8f29c1365de06378"
+            "reference": "06cd062a1b8f63bc71ba1202c794f342e2a15269"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/1502fc98d8cf599b28683e5f8f29c1365de06378",
-            "reference": "1502fc98d8cf599b28683e5f8f29c1365de06378",
+            "url": "https://api.github.com/repos/flarum/core/zipball/06cd062a1b8f63bc71ba1202c794f342e2a15269",
+            "reference": "06cd062a1b8f63bc71ba1202c794f342e2a15269",
             "shasum": ""
         },
         "require": {
@@ -4529,7 +4529,7 @@
             "mockery/mockery": "^1.0",
             "phpunit/phpunit": "^7.0"
         },
-        "time": "2019-07-23T21:55:06+00:00",
+        "time": "2019-07-27T20:24:39+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
