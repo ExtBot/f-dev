@@ -901,12 +901,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "2c43ccf66cc0f5664f3ed684e5d00bfa253388c3"
+                "reference": "1aef3162be42c9bc253ae7fd9461fbaeb1af0713"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/2c43ccf66cc0f5664f3ed684e5d00bfa253388c3",
-                "reference": "2c43ccf66cc0f5664f3ed684e5d00bfa253388c3",
+                "url": "https://api.github.com/repos/flarum/core/zipball/1aef3162be42c9bc253ae7fd9461fbaeb1af0713",
+                "reference": "1aef3162be42c9bc253ae7fd9461fbaeb1af0713",
                 "shasum": ""
             },
             "require": {
@@ -991,7 +991,7 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2019-09-02T14:33:48+00:00"
+            "time": "2019-09-03T23:44:59+00:00"
         },
         {
             "name": "flarum/flags",
@@ -3624,9 +3624,9 @@
             "authors": [
                 {
                     "name": "Matthias Mullie",
-                    "role": "Developer",
                     "email": "minify@mullie.eu",
-                    "homepage": "http://www.mullie.eu"
+                    "homepage": "http://www.mullie.eu",
+                    "role": "Developer"
                 }
             ],
             "description": "CSS & JavaScript minifier, in PHP. Removes whitespace, strips comments, combines files (incl. @import statements and small assets in CSS files), and optimizes/shortens a few common programming patterns.",
