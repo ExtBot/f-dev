@@ -18,7 +18,7 @@ use Illuminate\Contracts\Queue\Factory;
 use Illuminate\Queue\Connectors\ConnectorInterface;
 use Illuminate\Queue\Console as Commands;
 use Illuminate\Queue\Failed\NullFailedJobProvider;
-use Illuminate\Queue\Listener;
+use Illuminate\Queue\Listener as QueueListener;
 use Illuminate\Queue\SyncQueue;
 use Illuminate\Queue\Worker;
 
@@ -27,7 +27,7 @@ class QueueServiceProvider extends AbstractServiceProvider
     protected $commands = [
         Commands\FlushFailedCommand::class,
         Commands\ForgetFailedCommand::class,
-//        Commands\ListenCommand::class,
+        Console\ListenCommand::class,
         Commands\ListFailedCommand::class,
 //        Commands\RestartCommand::class,
         Commands\RetryCommand::class,
@@ -36,6 +36,10 @@ class QueueServiceProvider extends AbstractServiceProvider
 
     public function register()
     {
+        if (! defined('ARTISAN_BINARY')) {
+            define('ARTISAN_BINARY', 'flarum');
+        }
+
         // Register a simple connection factory that always returns the same
         // connection, as that is enough for our purposes.
         $this->app->singleton(Factory::class, function () {
@@ -65,7 +69,7 @@ class QueueServiceProvider extends AbstractServiceProvider
             );
         });
 
-        $this->app->singleton(Listener::class, function ($app) {
+        $this->app->singleton(QueueListener::class, function ($app) {
             return new Listener($app->basePath());
         });
 
