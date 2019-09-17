@@ -4698,12 +4698,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "3b5691ee2807bcc917b89f86ba99f4a4725095dc"
+            "reference": "fb0a875c6daf70e2ab9ad38fe1e2bb0be8511377"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/3b5691ee2807bcc917b89f86ba99f4a4725095dc",
-            "reference": "3b5691ee2807bcc917b89f86ba99f4a4725095dc",
+            "url": "https://api.github.com/repos/flarum/core/zipball/fb0a875c6daf70e2ab9ad38fe1e2bb0be8511377",
+            "reference": "fb0a875c6daf70e2ab9ad38fe1e2bb0be8511377",
             "shasum": ""
         },
         "require": {
@@ -4754,7 +4754,7 @@
             "mockery/mockery": "^1.0",
             "phpunit/phpunit": "^7.0"
         },
-        "time": "2019-09-14T19:32:00+00:00",
+        "time": "2019-09-16T08:37:51+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4782,6 +4782,10 @@
             {
                 "name": "Franz Liedke",
                 "email": "franz@develophp.org"
+            },
+            {
+                "name": "Daniel Klabbers",
+                "email": "daniel@klabbers.email"
             }
         ],
         "description": "Delightfully simple forum software.",
