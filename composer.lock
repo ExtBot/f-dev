@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "6d2b07e8f213d4cd6fe2ab094c01e43c",
@@ -901,12 +901,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "b09ac3f3f8b0fcf752536e34d1a3c4d843a5ed9c"
+                "reference": "dc06d5b5c9659ec6b2e14d82dc835030f5c4a00b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/b09ac3f3f8b0fcf752536e34d1a3c4d843a5ed9c",
-                "reference": "b09ac3f3f8b0fcf752536e34d1a3c4d843a5ed9c",
+                "url": "https://api.github.com/repos/flarum/core/zipball/dc06d5b5c9659ec6b2e14d82dc835030f5c4a00b",
+                "reference": "dc06d5b5c9659ec6b2e14d82dc835030f5c4a00b",
                 "shasum": ""
             },
             "require": {
@@ -996,7 +996,7 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2019-10-07T07:56:10+00:00"
+            "time": "2019-10-08T13:51:19+00:00"
         },
         {
             "name": "flarum/flags",
