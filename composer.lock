@@ -911,12 +911,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "2a8ed5393477300c41c04863c0df75b5f42151bd"
+                "reference": "8cc44a695f16feed4e08fbda618fdfb4fbb15afc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/2a8ed5393477300c41c04863c0df75b5f42151bd",
-                "reference": "2a8ed5393477300c41c04863c0df75b5f42151bd",
+                "url": "https://api.github.com/repos/flarum/core/zipball/8cc44a695f16feed4e08fbda618fdfb4fbb15afc",
+                "reference": "8cc44a695f16feed4e08fbda618fdfb4fbb15afc",
                 "shasum": ""
             },
             "require": {
@@ -1006,20 +1006,20 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2019-11-24T19:01:17+00:00"
+            "time": "2019-11-26T12:23:09+00:00"
         },
         {
             "name": "flarum/flags",
-            "version": "v0.1.0-beta.9",
+            "version": "v0.1.0-beta.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/flags.git",
-                "reference": "6ed3da0a08f64603a9906163643b1f21c16a4cd8"
+                "reference": "26f64ca2e89dc3bcb21526e8358cefcf24243d3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flags/zipball/6ed3da0a08f64603a9906163643b1f21c16a4cd8",
-                "reference": "6ed3da0a08f64603a9906163643b1f21c16a4cd8",
+                "url": "https://api.github.com/repos/flarum/flags/zipball/26f64ca2e89dc3bcb21526e8358cefcf24243d3e",
+                "reference": "26f64ca2e89dc3bcb21526e8358cefcf24243d3e",
                 "shasum": ""
             },
             "require": {
@@ -1058,7 +1058,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2019-06-24T10:02:29+00:00"
+            "time": "2019-11-26T15:22:04+00:00"
         },
         {
             "name": "flarum/flarum-ext-akismet",
