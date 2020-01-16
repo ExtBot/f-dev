@@ -803,16 +803,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.7.0",
+            "version": "2.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "4c97f814aa2f0dd4d5bedc89181c10ef12c004c5"
+                "reference": "fff6f1e4f36be0e0d0b84d66b413d9dcb0c49130"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/4c97f814aa2f0dd4d5bedc89181c10ef12c004c5",
-                "reference": "4c97f814aa2f0dd4d5bedc89181c10ef12c004c5",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/fff6f1e4f36be0e0d0b84d66b413d9dcb0c49130",
+                "reference": "fff6f1e4f36be0e0d0b84d66b413d9dcb0c49130",
                 "shasum": ""
             },
             "require": {
@@ -860,7 +860,7 @@
                 "throwable",
                 "whoops"
             ],
-            "time": "2019-12-29T10:00:00+00:00"
+            "time": "2020-01-15T10:00:00+00:00"
         },
         {
             "name": "flarum/approval",
@@ -921,12 +921,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "fcbbedd884201689f29e33cb7b7dda6872da333c"
+                "reference": "1e7fbf1ed9d8f936356fba900d09b61deb3073f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/fcbbedd884201689f29e33cb7b7dda6872da333c",
-                "reference": "fcbbedd884201689f29e33cb7b7dda6872da333c",
+                "url": "https://api.github.com/repos/flarum/core/zipball/1e7fbf1ed9d8f936356fba900d09b61deb3073f6",
+                "reference": "1e7fbf1ed9d8f936356fba900d09b61deb3073f6",
                 "shasum": ""
             },
             "require": {
@@ -1017,7 +1017,7 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2020-01-10T17:18:42+00:00"
+            "time": "2020-01-14T10:45:44+00:00"
         },
         {
             "name": "flarum/flags",
