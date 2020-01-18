@@ -921,12 +921,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "1e7fbf1ed9d8f936356fba900d09b61deb3073f6"
+                "reference": "e296bbf0aa4f80bb469be1360e18987e24582b51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/1e7fbf1ed9d8f936356fba900d09b61deb3073f6",
-                "reference": "1e7fbf1ed9d8f936356fba900d09b61deb3073f6",
+                "url": "https://api.github.com/repos/flarum/core/zipball/e296bbf0aa4f80bb469be1360e18987e24582b51",
+                "reference": "e296bbf0aa4f80bb469be1360e18987e24582b51",
                 "shasum": ""
             },
             "require": {
@@ -1017,7 +1017,7 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2020-01-14T10:45:44+00:00"
+            "time": "2020-01-18T01:06:36+00:00"
         },
         {
             "name": "flarum/flags",
