@@ -922,12 +922,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "7e74f5a03c7f206014f3f091968625fc0bf29094"
+                "reference": "dce36cbeed4c0908c5db8d1f6cc060dd6caef277"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/7e74f5a03c7f206014f3f091968625fc0bf29094",
-                "reference": "7e74f5a03c7f206014f3f091968625fc0bf29094",
+                "url": "https://api.github.com/repos/flarum/core/zipball/dce36cbeed4c0908c5db8d1f6cc060dd6caef277",
+                "reference": "dce36cbeed4c0908c5db8d1f6cc060dd6caef277",
                 "shasum": ""
             },
             "require": {
@@ -1018,7 +1018,7 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2020-01-26T22:38:29+00:00"
+            "time": "2020-01-31T13:01:12+00:00"
         },
         {
             "name": "flarum/flags",
@@ -5207,16 +5207,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "e9ee09d087e2c88eaf6e5fc0f5c574f64d100e4f"
+                "reference": "f512001679f37e6a042b51897ed24a2f05eba656"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/e9ee09d087e2c88eaf6e5fc0f5c574f64d100e4f",
-                "reference": "e9ee09d087e2c88eaf6e5fc0f5c574f64d100e4f",
+                "url": "https://api.github.com/repos/symfony/console/zipball/f512001679f37e6a042b51897ed24a2f05eba656",
+                "reference": "f512001679f37e6a042b51897ed24a2f05eba656",
                 "shasum": ""
             },
             "require": {
@@ -5279,11 +5279,11 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2020-01-10T21:54:01+00:00"
+            "time": "2020-01-25T12:44:29+00:00"
         },
         {
             "name": "symfony/css-selector",
-            "version": "v5.0.3",
+            "version": "v5.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
@@ -5336,16 +5336,16 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "89c3fd5c299b940333bc6fe9f1b8db1b0912c759"
+                "reference": "20236471058bbaa9907382500fc14005c84601f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/89c3fd5c299b940333bc6fe9f1b8db1b0912c759",
-                "reference": "89c3fd5c299b940333bc6fe9f1b8db1b0912c759",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/20236471058bbaa9907382500fc14005c84601f0",
+                "reference": "20236471058bbaa9907382500fc14005c84601f0",
                 "shasum": ""
             },
             "require": {
@@ -5388,11 +5388,11 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2020-01-08T17:29:02+00:00"
+            "time": "2020-01-25T12:44:29+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -5520,7 +5520,7 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -5570,7 +5570,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -5619,16 +5619,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "c33998709f3fe9b8e27e0277535b07fbf6fde37a"
+                "reference": "491a20dfa87e0b3990170593bc2de0bb34d828a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/c33998709f3fe9b8e27e0277535b07fbf6fde37a",
-                "reference": "c33998709f3fe9b8e27e0277535b07fbf6fde37a",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/491a20dfa87e0b3990170593bc2de0bb34d828a5",
+                "reference": "491a20dfa87e0b3990170593bc2de0bb34d828a5",
                 "shasum": ""
             },
             "require": {
@@ -5670,11 +5670,11 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2020-01-04T13:00:46+00:00"
+            "time": "2020-01-31T09:11:17+00:00"
         },
         {
             "name": "symfony/mime",
-            "version": "v5.0.3",
+            "version": "v5.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
@@ -6087,7 +6087,7 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
