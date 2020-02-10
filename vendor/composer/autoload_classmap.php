@@ -12,5 +12,5 @@ return array(
     'PusherInstance' => $vendorDir . '/pusher/pusher-php-server/lib/Pusher.php',
     'TijsVerkoyen\\Akismet\\Akismet' => $vendorDir . '/tijsverkoyen/akismet/Akismet.php',
     'TijsVerkoyen\\Akismet\\Exception' => $vendorDir . '/tijsverkoyen/akismet/Exception.php',
-    'lessc' => $vendorDir . '/oyejorge/less.php/lessc.inc.php',
+    'lessc' => $vendorDir . '/wikimedia/less.php/lessc.inc.php',
 );

@@ -8,5 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'UpdateHelper\\' => array($vendorDir . '/kylekatarnls/update-helper/src'),
     'Parsedown' => array($vendorDir . '/erusev/parsedown'),
-    'Less' => array($vendorDir . '/oyejorge/less.php/lib'),
+    'Less' => array($vendorDir . '/wikimedia/less.php/lib'),
 );

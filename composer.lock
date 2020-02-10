@@ -924,12 +924,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "fc59f0fdd85f8e39d7af35fe35db8a56c9c82d72"
+                "reference": "fdfc6c0de21b18c8dad239b52b79e16a52dd6cac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/fc59f0fdd85f8e39d7af35fe35db8a56c9c82d72",
-                "reference": "fc59f0fdd85f8e39d7af35fe35db8a56c9c82d72",
+                "url": "https://api.github.com/repos/flarum/core/zipball/fdfc6c0de21b18c8dad239b52b79e16a52dd6cac",
+                "reference": "fdfc6c0de21b18c8dad239b52b79e16a52dd6cac",
                 "shasum": ""
             },
             "require": {
@@ -965,7 +965,6 @@
                 "middlewares/request-handler": "^1.2",
                 "monolog/monolog": "^1.16.0",
                 "nikic/fast-route": "^0.6",
-                "oyejorge/less.php": "^1.7",
                 "php": ">=7.1",
                 "psr/http-message": "^1.0",
                 "psr/http-server-handler": "^1.0",
@@ -976,7 +975,8 @@
                 "symfony/event-dispatcher": "^4.3.2",
                 "symfony/translation": "^3.3",
                 "symfony/yaml": "^3.3",
-                "tobscure/json-api": "^0.3.0"
+                "tobscure/json-api": "^0.3.0",
+                "wikimedia/less.php": "^2.0"
             },
             "require-dev": {
                 "mockery/mockery": "^1.0",
@@ -1020,7 +1020,7 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2020-02-07T14:35:37+00:00"
+            "time": "2020-02-09T05:46:33+00:00"
         },
         {
             "name": "flarum/flags",
@@ -4472,69 +4472,6 @@
             "time": "2019-11-29T22:36:02+00:00"
         },
         {
-            "name": "oyejorge/less.php",
-            "version": "v1.7.0.14",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/oyejorge/less.php.git",
-                "reference": "42925c5a01a07d67ca7e82dfc8fb31814d557bc9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/oyejorge/less.php/zipball/42925c5a01a07d67ca7e82dfc8fb31814d557bc9",
-                "reference": "42925c5a01a07d67ca7e82dfc8fb31814d557bc9",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.8.24"
-            },
-            "bin": [
-                "bin/lessc"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Less": "lib/"
-                },
-                "classmap": [
-                    "lessc.inc.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Matt Agar",
-                    "homepage": "https://github.com/agar"
-                },
-                {
-                    "name": "Martin Jantošovič",
-                    "homepage": "https://github.com/Mordred"
-                },
-                {
-                    "name": "Josh Schmidt",
-                    "homepage": "https://github.com/oyejorge"
-                }
-            ],
-            "description": "PHP port of the Javascript version of LESS http://lesscss.org (Originally maintained by Josh Schmidt)",
-            "homepage": "http://lessphp.gpeasy.com",
-            "keywords": [
-                "css",
-                "less",
-                "less.js",
-                "lesscss",
-                "php",
-                "stylesheet"
-            ],
-            "abandoned": true,
-            "time": "2017-03-28T22:19:25+00:00"
-        },
-        {
             "name": "paragonie/random_compat",
             "version": "v9.99.99",
             "source": {
@@ -6460,6 +6397,67 @@
                 "standard"
             ],
             "time": "2016-03-31T09:25:28+00:00"
+        },
+        {
+            "name": "wikimedia/less.php",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wikimedia/less.php.git",
+                "reference": "c1affb4d4472c9e100fc80bf456b4334862ace3c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wikimedia/less.php/zipball/c1affb4d4472c9e100fc80bf456b4334862ace3c",
+                "reference": "c1affb4d4472c9e100fc80bf456b4334862ace3c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "7.5.14"
+            },
+            "bin": [
+                "bin/lessc"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Less": "lib/"
+                },
+                "classmap": [
+                    "lessc.inc.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Schmidt",
+                    "homepage": "https://github.com/oyejorge"
+                },
+                {
+                    "name": "Matt Agar",
+                    "homepage": "https://github.com/agar"
+                },
+                {
+                    "name": "Martin Jantošovič",
+                    "homepage": "https://github.com/Mordred"
+                }
+            ],
+            "description": "PHP port of the Javascript version of LESS http://lesscss.org (Originally maintained by Josh Schmidt)",
+            "keywords": [
+                "css",
+                "less",
+                "less.js",
+                "lesscss",
+                "php",
+                "stylesheet"
+            ],
+            "time": "2020-02-04T22:36:29+00:00"
         }
     ],
     "packages-dev": [],
