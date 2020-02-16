@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     's9e\\TextFormatter\\' => array($vendorDir . '/s9e/text-formatter/src'),
+    's9e\\RegexpBuilder\\' => array($vendorDir . '/s9e/regexp-builder/src'),
     'axy\\sourcemap\\' => array($vendorDir . '/axy/sourcemap'),
     'axy\\errors\\' => array($vendorDir . '/axy/errors'),
     'axy\\codecs\\base64vlq\\' => array($vendorDir . '/axy/codecs-base64vlq'),

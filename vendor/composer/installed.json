@@ -950,12 +950,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "f87c8c6dcda461f6d6f9ed021e3624fe84e8bbf7"
+            "reference": "eaf1767008feab283ab7d82d1e8b171432e0705f"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/f87c8c6dcda461f6d6f9ed021e3624fe84e8bbf7",
-            "reference": "f87c8c6dcda461f6d6f9ed021e3624fe84e8bbf7",
+            "url": "https://api.github.com/repos/flarum/core/zipball/eaf1767008feab283ab7d82d1e8b171432e0705f",
+            "reference": "eaf1767008feab283ab7d82d1e8b171432e0705f",
             "shasum": ""
         },
         "require": {
@@ -995,7 +995,7 @@
             "psr/http-message": "^1.0",
             "psr/http-server-handler": "^1.0",
             "psr/http-server-middleware": "^1.0",
-            "s9e/text-formatter": "^1.2.0",
+            "s9e/text-formatter": "^2.2.0",
             "symfony/config": "^3.3",
             "symfony/console": "^4.2",
             "symfony/event-dispatcher": "^4.3.2",
@@ -1008,7 +1008,7 @@
             "mockery/mockery": "^1.0",
             "phpunit/phpunit": "^7.0"
         },
-        "time": "2020-02-10T22:55:40+00:00",
+        "time": "2020-02-14T17:47:58+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -5128,31 +5128,70 @@
         "description": "A polyfill for getallheaders."
     },
     {
-        "name": "s9e/text-formatter",
-        "version": "1.4.5",
-        "version_normalized": "1.4.5.0",
+        "name": "s9e/regexp-builder",
+        "version": "1.4.4",
+        "version_normalized": "1.4.4.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/s9e/TextFormatter.git",
-            "reference": "6857c53658929b66dc0d92daece17f211c64ea61"
+            "url": "https://github.com/s9e/RegexpBuilder.git",
+            "reference": "605b33841a766abd40ba3d07c15d0f62b5e7f033"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/6857c53658929b66dc0d92daece17f211c64ea61",
-            "reference": "6857c53658929b66dc0d92daece17f211c64ea61",
+            "url": "https://api.github.com/repos/s9e/RegexpBuilder/zipball/605b33841a766abd40ba3d07c15d0f62b5e7f033",
+            "reference": "605b33841a766abd40ba3d07c15d0f62b5e7f033",
+            "shasum": ""
+        },
+        "require": {
+            "lib-pcre": ">=7.2",
+            "php": ">=5.5.1"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "*"
+        },
+        "time": "2020-01-08T02:46:22+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "s9e\\RegexpBuilder\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Single-purpose library that generates regular expressions that match a list of strings.",
+        "homepage": "https://github.com/s9e/RegexpBuilder/",
+        "keywords": [
+            "regexp"
+        ]
+    },
+    {
+        "name": "s9e/text-formatter",
+        "version": "2.3.3",
+        "version_normalized": "2.3.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/s9e/TextFormatter.git",
+            "reference": "d958fd32471905fbecd2337b2e92ae131e45be94"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/d958fd32471905fbecd2337b2e92ae131e45be94",
+            "reference": "d958fd32471905fbecd2337b2e92ae131e45be94",
             "shasum": ""
         },
         "require": {
             "ext-dom": "*",
             "ext-filter": "*",
-            "lib-pcre": ">=7.2",
-            "php": ">=5.4.7"
+            "lib-pcre": ">=8.13",
+            "php": ">=7.1",
+            "s9e/regexp-builder": "^1.4"
         },
         "require-dev": {
             "matthiasmullie/minify": "*",
-            "php-coveralls/php-coveralls": "*",
-            "phpunit/phpunit": "<6",
-            "s9e/regexp-builder": "1.*"
+            "phpunit/phpunit": "*"
         },
         "suggest": {
             "ext-curl": "Improves the performance of the MediaEmbed plugin and some JavaScript minifiers",
@@ -5163,8 +5202,11 @@
             "ext-xsl": "Enables the XSLT renderer",
             "ext-zlib": "Enables gzip compression when scraping content via the MediaEmbed plugin"
         },
-        "time": "2019-06-04T15:47:55+00:00",
+        "time": "2020-01-23T19:31:06+00:00",
         "type": "library",
+        "extra": {
+            "version": "2.3.3"
+        },
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
