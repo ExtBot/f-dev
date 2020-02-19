@@ -4992,16 +4992,16 @@
         },
         {
             "name": "s9e/text-formatter",
-            "version": "2.3.3",
+            "version": "2.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/s9e/TextFormatter.git",
-                "reference": "d958fd32471905fbecd2337b2e92ae131e45be94"
+                "reference": "2e1fcc28af2131802d4a99f98840279f27f8a34f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/d958fd32471905fbecd2337b2e92ae131e45be94",
-                "reference": "d958fd32471905fbecd2337b2e92ae131e45be94",
+                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/2e1fcc28af2131802d4a99f98840279f27f8a34f",
+                "reference": "2e1fcc28af2131802d4a99f98840279f27f8a34f",
                 "shasum": ""
             },
             "require": {
@@ -5013,7 +5013,8 @@
             },
             "require-dev": {
                 "matthiasmullie/minify": "*",
-                "phpunit/phpunit": "*"
+                "phpunit/phpunit": "*",
+                "sami/sami": "4.*"
             },
             "suggest": {
                 "ext-curl": "Improves the performance of the MediaEmbed plugin and some JavaScript minifiers",
@@ -5026,7 +5027,7 @@
             },
             "type": "library",
             "extra": {
-                "version": "2.3.3"
+                "version": "2.3.4"
             },
             "autoload": {
                 "psr-4": {
@@ -5056,7 +5057,7 @@
                 "parser",
                 "shortcodes"
             ],
-            "time": "2020-01-23T19:31:06+00:00"
+            "time": "2020-02-18T15:07:13+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
