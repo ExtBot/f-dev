@@ -924,12 +924,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "eaf1767008feab283ab7d82d1e8b171432e0705f"
+                "reference": "08e40bc693cce7be02d4fb24633553c7eaf2738d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/eaf1767008feab283ab7d82d1e8b171432e0705f",
-                "reference": "eaf1767008feab283ab7d82d1e8b171432e0705f",
+                "url": "https://api.github.com/repos/flarum/core/zipball/08e40bc693cce7be02d4fb24633553c7eaf2738d",
+                "reference": "08e40bc693cce7be02d4fb24633553c7eaf2738d",
                 "shasum": ""
             },
             "require": {
@@ -969,7 +969,7 @@
                 "psr/http-message": "^1.0",
                 "psr/http-server-handler": "^1.0",
                 "psr/http-server-middleware": "^1.0",
-                "s9e/text-formatter": "^2.2.0",
+                "s9e/text-formatter": "^2.3.6",
                 "symfony/config": "^3.3",
                 "symfony/console": "^4.2",
                 "symfony/event-dispatcher": "^4.3.2",
@@ -1020,7 +1020,7 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2020-02-14T17:47:58+00:00"
+            "time": "2020-02-25T10:27:59+00:00"
         },
         {
             "name": "flarum/flags",
