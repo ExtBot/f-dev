@@ -867,21 +867,21 @@
         },
         {
             "name": "flarum/approval",
-            "version": "v0.1.0-beta.8",
+            "version": "v0.1.0-beta.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/approval.git",
-                "reference": "6ed2a7fa68f50dcee6570b90a66ed9af75c95e32"
+                "reference": "fe37dfde6bd5b7c7e019e0b23f5f3667a6fd55ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/approval/zipball/6ed2a7fa68f50dcee6570b90a66ed9af75c95e32",
-                "reference": "6ed2a7fa68f50dcee6570b90a66ed9af75c95e32",
+                "url": "https://api.github.com/repos/flarum/approval/zipball/fe37dfde6bd5b7c7e019e0b23f5f3667a6fd55ab",
+                "reference": "fe37dfde6bd5b7c7e019e0b23f5f3667a6fd55ab",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.8",
-                "flarum/flags": "^0.1.0-beta.6"
+                "flarum/core": "^0.1.0-beta.12",
+                "flarum/flags": "^0.1.0-beta.12"
             },
             "type": "flarum-extension",
             "extra": {
@@ -906,17 +906,11 @@
             "license": [
                 "MIT"
             ],
-            "authors": [
-                {
-                    "name": "Toby Zerner",
-                    "email": "toby.zerner@gmail.com"
-                }
-            ],
             "description": "Make discussions and posts require moderator approval.",
             "keywords": [
                 "moderation"
             ],
-            "time": "2018-11-21T08:27:14+00:00"
+            "time": "2020-03-03T12:15:01+00:00"
         },
         {
             "name": "flarum/core",
@@ -924,12 +918,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "0d208dc4437c0cc551c556d2c2cc7c12bda369ae"
+                "reference": "455d07059939f15bdfc7dcde1dafeca1619236f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/0d208dc4437c0cc551c556d2c2cc7c12bda369ae",
-                "reference": "0d208dc4437c0cc551c556d2c2cc7c12bda369ae",
+                "url": "https://api.github.com/repos/flarum/core/zipball/455d07059939f15bdfc7dcde1dafeca1619236f1",
+                "reference": "455d07059939f15bdfc7dcde1dafeca1619236f1",
                 "shasum": ""
             },
             "require": {
@@ -1001,16 +995,27 @@
             ],
             "authors": [
                 {
-                    "name": "Toby Zerner",
-                    "email": "toby.zerner@gmail.com"
-                },
-                {
                     "name": "Franz Liedke",
                     "email": "franz@develophp.org"
                 },
                 {
                     "name": "Daniel Klabbers",
-                    "email": "daniel@klabbers.email"
+                    "email": "daniel@klabbers.email",
+                    "homepage": "https://luceos.com"
+                },
+                {
+                    "name": "David Sevilla Martin",
+                    "email": "me+flarum@datitisev.me",
+                    "homepage": "https://datitisev.me"
+                },
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com"
+                },
+                {
+                    "name": "Matthew Kilgore",
+                    "email": "matthew@kilgore.dev"
                 }
             ],
             "description": "Delightfully simple forum software.",
@@ -1019,24 +1024,24 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2020-02-26T23:52:03+00:00"
+            "time": "2020-03-05T09:50:30+00:00"
         },
         {
             "name": "flarum/flags",
-            "version": "v0.1.0-beta.10",
+            "version": "v0.1.0-beta.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/flags.git",
-                "reference": "26f64ca2e89dc3bcb21526e8358cefcf24243d3e"
+                "reference": "6ca06f302b4fa693e5624cd29ac0c0edb8e76963"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flags/zipball/26f64ca2e89dc3bcb21526e8358cefcf24243d3e",
-                "reference": "26f64ca2e89dc3bcb21526e8358cefcf24243d3e",
+                "url": "https://api.github.com/repos/flarum/flags/zipball/6ca06f302b4fa693e5624cd29ac0c0edb8e76963",
+                "reference": "6ca06f302b4fa693e5624cd29ac0c0edb8e76963",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.9"
+                "flarum/core": "^0.1.0-beta.12"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1061,17 +1066,11 @@
             "license": [
                 "MIT"
             ],
-            "authors": [
-                {
-                    "name": "Toby Zerner",
-                    "email": "toby.zerner@gmail.com"
-                }
-            ],
             "description": "Allow users to flag posts for moderator review.",
             "keywords": [
                 "moderation"
             ],
-            "time": "2019-11-26T15:22:04+00:00"
+            "time": "2020-03-03T12:53:12+00:00"
         },
         {
             "name": "flarum/flarum-ext-akismet",
