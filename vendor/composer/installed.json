@@ -3595,17 +3595,17 @@
     },
     {
         "name": "laminas/laminas-stratigility",
-        "version": "3.2.1",
-        "version_normalized": "3.2.1.0",
+        "version": "3.2.2",
+        "version_normalized": "3.2.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/laminas/laminas-stratigility.git",
-            "reference": "2776cc08e1dd820bb68e17cd59605bdc9e5807b5"
+            "reference": "3f88aa174324bc9e6dd55715f401f9f25dbd722c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/laminas/laminas-stratigility/zipball/2776cc08e1dd820bb68e17cd59605bdc9e5807b5",
-            "reference": "2776cc08e1dd820bb68e17cd59605bdc9e5807b5",
+            "url": "https://api.github.com/repos/laminas/laminas-stratigility/zipball/3f88aa174324bc9e6dd55715f401f9f25dbd722c",
+            "reference": "3f88aa174324bc9e6dd55715f401f9f25dbd722c",
             "shasum": ""
         },
         "require": {
@@ -3620,7 +3620,7 @@
             "laminas/laminas-diactoros": "<1.7.1"
         },
         "replace": {
-            "zendframework/zend-stratigility": "self.version"
+            "zendframework/zend-stratigility": "^3.2.0"
         },
         "require-dev": {
             "laminas/laminas-coding-standard": "~1.0.0",
@@ -3631,7 +3631,7 @@
         "suggest": {
             "psr/http-message-implementation": "Please install a psr/http-message-implementation to consume Stratigility; e.g., laminas/laminas-diactoros"
         },
-        "time": "2020-01-07T21:13:38+00:00",
+        "time": "2020-03-29T13:31:02+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {

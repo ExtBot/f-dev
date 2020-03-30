@@ -6,6 +6,28 @@ Versions prior to 1.0 were originally released as `phly/conduit`; please visit
 its [CHANGELOG](https://github.com/phly/conduit/blob/master/CHANGELOG.md) for
 details.
 
+## 3.2.2 - 2020-03-29
+
+### Added
+
+- Nothing.
+
+### Changed
+
+- Nothing.
+
+### Deprecated
+
+- Nothing.
+
+### Removed
+
+- Nothing.
+
+### Fixed
+
+- Fixed `replace` version constraint in composer.json so repository can be used as replacement of `zendframework/zend-stratigility:^3.2.0`.
+
 ## 3.2.1 - 2020-01-07
 
 ### Added
