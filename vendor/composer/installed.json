@@ -944,12 +944,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "e16d57d4e257e4f35551b1124e2c6acfc35927f4"
+            "reference": "0d57820b50f38fa512a8f8572670e7603120150f"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/e16d57d4e257e4f35551b1124e2c6acfc35927f4",
-            "reference": "e16d57d4e257e4f35551b1124e2c6acfc35927f4",
+            "url": "https://api.github.com/repos/flarum/core/zipball/0d57820b50f38fa512a8f8572670e7603120150f",
+            "reference": "0d57820b50f38fa512a8f8572670e7603120150f",
             "shasum": ""
         },
         "require": {
@@ -1001,7 +1001,7 @@
             "mockery/mockery": "^1.0",
             "phpunit/phpunit": "^7.0"
         },
-        "time": "2020-04-01T12:42:05+00:00",
+        "time": "2020-04-03T19:32:18+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -3671,17 +3671,17 @@
     },
     {
         "name": "laminas/laminas-zendframework-bridge",
-        "version": "1.0.2",
-        "version_normalized": "1.0.2.0",
+        "version": "1.0.3",
+        "version_normalized": "1.0.3.0",
         "source": {
             "type": "git",
             "url": "https://github.com/laminas/laminas-zendframework-bridge.git",
-            "reference": "faf68f6109ceeff24241226033ab59640c7eb63b"
+            "reference": "bfbbdb6c998d50dbf69d2187cb78a5f1fa36e1e9"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/faf68f6109ceeff24241226033ab59640c7eb63b",
-            "reference": "faf68f6109ceeff24241226033ab59640c7eb63b",
+            "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/bfbbdb6c998d50dbf69d2187cb78a5f1fa36e1e9",
+            "reference": "bfbbdb6c998d50dbf69d2187cb78a5f1fa36e1e9",
             "shasum": ""
         },
         "require": {
@@ -3691,7 +3691,7 @@
             "phpunit/phpunit": "^5.7 || ^6.5 || ^7.5 || ^8.1",
             "squizlabs/php_codesniffer": "^3.5"
         },
-        "time": "2020-03-26T16:07:12+00:00",
+        "time": "2020-04-03T16:01:00+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
