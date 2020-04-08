@@ -944,12 +944,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "0d57820b50f38fa512a8f8572670e7603120150f"
+            "reference": "4c50c8d77ae83d5c51f01e9002a931b84ff576ea"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/0d57820b50f38fa512a8f8572670e7603120150f",
-            "reference": "0d57820b50f38fa512a8f8572670e7603120150f",
+            "url": "https://api.github.com/repos/flarum/core/zipball/4c50c8d77ae83d5c51f01e9002a931b84ff576ea",
+            "reference": "4c50c8d77ae83d5c51f01e9002a931b84ff576ea",
             "shasum": ""
         },
         "require": {
@@ -1001,7 +1001,7 @@
             "mockery/mockery": "^1.0",
             "phpunit/phpunit": "^7.0"
         },
-        "time": "2020-04-03T19:32:18+00:00",
+        "time": "2020-04-07T23:13:52+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -3359,17 +3359,17 @@
     },
     {
         "name": "kylekatarnls/update-helper",
-        "version": "1.2.0",
-        "version_normalized": "1.2.0.0",
+        "version": "1.2.1",
+        "version_normalized": "1.2.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/kylekatarnls/update-helper.git",
-            "reference": "5786fa188e0361b9adf9e8199d7280d1b2db165e"
+            "reference": "429be50660ed8a196e0798e5939760f168ec8ce9"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/kylekatarnls/update-helper/zipball/5786fa188e0361b9adf9e8199d7280d1b2db165e",
-            "reference": "5786fa188e0361b9adf9e8199d7280d1b2db165e",
+            "url": "https://api.github.com/repos/kylekatarnls/update-helper/zipball/429be50660ed8a196e0798e5939760f168ec8ce9",
+            "reference": "429be50660ed8a196e0798e5939760f168ec8ce9",
             "shasum": ""
         },
         "require": {
@@ -3381,7 +3381,7 @@
             "composer/composer": "2.0.x-dev || ^2.0.0-dev",
             "phpunit/phpunit": ">=4.8.35 <6.0"
         },
-        "time": "2019-07-29T11:03:54+00:00",
+        "time": "2020-04-07T20:44:10+00:00",
         "type": "composer-plugin",
         "extra": {
             "class": "UpdateHelper\\ComposerPlugin"
