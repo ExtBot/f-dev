@@ -9,7 +9,6 @@
 
 namespace Flarum\Locale;
 
-use Flarum\Event\ConfigureLocales;
 use Flarum\Foundation\AbstractServiceProvider;
 use Flarum\Foundation\Event\ClearingCache;
 use Flarum\Settings\SettingsRepositoryInterface;
@@ -41,8 +40,6 @@ class LocaleServiceProvider extends AbstractServiceProvider
             );
 
             $locales->addLocale($this->getDefaultLocale(), 'Default');
-
-            event(new ConfigureLocales($locales));
 
             return $locales;
         });
