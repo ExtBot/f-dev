@@ -869,21 +869,21 @@
         },
         {
             "name": "flarum/approval",
-            "version": "v0.1.0-beta.12",
+            "version": "v0.1.0-beta.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/approval.git",
-                "reference": "fe37dfde6bd5b7c7e019e0b23f5f3667a6fd55ab"
+                "reference": "a93aa0c490ea4e73ac9999b580734febcd9b97a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/approval/zipball/fe37dfde6bd5b7c7e019e0b23f5f3667a6fd55ab",
-                "reference": "fe37dfde6bd5b7c7e019e0b23f5f3667a6fd55ab",
+                "url": "https://api.github.com/repos/flarum/approval/zipball/a93aa0c490ea4e73ac9999b580734febcd9b97a5",
+                "reference": "a93aa0c490ea4e73ac9999b580734febcd9b97a5",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.12",
-                "flarum/flags": "^0.1.0-beta.12"
+                "flarum/core": "^0.1.0-beta.13",
+                "flarum/flags": "^0.1.0-beta.13"
             },
             "type": "flarum-extension",
             "extra": {
@@ -912,7 +912,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2020-03-03T12:15:01+00:00"
+            "time": "2020-05-01T11:08:43+00:00"
         },
         {
             "name": "flarum/core",
@@ -920,12 +920,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "cbdd3c5cc7bbf313e3d024924fd4b682d188db11"
+                "reference": "d31a7476312e6fb0febda21f85d3ad7973a600be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/cbdd3c5cc7bbf313e3d024924fd4b682d188db11",
-                "reference": "cbdd3c5cc7bbf313e3d024924fd4b682d188db11",
+                "url": "https://api.github.com/repos/flarum/core/zipball/d31a7476312e6fb0febda21f85d3ad7973a600be",
+                "reference": "d31a7476312e6fb0febda21f85d3ad7973a600be",
                 "shasum": ""
             },
             "require": {
@@ -1026,24 +1026,24 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2020-04-27T20:04:41+00:00"
+            "time": "2020-05-01T09:53:55+00:00"
         },
         {
             "name": "flarum/flags",
-            "version": "v0.1.0-beta.12",
+            "version": "v0.1.0-beta.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/flags.git",
-                "reference": "6ca06f302b4fa693e5624cd29ac0c0edb8e76963"
+                "reference": "dfa0b09545937b95010f63a122cdc16f9f23696c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flags/zipball/6ca06f302b4fa693e5624cd29ac0c0edb8e76963",
-                "reference": "6ca06f302b4fa693e5624cd29ac0c0edb8e76963",
+                "url": "https://api.github.com/repos/flarum/flags/zipball/dfa0b09545937b95010f63a122cdc16f9f23696c",
+                "reference": "dfa0b09545937b95010f63a122cdc16f9f23696c",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.12"
+                "flarum/core": "^0.1.0-beta.13"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1072,7 +1072,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2020-03-03T12:53:12+00:00"
+            "time": "2020-05-01T11:08:45+00:00"
         },
         {
             "name": "flarum/flarum-ext-akismet",
@@ -4992,16 +4992,16 @@
         },
         {
             "name": "s9e/text-formatter",
-            "version": "2.4.1",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/s9e/TextFormatter.git",
-                "reference": "b9e564e26f6b33d775577d24f4188ce98bb0402d"
+                "reference": "1f92145ebeba84dc3736c608d2e56cdf1c3e31fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/b9e564e26f6b33d775577d24f4188ce98bb0402d",
-                "reference": "b9e564e26f6b33d775577d24f4188ce98bb0402d",
+                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/1f92145ebeba84dc3736c608d2e56cdf1c3e31fa",
+                "reference": "1f92145ebeba84dc3736c608d2e56cdf1c3e31fa",
                 "shasum": ""
             },
             "require": {
@@ -5027,7 +5027,7 @@
             },
             "type": "library",
             "extra": {
-                "version": "2.4.1"
+                "version": "2.5.0"
             },
             "autoload": {
                 "psr-4": {
@@ -5057,7 +5057,7 @@
                 "parser",
                 "shortcodes"
             ],
-            "time": "2020-04-11T20:43:24+00:00"
+            "time": "2020-04-29T16:11:43+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
