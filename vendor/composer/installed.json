@@ -957,12 +957,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "3c87f800ddaa048d2c19ca296c8f1da9ffb3fbfa"
+            "reference": "7b1269207e156d6b4e8fdcf002b82de95c9d0c19"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/3c87f800ddaa048d2c19ca296c8f1da9ffb3fbfa",
-            "reference": "3c87f800ddaa048d2c19ca296c8f1da9ffb3fbfa",
+            "url": "https://api.github.com/repos/flarum/core/zipball/7b1269207e156d6b4e8fdcf002b82de95c9d0c19",
+            "reference": "7b1269207e156d6b4e8fdcf002b82de95c9d0c19",
             "shasum": ""
         },
         "require": {
@@ -1014,7 +1014,7 @@
             "mockery/mockery": "^1.0",
             "phpunit/phpunit": "^7.0"
         },
-        "time": "2020-05-27T16:22:08+00:00",
+        "time": "2020-05-28T22:00:44+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4432,17 +4432,17 @@
     },
     {
         "name": "nesbot/carbon",
-        "version": "2.34.2",
-        "version_normalized": "2.34.2.0",
+        "version": "2.35.0",
+        "version_normalized": "2.35.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/briannesbitt/Carbon.git",
-            "reference": "3e87404329b8072295ea11d548b47a1eefe5a162"
+            "reference": "4b9bd835261ef23d36397a46a76b496a458305e5"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/3e87404329b8072295ea11d548b47a1eefe5a162",
-            "reference": "3e87404329b8072295ea11d548b47a1eefe5a162",
+            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/4b9bd835261ef23d36397a46a76b496a458305e5",
+            "reference": "4b9bd835261ef23d36397a46a76b496a458305e5",
             "shasum": ""
         },
         "require": {
@@ -4460,7 +4460,7 @@
             "phpunit/phpunit": "^7.5 || ^8.0",
             "squizlabs/php_codesniffer": "^3.4"
         },
-        "time": "2020-05-19T22:14:16+00:00",
+        "time": "2020-05-24T18:27:52+00:00",
         "bin": [
             "bin/carbon"
         ],
@@ -6318,31 +6318,31 @@
     },
     {
         "name": "symfony/service-contracts",
-        "version": "v2.0.1",
-        "version_normalized": "2.0.1.0",
+        "version": "v2.1.2",
+        "version_normalized": "2.1.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/service-contracts.git",
-            "reference": "144c5e51266b281231e947b51223ba14acf1a749"
+            "reference": "66a8f0957a3ca54e4f724e49028ab19d75a8918b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/service-contracts/zipball/144c5e51266b281231e947b51223ba14acf1a749",
-            "reference": "144c5e51266b281231e947b51223ba14acf1a749",
+            "url": "https://api.github.com/repos/symfony/service-contracts/zipball/66a8f0957a3ca54e4f724e49028ab19d75a8918b",
+            "reference": "66a8f0957a3ca54e4f724e49028ab19d75a8918b",
             "shasum": ""
         },
         "require": {
-            "php": "^7.2.5",
+            "php": ">=7.2.5",
             "psr/container": "^1.0"
         },
         "suggest": {
             "symfony/service-implementation": ""
         },
-        "time": "2019-11-18T17:27:11+00:00",
+        "time": "2020-05-20T17:43:50+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "2.0-dev"
+                "dev-master": "2.1-dev"
             }
         },
         "installation-source": "dist",
