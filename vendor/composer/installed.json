@@ -3512,17 +3512,17 @@
     },
     {
         "name": "laminas/laminas-httphandlerrunner",
-        "version": "1.1.0",
-        "version_normalized": "1.1.0.0",
+        "version": "1.2.0",
+        "version_normalized": "1.2.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/laminas/laminas-httphandlerrunner.git",
-            "reference": "296f5ff35074dd981d1570a66b95596c81808087"
+            "reference": "e1a5dad040e0043135e8095ee27d1fbf6fb640e1"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/laminas/laminas-httphandlerrunner/zipball/296f5ff35074dd981d1570a66b95596c81808087",
-            "reference": "296f5ff35074dd981d1570a66b95596c81808087",
+            "url": "https://api.github.com/repos/laminas/laminas-httphandlerrunner/zipball/e1a5dad040e0043135e8095ee27d1fbf6fb640e1",
+            "reference": "e1a5dad040e0043135e8095ee27d1fbf6fb640e1",
             "shasum": ""
         },
         "require": {
@@ -3533,19 +3533,19 @@
             "psr/http-server-handler": "^1.0"
         },
         "replace": {
-            "zendframework/zend-httphandlerrunner": "self.version"
+            "zendframework/zend-httphandlerrunner": "^1.1.0"
         },
         "require-dev": {
             "laminas/laminas-coding-standard": "~1.0.0",
             "laminas/laminas-diactoros": "^1.7 || ^2.1.1",
             "phpunit/phpunit": "^7.0.2"
         },
-        "time": "2019-12-31T17:06:16+00:00",
+        "time": "2020-06-03T15:52:17+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "1.1.x-dev",
-                "dev-develop": "1.2.x-dev"
+                "dev-master": "1.2.x-dev",
+                "dev-develop": "1.3.x-dev"
             },
             "laminas": {
                 "config-provider": "Laminas\\HttpHandlerRunner\\ConfigProvider"
