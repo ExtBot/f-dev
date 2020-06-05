@@ -222,33 +222,35 @@
     },
     {
         "name": "dflydev/fig-cookies",
-        "version": "v1.0.2",
-        "version_normalized": "1.0.2.0",
+        "version": "v2.0.1",
+        "version_normalized": "2.0.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/dflydev/dflydev-fig-cookies.git",
-            "reference": "883233c159d00d39e940bd12cfe42c0d23420c1c"
+            "reference": "733af78ddad60aec96f7c4a1204619dd4d62afff"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/dflydev/dflydev-fig-cookies/zipball/883233c159d00d39e940bd12cfe42c0d23420c1c",
-            "reference": "883233c159d00d39e940bd12cfe42c0d23420c1c",
+            "url": "https://api.github.com/repos/dflydev/dflydev-fig-cookies/zipball/733af78ddad60aec96f7c4a1204619dd4d62afff",
+            "reference": "733af78ddad60aec96f7c4a1204619dd4d62afff",
             "shasum": ""
         },
         "require": {
-            "php": ">=5.4",
-            "psr/http-message": "~1.0"
+            "ext-pcre": "*",
+            "php": "^7.2",
+            "psr/http-message": "^1"
         },
         "require-dev": {
-            "codeclimate/php-test-reporter": "~0.1@dev",
-            "phpunit/phpunit": "~4.5",
-            "squizlabs/php_codesniffer": "~2.3"
+            "doctrine/coding-standard": "^4",
+            "phpstan/phpstan": "^0.10.1",
+            "phpunit/phpunit": "^7.2.6",
+            "squizlabs/php_codesniffer": "^3.3"
         },
-        "time": "2016-03-28T09:10:18+00:00",
+        "time": "2020-01-02T16:13:22+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "1.0.x-dev"
+                "dev-master": "2.0.x-dev"
             }
         },
         "installation-source": "dist",
@@ -957,18 +959,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "3b1f5ca07b879e1ccc2466bac8fbf343d2359e75"
+            "reference": "293e2251ca7164e6e97b27539f4ace2f6829f15c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/3b1f5ca07b879e1ccc2466bac8fbf343d2359e75",
-            "reference": "3b1f5ca07b879e1ccc2466bac8fbf343d2359e75",
+            "url": "https://api.github.com/repos/flarum/core/zipball/293e2251ca7164e6e97b27539f4ace2f6829f15c",
+            "reference": "293e2251ca7164e6e97b27539f4ace2f6829f15c",
             "shasum": ""
         },
         "require": {
             "axy/sourcemap": "^0.1.4",
             "components/font-awesome": "5.9.*",
-            "dflydev/fig-cookies": "^1.0.2",
+            "dflydev/fig-cookies": "^2.0.1",
             "doctrine/dbal": "^2.7",
             "franzl/whoops-middleware": "^0.4.0",
             "illuminate/bus": "5.8.*",
@@ -1014,7 +1016,7 @@
             "mockery/mockery": "^1.0",
             "phpunit/phpunit": "^7.0"
         },
-        "time": "2020-05-31T02:50:39+00:00",
+        "time": "2020-06-04T02:53:30+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
