@@ -933,12 +933,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "4da2994d1fab1a167406680876101d19603cc27a"
+                "reference": "b87c7189cc526cfc28e6eb207c8d19a2d8d14c06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/4da2994d1fab1a167406680876101d19603cc27a",
-                "reference": "4da2994d1fab1a167406680876101d19603cc27a",
+                "url": "https://api.github.com/repos/flarum/core/zipball/b87c7189cc526cfc28e6eb207c8d19a2d8d14c06",
+                "reference": "b87c7189cc526cfc28e6eb207c8d19a2d8d14c06",
                 "shasum": ""
             },
             "require": {
@@ -1039,7 +1039,7 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2020-06-08T21:35:24+00:00"
+            "time": "2020-06-15T04:21:06+00:00"
         },
         {
             "name": "flarum/flags",
@@ -5296,7 +5296,7 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v5.1.1",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
@@ -5688,7 +5688,7 @@
         },
         {
             "name": "symfony/mime",
-            "version": "v5.1.1",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
