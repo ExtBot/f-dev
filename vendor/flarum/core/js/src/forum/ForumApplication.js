@@ -1,6 +1,5 @@
 import History from './utils/History';
 import Pane from './utils/Pane';
-import Search from './components/Search';
 import ReplyComposer from './components/ReplyComposer';
 import DiscussionPage from './components/DiscussionPage';
 import SignUpModal from './components/SignUpModal';
@@ -14,6 +13,9 @@ import routes from './routes';
 import alertEmailConfirmation from './utils/alertEmailConfirmation';
 import Application from '../common/Application';
 import Navigation from '../common/components/Navigation';
+import NotificationListState from './states/NotificationListState';
+import GlobalSearchState from './states/GlobalSearchState';
+import DiscussionListState from './state/DiscussionListState';
 
 export default class ForumApplication extends Application {
   /**
@@ -33,13 +35,6 @@ export default class ForumApplication extends Application {
     comment: CommentPost,
     discussionRenamed: DiscussionRenamedPost,
   };
-
-  /**
-   * The page's search component instance.
-   *
-   * @type {Search}
-   */
-  search = new Search();
 
   /**
    * An object which controls the state of the page's side pane.
@@ -63,10 +58,38 @@ export default class ForumApplication extends Application {
    */
   history = new History();
 
+  /**
+   * An object which controls the state of the user's notifications.
+   *
+   * @type {NotificationListState}
+   */
+  notifications = new NotificationListState(this);
+
+  /*
+   * An object which stores previously searched queries and provides convenient
+   * tools for retrieving and managing search values.
+   *
+   * @type {GlobalSearchState}
+   */
+  search = new GlobalSearchState();
+
   constructor() {
     super();
 
     routes(this);
+
+    /**
+     * An object which controls the state of the cached discussion list, which
+     * is used in the index page and the slideout pane.
+     *
+     * @type {DiscussionListState}
+     */
+    this.discussions = new DiscussionListState({ forumApp: this });
+
+    /**
+     * @deprecated beta 14, remove in beta 15.
+     */
+    this.cache.discussionList = this.discussions;
   }
 
   /**

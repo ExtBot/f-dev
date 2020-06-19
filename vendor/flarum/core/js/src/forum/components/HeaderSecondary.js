@@ -7,6 +7,7 @@ import SelectDropdown from '../../common/components/SelectDropdown';
 import NotificationsDropdown from './NotificationsDropdown';
 import ItemList from '../../common/utils/ItemList';
 import listItems from '../../common/helpers/listItems';
+import Search from '../components/Search';
 
 /**
  * The `HeaderSecondary` component displays secondary header controls, such as
@@ -33,7 +34,7 @@ export default class HeaderSecondary extends Component {
   items() {
     const items = new ItemList();
 
-    items.add('search', app.search.render(), 30);
+    items.add('search', Search.component({ state: app.search }), 30);
 
     if (app.forum.attribute('showLanguageSelector') && Object.keys(app.data.locales).length > 1) {
       const locales = [];
@@ -67,7 +68,7 @@ export default class HeaderSecondary extends Component {
     }
 
     if (app.session.user) {
-      items.add('notifications', NotificationsDropdown.component(), 10);
+      items.add('notifications', NotificationsDropdown.component({ state: app.notifications }), 10);
       items.add('session', SessionDropdown.component(), 0);
     } else {
       if (app.forum.attribute('allowSignUp')) {
