@@ -933,12 +933,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "eaac78650ffa0cf23321fcf624172bc1bd202036"
+                "reference": "451a5575328b04992b5d76fad71d1d37a7666fa5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/eaac78650ffa0cf23321fcf624172bc1bd202036",
-                "reference": "eaac78650ffa0cf23321fcf624172bc1bd202036",
+                "url": "https://api.github.com/repos/flarum/core/zipball/451a5575328b04992b5d76fad71d1d37a7666fa5",
+                "reference": "451a5575328b04992b5d76fad71d1d37a7666fa5",
                 "shasum": ""
             },
             "require": {
@@ -1039,7 +1039,7 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2020-07-17T13:16:15+00:00"
+            "time": "2020-07-22T12:55:44+00:00"
         },
         {
             "name": "flarum/flags",
@@ -4317,16 +4317,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.25.4",
+            "version": "1.25.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "3022efff205e2448b560c833c6fbbf91c3139168"
+                "reference": "1817faadd1846cd08be9a49e905dc68823bc38c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/3022efff205e2448b560c833c6fbbf91c3139168",
-                "reference": "3022efff205e2448b560c833c6fbbf91c3139168",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/1817faadd1846cd08be9a49e905dc68823bc38c0",
+                "reference": "1817faadd1846cd08be9a49e905dc68823bc38c0",
                 "shasum": ""
             },
             "require": {
@@ -4390,7 +4390,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2020-05-22T07:31:27+00:00"
+            "time": "2020-07-23T08:35:51+00:00"
         },
         {
             "name": "nesbot/carbon",
