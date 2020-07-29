@@ -886,12 +886,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "db83003eb5b2b88005cd4c13c4db6e9e69a1f64b"
+                "reference": "8a73cc522ecbab7f82d0de3f0d9a0b89b3731aea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/db83003eb5b2b88005cd4c13c4db6e9e69a1f64b",
-                "reference": "db83003eb5b2b88005cd4c13c4db6e9e69a1f64b",
+                "url": "https://api.github.com/repos/flarum/core/zipball/8a73cc522ecbab7f82d0de3f0d9a0b89b3731aea",
+                "reference": "8a73cc522ecbab7f82d0de3f0d9a0b89b3731aea",
                 "shasum": ""
             },
             "require": {
@@ -993,7 +993,7 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2020-07-27T19:42:23+00:00"
+            "time": "2020-07-29T00:51:14+00:00"
         },
         {
             "name": "flarum/flags",
@@ -4426,16 +4426,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.36.1",
+            "version": "2.37.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "ee7378a36cc62952100e718bcc58be4c7210e55f"
+                "reference": "1f61206de973d67f36ce50f041c792ddac663c3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/ee7378a36cc62952100e718bcc58be4c7210e55f",
-                "reference": "ee7378a36cc62952100e718bcc58be4c7210e55f",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/1f61206de973d67f36ce50f041c792ddac663c3e",
+                "reference": "1f61206de973d67f36ce50f041c792ddac663c3e",
                 "shasum": ""
             },
             "require": {
@@ -4501,7 +4501,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2020-07-04T12:29:56+00:00"
+            "time": "2020-07-28T06:04:54+00:00"
         },
         {
             "name": "nikic/fast-route",
