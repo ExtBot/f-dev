@@ -2443,8 +2443,8 @@
     },
     {
         "name": "illuminate/bus",
-        "version": "v6.18.31",
-        "version_normalized": "6.18.31.0",
+        "version": "v6.18.32",
+        "version_normalized": "6.18.32.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/bus.git",
@@ -2490,8 +2490,8 @@
     },
     {
         "name": "illuminate/cache",
-        "version": "v6.18.31",
-        "version_normalized": "6.18.31.0",
+        "version": "v6.18.32",
+        "version_normalized": "6.18.32.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/cache.git",
@@ -2543,8 +2543,8 @@
     },
     {
         "name": "illuminate/config",
-        "version": "v6.18.31",
-        "version_normalized": "6.18.31.0",
+        "version": "v6.18.32",
+        "version_normalized": "6.18.32.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/config.git",
@@ -2589,8 +2589,8 @@
     },
     {
         "name": "illuminate/console",
-        "version": "v6.18.31",
-        "version_normalized": "6.18.31.0",
+        "version": "v6.18.32",
+        "version_normalized": "6.18.32.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/console.git",
@@ -2645,8 +2645,8 @@
     },
     {
         "name": "illuminate/container",
-        "version": "v6.18.31",
-        "version_normalized": "6.18.31.0",
+        "version": "v6.18.32",
+        "version_normalized": "6.18.32.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/container.git",
@@ -2691,8 +2691,8 @@
     },
     {
         "name": "illuminate/contracts",
-        "version": "v6.18.31",
-        "version_normalized": "6.18.31.0",
+        "version": "v6.18.32",
+        "version_normalized": "6.18.32.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/contracts.git",
@@ -2737,8 +2737,8 @@
     },
     {
         "name": "illuminate/database",
-        "version": "v6.18.31",
-        "version_normalized": "6.18.31.0",
+        "version": "v6.18.32",
+        "version_normalized": "6.18.32.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/database.git",
@@ -2800,8 +2800,8 @@
     },
     {
         "name": "illuminate/events",
-        "version": "v6.18.31",
-        "version_normalized": "6.18.31.0",
+        "version": "v6.18.32",
+        "version_normalized": "6.18.32.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/events.git",
@@ -2847,8 +2847,8 @@
     },
     {
         "name": "illuminate/filesystem",
-        "version": "v6.18.31",
-        "version_normalized": "6.18.31.0",
+        "version": "v6.18.32",
+        "version_normalized": "6.18.32.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/filesystem.git",
@@ -2902,8 +2902,8 @@
     },
     {
         "name": "illuminate/hashing",
-        "version": "v6.18.31",
-        "version_normalized": "6.18.31.0",
+        "version": "v6.18.32",
+        "version_normalized": "6.18.32.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/hashing.git",
@@ -2948,8 +2948,8 @@
     },
     {
         "name": "illuminate/mail",
-        "version": "v6.18.31",
-        "version_normalized": "6.18.31.0",
+        "version": "v6.18.32",
+        "version_normalized": "6.18.32.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/mail.git",
@@ -3005,8 +3005,8 @@
     },
     {
         "name": "illuminate/pipeline",
-        "version": "v6.18.31",
-        "version_normalized": "6.18.31.0",
+        "version": "v6.18.32",
+        "version_normalized": "6.18.32.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/pipeline.git",
@@ -3052,8 +3052,8 @@
     },
     {
         "name": "illuminate/queue",
-        "version": "v6.18.31",
-        "version_normalized": "6.18.31.0",
+        "version": "v6.18.32",
+        "version_normalized": "6.18.32.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/queue.git",
@@ -3114,8 +3114,8 @@
     },
     {
         "name": "illuminate/session",
-        "version": "v6.18.31",
-        "version_normalized": "6.18.31.0",
+        "version": "v6.18.32",
+        "version_normalized": "6.18.32.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/session.git",
@@ -3167,8 +3167,8 @@
     },
     {
         "name": "illuminate/support",
-        "version": "v6.18.31",
-        "version_normalized": "6.18.31.0",
+        "version": "v6.18.32",
+        "version_normalized": "6.18.32.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/support.git",
@@ -3230,8 +3230,8 @@
     },
     {
         "name": "illuminate/translation",
-        "version": "v6.18.31",
-        "version_normalized": "6.18.31.0",
+        "version": "v6.18.32",
+        "version_normalized": "6.18.32.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/translation.git",
@@ -3278,17 +3278,17 @@
     },
     {
         "name": "illuminate/validation",
-        "version": "v6.18.31",
-        "version_normalized": "6.18.31.0",
+        "version": "v6.18.32",
+        "version_normalized": "6.18.32.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/validation.git",
-            "reference": "183848ce1b7ee81b5beca40c167a058ad783de3d"
+            "reference": "4eae57e1345d5bdf24060920656a09ff5ca2ae98"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/validation/zipball/183848ce1b7ee81b5beca40c167a058ad783de3d",
-            "reference": "183848ce1b7ee81b5beca40c167a058ad783de3d",
+            "url": "https://api.github.com/repos/illuminate/validation/zipball/4eae57e1345d5bdf24060920656a09ff5ca2ae98",
+            "reference": "4eae57e1345d5bdf24060920656a09ff5ca2ae98",
             "shasum": ""
         },
         "require": {
@@ -3304,7 +3304,7 @@
         "suggest": {
             "illuminate/database": "Required to use the database presence verifier (^6.0)."
         },
-        "time": "2020-07-10T15:55:37+00:00",
+        "time": "2020-07-31T13:35:50+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -3332,8 +3332,8 @@
     },
     {
         "name": "illuminate/view",
-        "version": "v6.18.31",
-        "version_normalized": "6.18.31.0",
+        "version": "v6.18.32",
+        "version_normalized": "6.18.32.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/view.git",
@@ -4575,17 +4575,17 @@
     },
     {
         "name": "nesbot/carbon",
-        "version": "2.37.0",
-        "version_normalized": "2.37.0.0",
+        "version": "2.38.0",
+        "version_normalized": "2.38.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/briannesbitt/Carbon.git",
-            "reference": "1f61206de973d67f36ce50f041c792ddac663c3e"
+            "reference": "d8f6a6a91d1eb9304527b040500f61923e97674b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/1f61206de973d67f36ce50f041c792ddac663c3e",
-            "reference": "1f61206de973d67f36ce50f041c792ddac663c3e",
+            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/d8f6a6a91d1eb9304527b040500f61923e97674b",
+            "reference": "d8f6a6a91d1eb9304527b040500f61923e97674b",
             "shasum": ""
         },
         "require": {
@@ -4600,11 +4600,11 @@
             "kylekatarnls/multi-tester": "^2.0",
             "phpmd/phpmd": "^2.8",
             "phpstan/extension-installer": "^1.0",
-            "phpstan/phpstan": "^0.12.30",
+            "phpstan/phpstan": "^0.12.35",
             "phpunit/phpunit": "^7.5 || ^8.0",
             "squizlabs/php_codesniffer": "^3.4"
         },
-        "time": "2020-07-28T06:04:54+00:00",
+        "time": "2020-08-04T19:12:46+00:00",
         "bin": [
             "bin/carbon"
         ],
@@ -6154,8 +6154,8 @@
     },
     {
         "name": "symfony/polyfill-ctype",
-        "version": "v1.18.0",
-        "version_normalized": "1.18.0.0",
+        "version": "v1.18.1",
+        "version_normalized": "1.18.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -6218,8 +6218,8 @@
     },
     {
         "name": "symfony/polyfill-iconv",
-        "version": "v1.18.0",
-        "version_normalized": "1.18.0.0",
+        "version": "v1.18.1",
+        "version_normalized": "1.18.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-iconv.git",
@@ -6283,17 +6283,17 @@
     },
     {
         "name": "symfony/polyfill-intl-idn",
-        "version": "v1.18.0",
-        "version_normalized": "1.18.0.0",
+        "version": "v1.18.1",
+        "version_normalized": "1.18.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-intl-idn.git",
-            "reference": "bc6549d068d0160e0f10f7a5a23c7d1406b95ebe"
+            "reference": "5dcab1bc7146cf8c1beaa4502a3d9be344334251"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/bc6549d068d0160e0f10f7a5a23c7d1406b95ebe",
-            "reference": "bc6549d068d0160e0f10f7a5a23c7d1406b95ebe",
+            "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/5dcab1bc7146cf8c1beaa4502a3d9be344334251",
+            "reference": "5dcab1bc7146cf8c1beaa4502a3d9be344334251",
             "shasum": ""
         },
         "require": {
@@ -6305,7 +6305,7 @@
         "suggest": {
             "ext-intl": "For best performance"
         },
-        "time": "2020-07-14T12:35:20+00:00",
+        "time": "2020-08-04T06:02:08+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -6356,8 +6356,8 @@
     },
     {
         "name": "symfony/polyfill-intl-normalizer",
-        "version": "v1.18.0",
-        "version_normalized": "1.18.0.0",
+        "version": "v1.18.1",
+        "version_normalized": "1.18.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
@@ -6425,8 +6425,8 @@
     },
     {
         "name": "symfony/polyfill-mbstring",
-        "version": "v1.18.0",
-        "version_normalized": "1.18.0.0",
+        "version": "v1.18.1",
+        "version_normalized": "1.18.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -6490,8 +6490,8 @@
     },
     {
         "name": "symfony/polyfill-php70",
-        "version": "v1.18.0",
-        "version_normalized": "1.18.0.0",
+        "version": "v1.18.1",
+        "version_normalized": "1.18.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-php70.git",
@@ -6555,8 +6555,8 @@
     },
     {
         "name": "symfony/polyfill-php72",
-        "version": "v1.18.0",
-        "version_normalized": "1.18.0.0",
+        "version": "v1.18.1",
+        "version_normalized": "1.18.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-php72.git",
@@ -6616,8 +6616,8 @@
     },
     {
         "name": "symfony/polyfill-php73",
-        "version": "v1.18.0",
-        "version_normalized": "1.18.0.0",
+        "version": "v1.18.1",
+        "version_normalized": "1.18.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-php73.git",
@@ -6680,8 +6680,8 @@
     },
     {
         "name": "symfony/polyfill-php80",
-        "version": "v1.18.0",
-        "version_normalized": "1.18.0.0",
+        "version": "v1.18.1",
+        "version_normalized": "1.18.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-php80.git",
