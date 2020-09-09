@@ -2276,7 +2276,7 @@
         },
         {
             "name": "illuminate/bus",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
@@ -2321,7 +2321,7 @@
         },
         {
             "name": "illuminate/cache",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cache.git",
@@ -2372,7 +2372,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -2416,7 +2416,7 @@
         },
         {
             "name": "illuminate/console",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
@@ -2470,7 +2470,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -2514,7 +2514,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -2558,16 +2558,16 @@
         },
         {
             "name": "illuminate/database",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "89dfc65582205a9d92ab28de4f6f3fc161d67f20"
+                "reference": "513777f382c080c6c172e2d6d43e7ad9b9cdea7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/89dfc65582205a9d92ab28de4f6f3fc161d67f20",
-                "reference": "89dfc65582205a9d92ab28de4f6f3fc161d67f20",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/513777f382c080c6c172e2d6d43e7ad9b9cdea7b",
+                "reference": "513777f382c080c6c172e2d6d43e7ad9b9cdea7b",
                 "shasum": ""
             },
             "require": {
@@ -2615,11 +2615,11 @@
                 "orm",
                 "sql"
             ],
-            "time": "2020-08-31T13:21:53+00:00"
+            "time": "2020-09-07T02:44:31+00:00"
         },
         {
             "name": "illuminate/events",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -2664,7 +2664,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -2717,7 +2717,7 @@
         },
         {
             "name": "illuminate/hashing",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/hashing.git",
@@ -2761,7 +2761,7 @@
         },
         {
             "name": "illuminate/mail",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/mail.git",
@@ -2816,7 +2816,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -2861,7 +2861,7 @@
         },
         {
             "name": "illuminate/queue",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/queue.git",
@@ -2921,7 +2921,7 @@
         },
         {
             "name": "illuminate/session",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/session.git",
@@ -2972,7 +2972,7 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
@@ -3033,16 +3033,16 @@
         },
         {
             "name": "illuminate/translation",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/translation.git",
-                "reference": "4c9b20d6a7580730ecfbadbaab154f43999ca39e"
+                "reference": "ee660e8dae7f66829effd874ff2da115e679397f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/translation/zipball/4c9b20d6a7580730ecfbadbaab154f43999ca39e",
-                "reference": "4c9b20d6a7580730ecfbadbaab154f43999ca39e",
+                "url": "https://api.github.com/repos/illuminate/translation/zipball/ee660e8dae7f66829effd874ff2da115e679397f",
+                "reference": "ee660e8dae7f66829effd874ff2da115e679397f",
                 "shasum": ""
             },
             "require": {
@@ -3075,11 +3075,11 @@
             ],
             "description": "The Illuminate Translation package.",
             "homepage": "https://laravel.com",
-            "time": "2020-08-13T14:33:00+00:00"
+            "time": "2020-09-04T13:24:42+00:00"
         },
         {
             "name": "illuminate/validation",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/validation.git",
@@ -3131,7 +3131,7 @@
         },
         {
             "name": "illuminate/view",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
@@ -6532,16 +6532,16 @@
         },
         {
             "name": "symfony/service-contracts",
-            "version": "v2.1.3",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "58c7475e5457c5492c26cc740cc0ad7464be9442"
+                "reference": "d15da7ba4957ffb8f1747218be9e1a121fd298a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/58c7475e5457c5492c26cc740cc0ad7464be9442",
-                "reference": "58c7475e5457c5492c26cc740cc0ad7464be9442",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/d15da7ba4957ffb8f1747218be9e1a121fd298a1",
+                "reference": "d15da7ba4957ffb8f1747218be9e1a121fd298a1",
                 "shasum": ""
             },
             "require": {
@@ -6554,7 +6554,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -6590,7 +6590,7 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2020-07-06T13:23:11+00:00"
+            "time": "2020-09-07T11:33:47+00:00"
         },
         {
             "name": "symfony/translation",
