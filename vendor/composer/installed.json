@@ -3833,17 +3833,17 @@
     },
     {
         "name": "league/mime-type-detection",
-        "version": "1.4.0",
-        "version_normalized": "1.4.0.0",
+        "version": "1.5.0",
+        "version_normalized": "1.5.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/thephpleague/mime-type-detection.git",
-            "reference": "fda190b62b962d96a069fcc414d781db66d65b69"
+            "reference": "ea2fbfc988bade315acd5967e6d02274086d0f28"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/fda190b62b962d96a069fcc414d781db66d65b69",
-            "reference": "fda190b62b962d96a069fcc414d781db66d65b69",
+            "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/ea2fbfc988bade315acd5967e6d02274086d0f28",
+            "reference": "ea2fbfc988bade315acd5967e6d02274086d0f28",
             "shasum": ""
         },
         "require": {
@@ -3854,7 +3854,7 @@
             "phpstan/phpstan": "^0.12.36",
             "phpunit/phpunit": "^8.5.8"
         },
-        "time": "2020-08-09T10:34:01+00:00",
+        "time": "2020-09-21T18:10:53+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -5351,17 +5351,17 @@
     },
     {
         "name": "s9e/text-formatter",
-        "version": "2.7.4",
-        "version_normalized": "2.7.4.0",
+        "version": "2.7.5",
+        "version_normalized": "2.7.5.0",
         "source": {
             "type": "git",
             "url": "https://github.com/s9e/TextFormatter.git",
-            "reference": "9a8e77826604e24deacbd280c2543b68b4ff2a84"
+            "reference": "6dd4aa5164e7cda62c52fc7f1f99bbfb59529af1"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/9a8e77826604e24deacbd280c2543b68b4ff2a84",
-            "reference": "9a8e77826604e24deacbd280c2543b68b4ff2a84",
+            "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/6dd4aa5164e7cda62c52fc7f1f99bbfb59529af1",
+            "reference": "6dd4aa5164e7cda62c52fc7f1f99bbfb59529af1",
             "shasum": ""
         },
         "require": {
@@ -5373,9 +5373,9 @@
             "s9e/sweetdom": "^1.0"
         },
         "require-dev": {
+            "code-lts/doctum": "*",
             "matthiasmullie/minify": "*",
-            "phpunit/phpunit": "*",
-            "sami/sami": "4.*"
+            "phpunit/phpunit": "*"
         },
         "suggest": {
             "ext-curl": "Improves the performance of the MediaEmbed plugin and some JavaScript minifiers",
@@ -5386,10 +5386,10 @@
             "ext-xsl": "Enables the XSLT renderer",
             "ext-zlib": "Enables gzip compression when scraping content via the MediaEmbed plugin"
         },
-        "time": "2020-08-20T04:29:09+00:00",
+        "time": "2020-09-21T19:31:04+00:00",
         "type": "library",
         "extra": {
-            "version": "2.7.4"
+            "version": "2.7.5"
         },
         "installation-source": "dist",
         "autoload": {
@@ -5401,7 +5401,7 @@
         "license": [
             "MIT"
         ],
-        "description": "Multi-purpose text formatting and markup library. Plugins offer support for BBCodes, Markdown, emoticons, HTML, embedding media (YouTube, etc...), enhanced typography and more.",
+        "description": "Multi-purpose text formatting and markup library. Plugins offer support for BBCodes, Markdown, emoticons, HTML, embedding third-party media (YouTube, etc...), enhanced typography and more.",
         "homepage": "https://github.com/s9e/TextFormatter/",
         "keywords": [
             "bbcode",
