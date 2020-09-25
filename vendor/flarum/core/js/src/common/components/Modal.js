@@ -14,23 +14,17 @@ export default class Modal extends Component {
    */
   static isDismissible = true;
 
-  init() {
-    /**
-     * Attributes for an alert component to show below the header.
-     *
-     * @type {object}
-     */
-    this.alertAttrs = null;
-  }
+  /**
+   * Attributes for an alert component to show below the header.
+   *
+   * @type {object}
+   */
+  alertAttrs = null;
 
-  config(isInitialized, context) {
-    if (isInitialized) return;
+  oncreate(vnode) {
+    super.oncreate(vnode);
 
-    this.props.onshow(() => this.onready());
-
-    context.onunload = () => {
-      this.props.onhide();
-    };
+    this.attrs.onshow(() => this.onready());
   }
 
   view() {
@@ -109,7 +103,7 @@ export default class Modal extends Component {
    * Hide the modal.
    */
   hide() {
-    this.props.onhide();
+    this.attrs.onhide();
   }
 
   /**
