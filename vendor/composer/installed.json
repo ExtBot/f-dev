@@ -910,12 +910,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "67962f48e5676bd5904bab988b61557925169950"
+            "reference": "c6f2ff0c80a8889dbd987cdaaa3046e7b6ee0295"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/67962f48e5676bd5904bab988b61557925169950",
-            "reference": "67962f48e5676bd5904bab988b61557925169950",
+            "url": "https://api.github.com/repos/flarum/core/zipball/c6f2ff0c80a8889dbd987cdaaa3046e7b6ee0295",
+            "reference": "c6f2ff0c80a8889dbd987cdaaa3046e7b6ee0295",
             "shasum": ""
         },
         "require": {
@@ -968,7 +968,7 @@
             "mockery/mockery": "^1.0",
             "phpunit/phpunit": "^7.0"
         },
-        "time": "2020-10-03T22:48:56+00:00",
+        "time": "2020-10-04T20:11:39+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1189,19 +1189,19 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/auth-facebook.git",
-            "reference": "1088a2dd77384fe6e725367ab66e5d2b64094724"
+            "reference": "f901360fe8d57be8e3661643b982dd66e067ef68"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/auth-facebook/zipball/1088a2dd77384fe6e725367ab66e5d2b64094724",
-            "reference": "1088a2dd77384fe6e725367ab66e5d2b64094724",
+            "url": "https://api.github.com/repos/flarum/auth-facebook/zipball/f901360fe8d57be8e3661643b982dd66e067ef68",
+            "reference": "f901360fe8d57be8e3661643b982dd66e067ef68",
             "shasum": ""
         },
         "require": {
-            "flarum/core": "^0.1.0-beta.8",
+            "flarum/core": "^0.1.0-beta.13",
             "league/oauth2-facebook": "^2.0"
         },
-        "time": "2018-12-03T23:46:32+00:00",
+        "time": "2020-07-30T23:09:03+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1225,12 +1225,6 @@
         "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Toby Zerner",
-                "email": "toby.zerner@gmail.com"
-            }
         ],
         "description": "Allow users to log in with Facebook.",
         "keywords": [
@@ -5552,8 +5546,8 @@
     },
     {
         "name": "symfony/console",
-        "version": "v4.4.14",
-        "version_normalized": "4.4.14.0",
+        "version": "v4.4.15",
+        "version_normalized": "4.4.15.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/console.git",
@@ -5631,8 +5625,8 @@
     },
     {
         "name": "symfony/css-selector",
-        "version": "v5.1.6",
-        "version_normalized": "5.1.6.0",
+        "version": "v5.1.7",
+        "version_normalized": "5.1.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/css-selector.git",
@@ -5686,8 +5680,8 @@
     },
     {
         "name": "symfony/debug",
-        "version": "v4.4.14",
-        "version_normalized": "4.4.14.0",
+        "version": "v4.4.15",
+        "version_normalized": "4.4.15.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/debug.git",
@@ -5745,8 +5739,8 @@
     },
     {
         "name": "symfony/event-dispatcher",
-        "version": "v4.4.14",
-        "version_normalized": "4.4.14.0",
+        "version": "v4.4.15",
+        "version_normalized": "4.4.15.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/event-dispatcher.git",
@@ -5882,24 +5876,24 @@
     },
     {
         "name": "symfony/filesystem",
-        "version": "v4.4.14",
-        "version_normalized": "4.4.14.0",
+        "version": "v4.4.15",
+        "version_normalized": "4.4.15.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/filesystem.git",
-            "reference": "0d386979828c15d37ff936bf9bae2ecbfa36d7dc"
+            "reference": "ebc51494739d3b081ea543ed7c462fa73a4f74db"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/filesystem/zipball/0d386979828c15d37ff936bf9bae2ecbfa36d7dc",
-            "reference": "0d386979828c15d37ff936bf9bae2ecbfa36d7dc",
+            "url": "https://api.github.com/repos/symfony/filesystem/zipball/ebc51494739d3b081ea543ed7c462fa73a4f74db",
+            "reference": "ebc51494739d3b081ea543ed7c462fa73a4f74db",
             "shasum": ""
         },
         "require": {
             "php": ">=7.1.3",
             "symfony/polyfill-ctype": "~1.8"
         },
-        "time": "2020-09-02T16:08:58+00:00",
+        "time": "2020-09-27T13:54:16+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -5934,23 +5928,23 @@
     },
     {
         "name": "symfony/finder",
-        "version": "v4.4.14",
-        "version_normalized": "4.4.14.0",
+        "version": "v4.4.15",
+        "version_normalized": "4.4.15.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/finder.git",
-            "reference": "5ef0f6c609c1a36f723880dfe78301199bc96868"
+            "reference": "60d08560f9aa72997c44077c40d47aa28a963230"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/finder/zipball/5ef0f6c609c1a36f723880dfe78301199bc96868",
-            "reference": "5ef0f6c609c1a36f723880dfe78301199bc96868",
+            "url": "https://api.github.com/repos/symfony/finder/zipball/60d08560f9aa72997c44077c40d47aa28a963230",
+            "reference": "60d08560f9aa72997c44077c40d47aa28a963230",
             "shasum": ""
         },
         "require": {
             "php": ">=7.1.3"
         },
-        "time": "2020-09-02T16:08:58+00:00",
+        "time": "2020-10-02T07:34:48+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -5985,17 +5979,17 @@
     },
     {
         "name": "symfony/http-foundation",
-        "version": "v4.4.14",
-        "version_normalized": "4.4.14.0",
+        "version": "v4.4.15",
+        "version_normalized": "4.4.15.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/http-foundation.git",
-            "reference": "ff509ca7a73641bdbd7b56169a9004e64a58451d"
+            "reference": "10683b407c3b6087c64619ebc97a87e36ea62c92"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/http-foundation/zipball/ff509ca7a73641bdbd7b56169a9004e64a58451d",
-            "reference": "ff509ca7a73641bdbd7b56169a9004e64a58451d",
+            "url": "https://api.github.com/repos/symfony/http-foundation/zipball/10683b407c3b6087c64619ebc97a87e36ea62c92",
+            "reference": "10683b407c3b6087c64619ebc97a87e36ea62c92",
             "shasum": ""
         },
         "require": {
@@ -6007,7 +6001,7 @@
             "predis/predis": "~1.0",
             "symfony/expression-language": "^3.4|^4.0|^5.0"
         },
-        "time": "2020-09-13T05:00:26+00:00",
+        "time": "2020-09-27T14:14:06+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -6042,8 +6036,8 @@
     },
     {
         "name": "symfony/mime",
-        "version": "v5.1.6",
-        "version_normalized": "5.1.6.0",
+        "version": "v5.1.7",
+        "version_normalized": "5.1.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/mime.git",
@@ -6701,8 +6695,8 @@
     },
     {
         "name": "symfony/process",
-        "version": "v4.4.14",
-        "version_normalized": "4.4.14.0",
+        "version": "v4.4.15",
+        "version_normalized": "4.4.15.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/process.git",

@@ -3,10 +3,8 @@
 /*
  * This file is part of Flarum.
  *
- * (c) Toby Zerner <toby.zerner@gmail.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
+ * For detailed copyright and license information, please view the
+ * LICENSE file that was distributed with this source code.
  */
 
 namespace Flarum\Auth\Facebook;
@@ -14,13 +12,14 @@ namespace Flarum\Auth\Facebook;
 use Exception;
 use Flarum\Forum\Auth\Registration;
 use Flarum\Forum\Auth\ResponseFactory;
+use Flarum\Http\UrlGenerator;
 use Flarum\Settings\SettingsRepositoryInterface;
+use Laminas\Diactoros\Response\RedirectResponse;
 use League\OAuth2\Client\Provider\Facebook;
 use League\OAuth2\Client\Provider\FacebookUser;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Psr\Http\Server\RequestHandlerInterface;
-use Zend\Diactoros\Response\RedirectResponse;
 
 class FacebookAuthController implements RequestHandlerInterface
 {
@@ -35,12 +34,20 @@ class FacebookAuthController implements RequestHandlerInterface
     protected $settings;
 
     /**
-     * @param ResponseFactory $response
+     * @var UrlGenerator
      */
-    public function __construct(ResponseFactory $response, SettingsRepositoryInterface $settings)
+    protected $url;
+
+    /**
+     * @param ResponseFactory $response
+     * @param SettingsRepositoryInterface $settings
+     * @param UrlGenerator $url
+     */
+    public function __construct(ResponseFactory $response, SettingsRepositoryInterface $settings, UrlGenerator $url)
     {
         $this->response = $response;
         $this->settings = $settings;
+        $this->url = $url;
     }
 
     /**
@@ -51,7 +58,7 @@ class FacebookAuthController implements RequestHandlerInterface
      */
     public function handle(Request $request): ResponseInterface
     {
-        $redirectUri = (string) $request->getAttribute('originalUri', $request->getUri())->withQuery('');
+        $redirectUri = $this->url->to('forum')->route('auth.facebook');
 
         $provider = new Facebook([
             'clientId' => $this->settings->get('flarum-auth-facebook.app_id'),
@@ -86,7 +93,8 @@ class FacebookAuthController implements RequestHandlerInterface
         $user = $provider->getResourceOwner($token);
 
         return $this->response->make(
-            'facebook', $user->getId(),
+            'facebook',
+            $user->getId(),
             function (Registration $registration) use ($user) {
                 $registration
                     ->provideTrustedEmail($user->getEmail())
