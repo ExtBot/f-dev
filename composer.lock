@@ -835,21 +835,21 @@
         },
         {
             "name": "flarum/approval",
-            "version": "v0.1.0-beta.13",
+            "version": "v0.1.0-beta.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/approval.git",
-                "reference": "a93aa0c490ea4e73ac9999b580734febcd9b97a5"
+                "reference": "28960560bd28b8a4dc5f33e6b8b651720cc32b74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/approval/zipball/a93aa0c490ea4e73ac9999b580734febcd9b97a5",
-                "reference": "a93aa0c490ea4e73ac9999b580734febcd9b97a5",
+                "url": "https://api.github.com/repos/flarum/approval/zipball/28960560bd28b8a4dc5f33e6b8b651720cc32b74",
+                "reference": "28960560bd28b8a4dc5f33e6b8b651720cc32b74",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.13",
-                "flarum/flags": "^0.1.0-beta.13"
+                "flarum/core": "^0.1.0-beta.14",
+                "flarum/flags": "^0.1.0-beta.14"
             },
             "type": "flarum-extension",
             "extra": {
@@ -878,7 +878,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2020-05-01T11:08:43+00:00"
+            "time": "2020-10-14T14:50:51+00:00"
         },
         {
             "name": "flarum/core",
@@ -886,12 +886,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "a3bd431503a6abfbd9e6639336ff437d4819a704"
+                "reference": "d53eeded44367e5d0b0c14359223c4c0cdfc2579"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/a3bd431503a6abfbd9e6639336ff437d4819a704",
-                "reference": "a3bd431503a6abfbd9e6639336ff437d4819a704",
+                "url": "https://api.github.com/repos/flarum/core/zipball/d53eeded44367e5d0b0c14359223c4c0cdfc2579",
+                "reference": "d53eeded44367e5d0b0c14359223c4c0cdfc2579",
                 "shasum": ""
             },
             "require": {
@@ -993,24 +993,24 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2020-10-14T09:39:52+00:00"
+            "time": "2020-10-16T20:32:13+00:00"
         },
         {
             "name": "flarum/flags",
-            "version": "v0.1.0-beta.13",
+            "version": "v0.1.0-beta.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/flags.git",
-                "reference": "dfa0b09545937b95010f63a122cdc16f9f23696c"
+                "reference": "4822f7b612f845f552b54202cd7a06f84048d603"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flags/zipball/dfa0b09545937b95010f63a122cdc16f9f23696c",
-                "reference": "dfa0b09545937b95010f63a122cdc16f9f23696c",
+                "url": "https://api.github.com/repos/flarum/flags/zipball/4822f7b612f845f552b54202cd7a06f84048d603",
+                "reference": "4822f7b612f845f552b54202cd7a06f84048d603",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.13"
+                "flarum/core": "^0.1.0-beta.14"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1039,7 +1039,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2020-05-01T11:08:45+00:00"
+            "time": "2020-10-15T11:55:23+00:00"
         },
         {
             "name": "flarum/flarum-ext-akismet",
@@ -4555,20 +4555,20 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v9.99.99",
+            "version": "v9.99.100",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95"
+                "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95",
-                "reference": "84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/996434e5492cb4c3edcb9168db6fbb1359ef965a",
+                "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a",
                 "shasum": ""
             },
             "require": {
-                "php": "^7"
+                "php": ">= 7"
             },
             "require-dev": {
                 "phpunit/phpunit": "4.*|5.*",
@@ -4596,7 +4596,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2018-07-02T15:55:56+00:00"
+            "time": "2020-10-15T08:29:30+00:00"
         },
         {
             "name": "psr/container",
