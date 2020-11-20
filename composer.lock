@@ -2271,7 +2271,7 @@
         },
         {
             "name": "illuminate/bus",
-            "version": "v6.20.3",
+            "version": "v6.20.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
@@ -2316,7 +2316,7 @@
         },
         {
             "name": "illuminate/cache",
-            "version": "v6.20.3",
+            "version": "v6.20.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cache.git",
@@ -2367,7 +2367,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v6.20.3",
+            "version": "v6.20.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -2411,7 +2411,7 @@
         },
         {
             "name": "illuminate/console",
-            "version": "v6.20.3",
+            "version": "v6.20.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
@@ -2465,7 +2465,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v6.20.3",
+            "version": "v6.20.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -2509,7 +2509,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v6.20.3",
+            "version": "v6.20.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -2553,16 +2553,16 @@
         },
         {
             "name": "illuminate/database",
-            "version": "v6.20.3",
+            "version": "v6.20.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "a6c18dc33024a1190905b94b2718b38b8c9321d3"
+                "reference": "091a7847a70126c702de729fbb63949fe3253248"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/a6c18dc33024a1190905b94b2718b38b8c9321d3",
-                "reference": "a6c18dc33024a1190905b94b2718b38b8c9321d3",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/091a7847a70126c702de729fbb63949fe3253248",
+                "reference": "091a7847a70126c702de729fbb63949fe3253248",
                 "shasum": ""
             },
             "require": {
@@ -2610,11 +2610,11 @@
                 "orm",
                 "sql"
             ],
-            "time": "2020-11-09T14:18:18+00:00"
+            "time": "2020-11-13T17:54:59+00:00"
         },
         {
             "name": "illuminate/events",
-            "version": "v6.20.3",
+            "version": "v6.20.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -2659,7 +2659,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v6.20.3",
+            "version": "v6.20.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -2712,7 +2712,7 @@
         },
         {
             "name": "illuminate/hashing",
-            "version": "v6.20.3",
+            "version": "v6.20.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/hashing.git",
@@ -2756,7 +2756,7 @@
         },
         {
             "name": "illuminate/mail",
-            "version": "v6.20.3",
+            "version": "v6.20.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/mail.git",
@@ -2811,7 +2811,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v6.20.3",
+            "version": "v6.20.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -2856,7 +2856,7 @@
         },
         {
             "name": "illuminate/queue",
-            "version": "v6.20.3",
+            "version": "v6.20.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/queue.git",
@@ -2916,7 +2916,7 @@
         },
         {
             "name": "illuminate/session",
-            "version": "v6.20.3",
+            "version": "v6.20.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/session.git",
@@ -2967,16 +2967,16 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v6.20.3",
+            "version": "v6.20.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "936e9dd4ed9c9a69dd9940e5aaa015ac7cd65eb2"
+                "reference": "71f369822792abefa9847e6b7131093d7f95e739"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/936e9dd4ed9c9a69dd9940e5aaa015ac7cd65eb2",
-                "reference": "936e9dd4ed9c9a69dd9940e5aaa015ac7cd65eb2",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/71f369822792abefa9847e6b7131093d7f95e739",
+                "reference": "71f369822792abefa9847e6b7131093d7f95e739",
                 "shasum": ""
             },
             "require": {
@@ -3024,11 +3024,11 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2020-10-29T15:16:10+00:00"
+            "time": "2020-11-13T14:35:26+00:00"
         },
         {
             "name": "illuminate/translation",
-            "version": "v6.20.3",
+            "version": "v6.20.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/translation.git",
@@ -3074,7 +3074,7 @@
         },
         {
             "name": "illuminate/validation",
-            "version": "v6.20.3",
+            "version": "v6.20.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/validation.git",
@@ -3126,7 +3126,7 @@
         },
         {
             "name": "illuminate/view",
-            "version": "v6.20.3",
+            "version": "v6.20.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
@@ -3320,36 +3320,36 @@
         },
         {
             "name": "laminas/laminas-escaper",
-            "version": "2.6.1",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-escaper.git",
-                "reference": "25f2a053eadfa92ddacb609dcbbc39362610da70"
+                "reference": "5e04bc5ae5990b17159d79d331055e2c645e5cc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-escaper/zipball/25f2a053eadfa92ddacb609dcbbc39362610da70",
-                "reference": "25f2a053eadfa92ddacb609dcbbc39362610da70",
+                "url": "https://api.github.com/repos/laminas/laminas-escaper/zipball/5e04bc5ae5990b17159d79d331055e2c645e5cc5",
+                "reference": "5e04bc5ae5990b17159d79d331055e2c645e5cc5",
                 "shasum": ""
             },
             "require": {
                 "laminas/laminas-zendframework-bridge": "^1.0",
-                "php": "^5.6 || ^7.0"
+                "php": "^7.3 || ~8.0.0"
             },
             "replace": {
-                "zendframework/zend-escaper": "self.version"
+                "zendframework/zend-escaper": "^2.6.1"
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~1.0.0",
-                "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.2"
+                "phpunit/phpunit": "^9.3",
+                "psalm/plugin-phpunit": "^0.12.2",
+                "vimeo/psalm": "^3.16"
+            },
+            "suggest": {
+                "ext-iconv": "*",
+                "ext-mbstring": "*"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.6.x-dev",
-                    "dev-develop": "2.7.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Laminas\\Escaper\\": "src/"
@@ -3365,25 +3365,25 @@
                 "escaper",
                 "laminas"
             ],
-            "time": "2019-12-31T16:43:30+00:00"
+            "time": "2020-11-17T21:26:43+00:00"
         },
         {
             "name": "laminas/laminas-httphandlerrunner",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-httphandlerrunner.git",
-                "reference": "e1a5dad040e0043135e8095ee27d1fbf6fb640e1"
+                "reference": "e8f850bd12cb82b268ff235fe74b2df906e8bfe8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-httphandlerrunner/zipball/e1a5dad040e0043135e8095ee27d1fbf6fb640e1",
-                "reference": "e1a5dad040e0043135e8095ee27d1fbf6fb640e1",
+                "url": "https://api.github.com/repos/laminas/laminas-httphandlerrunner/zipball/e8f850bd12cb82b268ff235fe74b2df906e8bfe8",
+                "reference": "e8f850bd12cb82b268ff235fe74b2df906e8bfe8",
                 "shasum": ""
             },
             "require": {
                 "laminas/laminas-zendframework-bridge": "^1.0",
-                "php": "^7.1",
+                "php": "^7.3 || ~8.0.0",
                 "psr/http-message": "^1.0",
                 "psr/http-message-implementation": "^1.0",
                 "psr/http-server-handler": "^1.0"
@@ -3393,15 +3393,11 @@
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~1.0.0",
-                "laminas/laminas-diactoros": "^1.7 || ^2.1.1",
-                "phpunit/phpunit": "^7.0.2"
+                "laminas/laminas-diactoros": "^2.1.1",
+                "phpunit/phpunit": "^9.3"
             },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev",
-                    "dev-develop": "1.3.x-dev"
-                },
                 "laminas": {
                     "config-provider": "Laminas\\HttpHandlerRunner\\ConfigProvider"
                 }
@@ -3424,7 +3420,7 @@
                 "psr-15",
                 "psr-7"
             ],
-            "time": "2020-06-03T15:52:17+00:00"
+            "time": "2020-11-19T17:12:59+00:00"
         },
         {
             "name": "laminas/laminas-stratigility",
