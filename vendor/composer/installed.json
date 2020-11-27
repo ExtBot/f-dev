@@ -909,12 +909,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "d09d4bc507303ae34717143cf4ea6735a2ca98fe"
+            "reference": "66482c28156dff763003a7fff7bbccbbe8b2e8e6"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/d09d4bc507303ae34717143cf4ea6735a2ca98fe",
-            "reference": "d09d4bc507303ae34717143cf4ea6735a2ca98fe",
+            "url": "https://api.github.com/repos/flarum/core/zipball/66482c28156dff763003a7fff7bbccbbe8b2e8e6",
+            "reference": "66482c28156dff763003a7fff7bbccbbe8b2e8e6",
             "shasum": ""
         },
         "require": {
@@ -967,7 +967,7 @@
             "mockery/mockery": "^1.0",
             "phpunit/phpunit": "^7.0"
         },
-        "time": "2020-11-24T17:46:02+00:00",
+        "time": "2020-11-26T22:54:38+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
