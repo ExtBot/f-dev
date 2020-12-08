@@ -219,16 +219,16 @@
         },
         {
             "name": "dflydev/fig-cookies",
-            "version": "v2.0.2",
+            "version": "v2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dflydev/dflydev-fig-cookies.git",
-                "reference": "ba0b1a3d7982946ed98c9544f460ffb67a69e359"
+                "reference": "aa3c3a6224fea4ca2c05cf6b8285ce023ff41d9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dflydev/dflydev-fig-cookies/zipball/ba0b1a3d7982946ed98c9544f460ffb67a69e359",
-                "reference": "ba0b1a3d7982946ed98c9544f460ffb67a69e359",
+                "url": "https://api.github.com/repos/dflydev/dflydev-fig-cookies/zipball/aa3c3a6224fea4ca2c05cf6b8285ce023ff41d9b",
+                "reference": "aa3c3a6224fea4ca2c05cf6b8285ce023ff41d9b",
                 "shasum": ""
             },
             "require": {
@@ -269,7 +269,7 @@
                 "psr-7",
                 "psr7"
             ],
-            "time": "2020-12-04T16:41:16+00:00"
+            "time": "2020-12-07T16:40:59+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -885,12 +885,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "51a97fb12eb947a4d8f8f59715a3343fa5b1a719"
+                "reference": "8901073d126ed86b535fe910a437b2170bfc14ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/51a97fb12eb947a4d8f8f59715a3343fa5b1a719",
-                "reference": "51a97fb12eb947a4d8f8f59715a3343fa5b1a719",
+                "url": "https://api.github.com/repos/flarum/core/zipball/8901073d126ed86b535fe910a437b2170bfc14ca",
+                "reference": "8901073d126ed86b535fe910a437b2170bfc14ca",
                 "shasum": ""
             },
             "require": {
@@ -996,7 +996,7 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2020-12-06T20:07:48+00:00"
+            "time": "2020-12-08T01:02:46+00:00"
         },
         {
             "name": "flarum/flags",
