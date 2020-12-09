@@ -909,12 +909,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "8901073d126ed86b535fe910a437b2170bfc14ca"
+            "reference": "afe038699e73078c1b0ea313ff6ece2b8f0cec90"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/8901073d126ed86b535fe910a437b2170bfc14ca",
-            "reference": "8901073d126ed86b535fe910a437b2170bfc14ca",
+            "url": "https://api.github.com/repos/flarum/core/zipball/afe038699e73078c1b0ea313ff6ece2b8f0cec90",
+            "reference": "afe038699e73078c1b0ea313ff6ece2b8f0cec90",
             "shasum": ""
         },
         "require": {
@@ -967,7 +967,7 @@
             "mockery/mockery": "^1.0",
             "phpunit/phpunit": "^7.0"
         },
-        "time": "2020-12-08T01:02:46+00:00",
+        "time": "2020-12-09T00:29:59+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2344,8 +2344,8 @@
     },
     {
         "name": "illuminate/bus",
-        "version": "v6.20.6",
-        "version_normalized": "6.20.6.0",
+        "version": "v6.20.7",
+        "version_normalized": "6.20.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/bus.git",
@@ -2391,8 +2391,8 @@
     },
     {
         "name": "illuminate/cache",
-        "version": "v6.20.6",
-        "version_normalized": "6.20.6.0",
+        "version": "v6.20.7",
+        "version_normalized": "6.20.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/cache.git",
@@ -2444,8 +2444,8 @@
     },
     {
         "name": "illuminate/config",
-        "version": "v6.20.6",
-        "version_normalized": "6.20.6.0",
+        "version": "v6.20.7",
+        "version_normalized": "6.20.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/config.git",
@@ -2490,8 +2490,8 @@
     },
     {
         "name": "illuminate/console",
-        "version": "v6.20.6",
-        "version_normalized": "6.20.6.0",
+        "version": "v6.20.7",
+        "version_normalized": "6.20.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/console.git",
@@ -2546,8 +2546,8 @@
     },
     {
         "name": "illuminate/container",
-        "version": "v6.20.6",
-        "version_normalized": "6.20.6.0",
+        "version": "v6.20.7",
+        "version_normalized": "6.20.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/container.git",
@@ -2592,8 +2592,8 @@
     },
     {
         "name": "illuminate/contracts",
-        "version": "v6.20.6",
-        "version_normalized": "6.20.6.0",
+        "version": "v6.20.7",
+        "version_normalized": "6.20.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/contracts.git",
@@ -2638,17 +2638,17 @@
     },
     {
         "name": "illuminate/database",
-        "version": "v6.20.6",
-        "version_normalized": "6.20.6.0",
+        "version": "v6.20.7",
+        "version_normalized": "6.20.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/database.git",
-            "reference": "8f318e4c636a777682bbb7c91aeed9a105a6683b"
+            "reference": "c3e7c3d2369063d4124fd870356f887c1143d7c8"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/database/zipball/8f318e4c636a777682bbb7c91aeed9a105a6683b",
-            "reference": "8f318e4c636a777682bbb7c91aeed9a105a6683b",
+            "url": "https://api.github.com/repos/illuminate/database/zipball/c3e7c3d2369063d4124fd870356f887c1143d7c8",
+            "reference": "c3e7c3d2369063d4124fd870356f887c1143d7c8",
             "shasum": ""
         },
         "require": {
@@ -2667,7 +2667,7 @@
             "illuminate/pagination": "Required to paginate the result set (^6.0).",
             "symfony/finder": "Required to use Eloquent model factories (^4.3.4)."
         },
-        "time": "2020-11-23T01:17:39+00:00",
+        "time": "2020-12-04T14:27:18+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2701,8 +2701,8 @@
     },
     {
         "name": "illuminate/events",
-        "version": "v6.20.6",
-        "version_normalized": "6.20.6.0",
+        "version": "v6.20.7",
+        "version_normalized": "6.20.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/events.git",
@@ -2748,8 +2748,8 @@
     },
     {
         "name": "illuminate/filesystem",
-        "version": "v6.20.6",
-        "version_normalized": "6.20.6.0",
+        "version": "v6.20.7",
+        "version_normalized": "6.20.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/filesystem.git",
@@ -2803,8 +2803,8 @@
     },
     {
         "name": "illuminate/hashing",
-        "version": "v6.20.6",
-        "version_normalized": "6.20.6.0",
+        "version": "v6.20.7",
+        "version_normalized": "6.20.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/hashing.git",
@@ -2849,8 +2849,8 @@
     },
     {
         "name": "illuminate/mail",
-        "version": "v6.20.6",
-        "version_normalized": "6.20.6.0",
+        "version": "v6.20.7",
+        "version_normalized": "6.20.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/mail.git",
@@ -2906,8 +2906,8 @@
     },
     {
         "name": "illuminate/pipeline",
-        "version": "v6.20.6",
-        "version_normalized": "6.20.6.0",
+        "version": "v6.20.7",
+        "version_normalized": "6.20.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/pipeline.git",
@@ -2953,8 +2953,8 @@
     },
     {
         "name": "illuminate/queue",
-        "version": "v6.20.6",
-        "version_normalized": "6.20.6.0",
+        "version": "v6.20.7",
+        "version_normalized": "6.20.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/queue.git",
@@ -3015,8 +3015,8 @@
     },
     {
         "name": "illuminate/session",
-        "version": "v6.20.6",
-        "version_normalized": "6.20.6.0",
+        "version": "v6.20.7",
+        "version_normalized": "6.20.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/session.git",
@@ -3068,8 +3068,8 @@
     },
     {
         "name": "illuminate/support",
-        "version": "v6.20.6",
-        "version_normalized": "6.20.6.0",
+        "version": "v6.20.7",
+        "version_normalized": "6.20.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/support.git",
@@ -3131,8 +3131,8 @@
     },
     {
         "name": "illuminate/translation",
-        "version": "v6.20.6",
-        "version_normalized": "6.20.6.0",
+        "version": "v6.20.7",
+        "version_normalized": "6.20.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/translation.git",
@@ -3179,17 +3179,17 @@
     },
     {
         "name": "illuminate/validation",
-        "version": "v6.20.6",
-        "version_normalized": "6.20.6.0",
+        "version": "v6.20.7",
+        "version_normalized": "6.20.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/validation.git",
-            "reference": "b13a8f00637b64e0df591b721c854bfd9c1b0643"
+            "reference": "4256ad88d388275343199ace3c868e786f70fdca"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/validation/zipball/b13a8f00637b64e0df591b721c854bfd9c1b0643",
-            "reference": "b13a8f00637b64e0df591b721c854bfd9c1b0643",
+            "url": "https://api.github.com/repos/illuminate/validation/zipball/4256ad88d388275343199ace3c868e786f70fdca",
+            "reference": "4256ad88d388275343199ace3c868e786f70fdca",
             "shasum": ""
         },
         "require": {
@@ -3205,7 +3205,7 @@
         "suggest": {
             "illuminate/database": "Required to use the database presence verifier (^6.0)."
         },
-        "time": "2020-11-30T14:14:20+00:00",
+        "time": "2020-12-07T14:24:29+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -3233,8 +3233,8 @@
     },
     {
         "name": "illuminate/view",
-        "version": "v6.20.6",
-        "version_normalized": "6.20.6.0",
+        "version": "v6.20.7",
+        "version_normalized": "6.20.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/view.git",
@@ -5410,35 +5410,34 @@
     },
     {
         "name": "swiftmailer/swiftmailer",
-        "version": "v6.2.3",
-        "version_normalized": "6.2.3.0",
+        "version": "v6.2.4",
+        "version_normalized": "6.2.4.0",
         "source": {
             "type": "git",
             "url": "https://github.com/swiftmailer/swiftmailer.git",
-            "reference": "149cfdf118b169f7840bbe3ef0d4bc795d1780c9"
+            "reference": "56f0ab23f54c4ccbb0d5dcc67ff8552e0c98d59e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/149cfdf118b169f7840bbe3ef0d4bc795d1780c9",
-            "reference": "149cfdf118b169f7840bbe3ef0d4bc795d1780c9",
+            "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/56f0ab23f54c4ccbb0d5dcc67ff8552e0c98d59e",
+            "reference": "56f0ab23f54c4ccbb0d5dcc67ff8552e0c98d59e",
             "shasum": ""
         },
         "require": {
-            "egulias/email-validator": "~2.0",
+            "egulias/email-validator": "^2.0",
             "php": ">=7.0.0",
             "symfony/polyfill-iconv": "^1.0",
             "symfony/polyfill-intl-idn": "^1.10",
             "symfony/polyfill-mbstring": "^1.0"
         },
         "require-dev": {
-            "mockery/mockery": "~0.9.1",
-            "symfony/phpunit-bridge": "^3.4.19|^4.1.8"
+            "mockery/mockery": "^1.0",
+            "symfony/phpunit-bridge": "^4.4|^5.0"
         },
         "suggest": {
-            "ext-intl": "Needed to support internationalized email addresses",
-            "true/punycode": "Needed to support internationalized email addresses, if ext-intl is not installed"
+            "ext-intl": "Needed to support internationalized email addresses"
         },
-        "time": "2019-11-12T09:31:26+00:00",
+        "time": "2020-12-08T18:02:06+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
