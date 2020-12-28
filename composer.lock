@@ -3986,16 +3986,16 @@
         },
         {
             "name": "matthiasmullie/minify",
-            "version": "1.3.64",
+            "version": "1.3.65",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matthiasmullie/minify.git",
-                "reference": "38f9d58c739687e269f46c6dff4647de9e2eb855"
+                "reference": "227f19062451c55a797e0cc667ef983834e6580c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/38f9d58c739687e269f46c6dff4647de9e2eb855",
-                "reference": "38f9d58c739687e269f46c6dff4647de9e2eb855",
+                "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/227f19062451c55a797e0cc667ef983834e6580c",
+                "reference": "227f19062451c55a797e0cc667ef983834e6580c",
                 "shasum": ""
             },
             "require": {
@@ -4042,7 +4042,7 @@
                 "minifier",
                 "minify"
             ],
-            "time": "2020-12-23T13:37:53+00:00"
+            "time": "2020-12-27T21:43:29+00:00"
         },
         {
             "name": "matthiasmullie/path-converter",
@@ -5157,16 +5157,16 @@
         },
         {
             "name": "s9e/text-formatter",
-            "version": "2.8.0",
+            "version": "2.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/s9e/TextFormatter.git",
-                "reference": "52e1d46415f93ea1c8fed9846d8240fb5396b238"
+                "reference": "2ac2ab8c28849311424a78ea21a8368423053ce3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/52e1d46415f93ea1c8fed9846d8240fb5396b238",
-                "reference": "52e1d46415f93ea1c8fed9846d8240fb5396b238",
+                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/2ac2ab8c28849311424a78ea21a8368423053ce3",
+                "reference": "2ac2ab8c28849311424a78ea21a8368423053ce3",
                 "shasum": ""
             },
             "require": {
@@ -5193,7 +5193,7 @@
             },
             "type": "library",
             "extra": {
-                "version": "2.8.0"
+                "version": "2.8.1"
             },
             "autoload": {
                 "psr-4": {
@@ -5223,7 +5223,7 @@
                 "parser",
                 "shortcodes"
             ],
-            "time": "2020-12-09T14:01:49+00:00"
+            "time": "2020-12-27T17:14:06+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
