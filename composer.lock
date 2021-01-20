@@ -887,12 +887,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "89e821e70f4c7c9dc879717c7478cab819b1135a"
+                "reference": "4561f56fb9a7dfe8c6fd48e396e133f3aee7d91a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/89e821e70f4c7c9dc879717c7478cab819b1135a",
-                "reference": "89e821e70f4c7c9dc879717c7478cab819b1135a",
+                "url": "https://api.github.com/repos/flarum/core/zipball/4561f56fb9a7dfe8c6fd48e396e133f3aee7d91a",
+                "reference": "4561f56fb9a7dfe8c6fd48e396e133f3aee7d91a",
                 "shasum": ""
             },
             "require": {
@@ -999,7 +999,7 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2021-01-18T23:28:48+00:00"
+            "time": "2021-01-19T22:40:14+00:00"
         },
         {
             "name": "flarum/flags",
@@ -2276,7 +2276,7 @@
         },
         {
             "name": "illuminate/bus",
-            "version": "v6.20.12",
+            "version": "v6.20.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
@@ -2321,7 +2321,7 @@
         },
         {
             "name": "illuminate/cache",
-            "version": "v6.20.12",
+            "version": "v6.20.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cache.git",
@@ -2372,7 +2372,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v6.20.12",
+            "version": "v6.20.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -2416,7 +2416,7 @@
         },
         {
             "name": "illuminate/console",
-            "version": "v6.20.12",
+            "version": "v6.20.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
@@ -2470,7 +2470,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v6.20.12",
+            "version": "v6.20.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -2514,7 +2514,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v6.20.12",
+            "version": "v6.20.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -2558,7 +2558,7 @@
         },
         {
             "name": "illuminate/database",
-            "version": "v6.20.12",
+            "version": "v6.20.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
@@ -2619,7 +2619,7 @@
         },
         {
             "name": "illuminate/events",
-            "version": "v6.20.12",
+            "version": "v6.20.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -2664,7 +2664,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v6.20.12",
+            "version": "v6.20.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -2717,7 +2717,7 @@
         },
         {
             "name": "illuminate/hashing",
-            "version": "v6.20.12",
+            "version": "v6.20.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/hashing.git",
@@ -2761,7 +2761,7 @@
         },
         {
             "name": "illuminate/mail",
-            "version": "v6.20.12",
+            "version": "v6.20.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/mail.git",
@@ -2816,7 +2816,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v6.20.12",
+            "version": "v6.20.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -2861,7 +2861,7 @@
         },
         {
             "name": "illuminate/queue",
-            "version": "v6.20.12",
+            "version": "v6.20.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/queue.git",
@@ -2921,7 +2921,7 @@
         },
         {
             "name": "illuminate/session",
-            "version": "v6.20.12",
+            "version": "v6.20.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/session.git",
@@ -2972,7 +2972,7 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v6.20.12",
+            "version": "v6.20.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
@@ -3033,7 +3033,7 @@
         },
         {
             "name": "illuminate/translation",
-            "version": "v6.20.12",
+            "version": "v6.20.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/translation.git",
@@ -3079,7 +3079,7 @@
         },
         {
             "name": "illuminate/validation",
-            "version": "v6.20.12",
+            "version": "v6.20.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/validation.git",
@@ -3131,7 +3131,7 @@
         },
         {
             "name": "illuminate/view",
-            "version": "v6.20.12",
+            "version": "v6.20.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
@@ -3743,30 +3743,30 @@
         },
         {
             "name": "league/oauth1-client",
-            "version": "v1.8.2",
+            "version": "v1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/oauth1-client.git",
-                "reference": "159c3d2bf27568f9af87d6c3f4bb616a251eb12b"
+                "reference": "1e7e6be2dc543bf466236fb171e5b20e1b06aee6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/oauth1-client/zipball/159c3d2bf27568f9af87d6c3f4bb616a251eb12b",
-                "reference": "159c3d2bf27568f9af87d6c3f4bb616a251eb12b",
+                "url": "https://api.github.com/repos/thephpleague/oauth1-client/zipball/1e7e6be2dc543bf466236fb171e5b20e1b06aee6",
+                "reference": "1e7e6be2dc543bf466236fb171e5b20e1b06aee6",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "ext-openssl": "*",
                 "guzzlehttp/guzzle": "^6.0|^7.0",
-                "php": ">=7.1"
+                "php": ">=7.1||>=8.0"
             },
             "require-dev": {
                 "ext-simplexml": "*",
-                "friendsofphp/php-cs-fixer": "^2.16.1",
-                "mockery/mockery": "^1.3",
+                "friendsofphp/php-cs-fixer": "^2.17",
+                "mockery/mockery": "^1.3.3",
                 "phpstan/phpstan": "^0.12.42",
-                "phpunit/phpunit": "^7.5"
+                "phpunit/phpunit": "^7.5||9.5"
             },
             "suggest": {
                 "ext-simplexml": "For decoding XML-based responses."
@@ -3810,7 +3810,7 @@
                 "tumblr",
                 "twitter"
             ],
-            "time": "2020-09-28T09:39:08+00:00"
+            "time": "2021-01-20T01:40:53+00:00"
         },
         {
             "name": "league/oauth2-client",
