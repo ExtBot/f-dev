@@ -773,16 +773,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.9.1",
+            "version": "2.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "307fb34a5ab697461ec4c9db865b20ff2fd40771"
+                "reference": "df7933820090489623ce0be5e85c7e693638e536"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/307fb34a5ab697461ec4c9db865b20ff2fd40771",
-                "reference": "307fb34a5ab697461ec4c9db865b20ff2fd40771",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/df7933820090489623ce0be5e85c7e693638e536",
+                "reference": "df7933820090489623ce0be5e85c7e693638e536",
                 "shasum": ""
             },
             "require": {
@@ -830,7 +830,7 @@
                 "throwable",
                 "whoops"
             ],
-            "time": "2020-11-01T12:00:00+00:00"
+            "time": "2021-01-24T12:00:00+00:00"
         },
         {
             "name": "flarum/approval",
@@ -887,12 +887,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "4561f56fb9a7dfe8c6fd48e396e133f3aee7d91a"
+                "reference": "08f72e71353b65f522d6e56aab45b57fe2226234"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/4561f56fb9a7dfe8c6fd48e396e133f3aee7d91a",
-                "reference": "4561f56fb9a7dfe8c6fd48e396e133f3aee7d91a",
+                "url": "https://api.github.com/repos/flarum/core/zipball/08f72e71353b65f522d6e56aab45b57fe2226234",
+                "reference": "08f72e71353b65f522d6e56aab45b57fe2226234",
                 "shasum": ""
             },
             "require": {
@@ -999,7 +999,7 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2021-01-19T22:40:14+00:00"
+            "time": "2021-01-26T01:54:28+00:00"
         },
         {
             "name": "flarum/flags",
@@ -5158,16 +5158,16 @@
         },
         {
             "name": "s9e/text-formatter",
-            "version": "2.8.1",
+            "version": "2.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/s9e/TextFormatter.git",
-                "reference": "2ac2ab8c28849311424a78ea21a8368423053ce3"
+                "reference": "a6edb261947230eff8457d9d87ce2cf80de72872"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/2ac2ab8c28849311424a78ea21a8368423053ce3",
-                "reference": "2ac2ab8c28849311424a78ea21a8368423053ce3",
+                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/a6edb261947230eff8457d9d87ce2cf80de72872",
+                "reference": "a6edb261947230eff8457d9d87ce2cf80de72872",
                 "shasum": ""
             },
             "require": {
@@ -5194,7 +5194,7 @@
             },
             "type": "library",
             "extra": {
-                "version": "2.8.1"
+                "version": "2.8.2"
             },
             "autoload": {
                 "psr-4": {
@@ -5224,7 +5224,7 @@
                 "parser",
                 "shortcodes"
             ],
-            "time": "2020-12-27T17:14:06+00:00"
+            "time": "2021-01-23T00:22:46+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
