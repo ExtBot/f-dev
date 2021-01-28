@@ -915,12 +915,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "65b5c2043c4cb979323f0de3457d338c0e40571f"
+            "reference": "930fcf92504ec68840b655d09b6d7c6182a38803"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/65b5c2043c4cb979323f0de3457d338c0e40571f",
-            "reference": "65b5c2043c4cb979323f0de3457d338c0e40571f",
+            "url": "https://api.github.com/repos/flarum/core/zipball/930fcf92504ec68840b655d09b6d7c6182a38803",
+            "reference": "930fcf92504ec68840b655d09b6d7c6182a38803",
             "shasum": ""
         },
         "require": {
@@ -974,7 +974,7 @@
             "mockery/mockery": "^1.3.3",
             "phpunit/phpunit": "^8.0"
         },
-        "time": "2021-01-26T22:53:28+00:00",
+        "time": "2021-01-27T13:04:19+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -5511,17 +5511,17 @@
     },
     {
         "name": "symfony/config",
-        "version": "v4.4.18",
-        "version_normalized": "4.4.18.0",
+        "version": "v4.4.19",
+        "version_normalized": "4.4.19.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/config.git",
-            "reference": "e501c56d2fa70798075b9811d0eb4c27de491459"
+            "reference": "2c4c7827a7e143f5cf375666641b0f448eab8802"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/config/zipball/e501c56d2fa70798075b9811d0eb4c27de491459",
-            "reference": "e501c56d2fa70798075b9811d0eb4c27de491459",
+            "url": "https://api.github.com/repos/symfony/config/zipball/2c4c7827a7e143f5cf375666641b0f448eab8802",
+            "reference": "2c4c7827a7e143f5cf375666641b0f448eab8802",
             "shasum": ""
         },
         "require": {
@@ -5542,7 +5542,7 @@
         "suggest": {
             "symfony/yaml": "To use the yaml reference dumper"
         },
-        "time": "2020-12-09T08:58:17+00:00",
+        "time": "2021-01-27T09:09:26+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -5567,22 +5567,22 @@
                 "homepage": "https://symfony.com/contributors"
             }
         ],
-        "description": "Symfony Config Component",
+        "description": "Helps you find, load, combine, autofill and validate configuration values of any kind",
         "homepage": "https://symfony.com"
     },
     {
         "name": "symfony/console",
-        "version": "v4.4.18",
-        "version_normalized": "4.4.18.0",
+        "version": "v4.4.19",
+        "version_normalized": "4.4.19.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/console.git",
-            "reference": "12e071278e396cc3e1c149857337e9e192deca0b"
+            "reference": "24026c44fc37099fa145707fecd43672831b837a"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/console/zipball/12e071278e396cc3e1c149857337e9e192deca0b",
-            "reference": "12e071278e396cc3e1c149857337e9e192deca0b",
+            "url": "https://api.github.com/repos/symfony/console/zipball/24026c44fc37099fa145707fecd43672831b837a",
+            "reference": "24026c44fc37099fa145707fecd43672831b837a",
             "shasum": ""
         },
         "require": {
@@ -5616,7 +5616,7 @@
             "symfony/lock": "",
             "symfony/process": ""
         },
-        "time": "2020-12-18T07:41:31+00:00",
+        "time": "2021-01-27T09:09:26+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -5641,28 +5641,28 @@
                 "homepage": "https://symfony.com/contributors"
             }
         ],
-        "description": "Symfony Console Component",
+        "description": "Eases the creation of beautiful and testable command line interfaces",
         "homepage": "https://symfony.com"
     },
     {
         "name": "symfony/css-selector",
-        "version": "v5.2.1",
-        "version_normalized": "5.2.1.0",
+        "version": "v5.2.2",
+        "version_normalized": "5.2.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/css-selector.git",
-            "reference": "f789e7ead4c79e04ca9a6d6162fc629c89bd8054"
+            "reference": "f65f217b3314504a1ec99c2d6ef69016bb13490f"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/css-selector/zipball/f789e7ead4c79e04ca9a6d6162fc629c89bd8054",
-            "reference": "f789e7ead4c79e04ca9a6d6162fc629c89bd8054",
+            "url": "https://api.github.com/repos/symfony/css-selector/zipball/f65f217b3314504a1ec99c2d6ef69016bb13490f",
+            "reference": "f65f217b3314504a1ec99c2d6ef69016bb13490f",
             "shasum": ""
         },
         "require": {
             "php": ">=7.2.5"
         },
-        "time": "2020-12-08T17:02:38+00:00",
+        "time": "2021-01-27T10:01:46+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -5691,22 +5691,22 @@
                 "homepage": "https://symfony.com/contributors"
             }
         ],
-        "description": "Symfony CssSelector Component",
+        "description": "Converts CSS selectors to XPath expressions",
         "homepage": "https://symfony.com"
     },
     {
         "name": "symfony/debug",
-        "version": "v4.4.18",
-        "version_normalized": "4.4.18.0",
+        "version": "v4.4.19",
+        "version_normalized": "4.4.19.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/debug.git",
-            "reference": "5dfc7825f3bfe9bb74b23d8b8ce0e0894e32b544"
+            "reference": "af4987aa4a5630e9615be9d9c3ed1b0f24ca449c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/debug/zipball/5dfc7825f3bfe9bb74b23d8b8ce0e0894e32b544",
-            "reference": "5dfc7825f3bfe9bb74b23d8b8ce0e0894e32b544",
+            "url": "https://api.github.com/repos/symfony/debug/zipball/af4987aa4a5630e9615be9d9c3ed1b0f24ca449c",
+            "reference": "af4987aa4a5630e9615be9d9c3ed1b0f24ca449c",
             "shasum": ""
         },
         "require": {
@@ -5720,7 +5720,7 @@
         "require-dev": {
             "symfony/http-kernel": "^3.4|^4.0|^5.0"
         },
-        "time": "2020-12-10T16:34:26+00:00",
+        "time": "2021-01-27T09:09:26+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -5745,7 +5745,7 @@
                 "homepage": "https://symfony.com/contributors"
             }
         ],
-        "description": "Symfony Debug Component",
+        "description": "Provides tools to ease debugging PHP code",
         "homepage": "https://symfony.com"
     },
     {
@@ -5802,17 +5802,17 @@
     },
     {
         "name": "symfony/event-dispatcher",
-        "version": "v4.4.18",
-        "version_normalized": "4.4.18.0",
+        "version": "v4.4.19",
+        "version_normalized": "4.4.19.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/event-dispatcher.git",
-            "reference": "5d4c874b0eb1c32d40328a09dbc37307a5a910b0"
+            "reference": "c352647244bd376bf7d31efbd5401f13f50dad0c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/5d4c874b0eb1c32d40328a09dbc37307a5a910b0",
-            "reference": "5d4c874b0eb1c32d40328a09dbc37307a5a910b0",
+            "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/c352647244bd376bf7d31efbd5401f13f50dad0c",
+            "reference": "c352647244bd376bf7d31efbd5401f13f50dad0c",
             "shasum": ""
         },
         "require": {
@@ -5840,7 +5840,7 @@
             "symfony/dependency-injection": "",
             "symfony/http-kernel": ""
         },
-        "time": "2020-12-18T07:41:31+00:00",
+        "time": "2021-01-27T09:09:26+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -5865,7 +5865,7 @@
                 "homepage": "https://symfony.com/contributors"
             }
         ],
-        "description": "Symfony EventDispatcher Component",
+        "description": "Provides tools that allow your application components to communicate with each other by dispatching events and listening to them",
         "homepage": "https://symfony.com"
     },
     {
@@ -5934,24 +5934,24 @@
     },
     {
         "name": "symfony/filesystem",
-        "version": "v5.2.1",
-        "version_normalized": "5.2.1.0",
+        "version": "v5.2.2",
+        "version_normalized": "5.2.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/filesystem.git",
-            "reference": "fa8f8cab6b65e2d99a118e082935344c5ba8c60d"
+            "reference": "262d033b57c73e8b59cd6e68a45c528318b15038"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/filesystem/zipball/fa8f8cab6b65e2d99a118e082935344c5ba8c60d",
-            "reference": "fa8f8cab6b65e2d99a118e082935344c5ba8c60d",
+            "url": "https://api.github.com/repos/symfony/filesystem/zipball/262d033b57c73e8b59cd6e68a45c528318b15038",
+            "reference": "262d033b57c73e8b59cd6e68a45c528318b15038",
             "shasum": ""
         },
         "require": {
             "php": ">=7.2.5",
             "symfony/polyfill-ctype": "~1.8"
         },
-        "time": "2020-11-30T17:05:38+00:00",
+        "time": "2021-01-27T10:01:46+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -5976,28 +5976,28 @@
                 "homepage": "https://symfony.com/contributors"
             }
         ],
-        "description": "Symfony Filesystem Component",
+        "description": "Provides basic utilities for the filesystem",
         "homepage": "https://symfony.com"
     },
     {
         "name": "symfony/finder",
-        "version": "v4.4.18",
-        "version_normalized": "4.4.18.0",
+        "version": "v4.4.19",
+        "version_normalized": "4.4.19.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/finder.git",
-            "reference": "ebd0965f2dc2d4e0f11487c16fbb041e50b5c09b"
+            "reference": "25d79cfccfc12e84e7a63a248c3f0720fdd92db6"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/finder/zipball/ebd0965f2dc2d4e0f11487c16fbb041e50b5c09b",
-            "reference": "ebd0965f2dc2d4e0f11487c16fbb041e50b5c09b",
+            "url": "https://api.github.com/repos/symfony/finder/zipball/25d79cfccfc12e84e7a63a248c3f0720fdd92db6",
+            "reference": "25d79cfccfc12e84e7a63a248c3f0720fdd92db6",
             "shasum": ""
         },
         "require": {
             "php": ">=7.1.3"
         },
-        "time": "2020-12-08T16:59:59+00:00",
+        "time": "2021-01-27T09:09:26+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -6022,22 +6022,22 @@
                 "homepage": "https://symfony.com/contributors"
             }
         ],
-        "description": "Symfony Finder Component",
+        "description": "Finds files and directories via an intuitive fluent interface",
         "homepage": "https://symfony.com"
     },
     {
         "name": "symfony/http-foundation",
-        "version": "v4.4.18",
-        "version_normalized": "4.4.18.0",
+        "version": "v4.4.19",
+        "version_normalized": "4.4.19.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/http-foundation.git",
-            "reference": "5ebda66b51612516bf338d5f87da2f37ff74cf34"
+            "reference": "8888741b633f6c3d1e572b7735ad2cae3e03f9c5"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/http-foundation/zipball/5ebda66b51612516bf338d5f87da2f37ff74cf34",
-            "reference": "5ebda66b51612516bf338d5f87da2f37ff74cf34",
+            "url": "https://api.github.com/repos/symfony/http-foundation/zipball/8888741b633f6c3d1e572b7735ad2cae3e03f9c5",
+            "reference": "8888741b633f6c3d1e572b7735ad2cae3e03f9c5",
             "shasum": ""
         },
         "require": {
@@ -6050,7 +6050,7 @@
             "predis/predis": "~1.0",
             "symfony/expression-language": "^3.4|^4.0|^5.0"
         },
-        "time": "2020-12-18T07:41:31+00:00",
+        "time": "2021-01-27T09:09:26+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -6075,22 +6075,22 @@
                 "homepage": "https://symfony.com/contributors"
             }
         ],
-        "description": "Symfony HttpFoundation Component",
+        "description": "Defines an object-oriented layer for the HTTP specification",
         "homepage": "https://symfony.com"
     },
     {
         "name": "symfony/mime",
-        "version": "v5.2.1",
-        "version_normalized": "5.2.1.0",
+        "version": "v5.2.2",
+        "version_normalized": "5.2.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/mime.git",
-            "reference": "de97005aef7426ba008c46ba840fc301df577ada"
+            "reference": "37bade585ea100d235c031b258eff93b5b6bb9a9"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/mime/zipball/de97005aef7426ba008c46ba840fc301df577ada",
-            "reference": "de97005aef7426ba008c46ba840fc301df577ada",
+            "url": "https://api.github.com/repos/symfony/mime/zipball/37bade585ea100d235c031b258eff93b5b6bb9a9",
+            "reference": "37bade585ea100d235c031b258eff93b5b6bb9a9",
             "shasum": ""
         },
         "require": {
@@ -6101,6 +6101,8 @@
             "symfony/polyfill-php80": "^1.15"
         },
         "conflict": {
+            "phpdocumentor/reflection-docblock": "<3.2.2",
+            "phpdocumentor/type-resolver": "<1.4.0",
             "symfony/mailer": "<4.4"
         },
         "require-dev": {
@@ -6111,7 +6113,7 @@
             "symfony/property-info": "^4.4|^5.1",
             "symfony/serializer": "^5.2"
         },
-        "time": "2020-12-09T18:54:12+00:00",
+        "time": "2021-01-25T14:08:25+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -6136,7 +6138,7 @@
                 "homepage": "https://symfony.com/contributors"
             }
         ],
-        "description": "A library to manipulate MIME messages",
+        "description": "Allows manipulating MIME messages",
         "homepage": "https://symfony.com",
         "keywords": [
             "mime",
@@ -6673,23 +6675,23 @@
     },
     {
         "name": "symfony/process",
-        "version": "v4.4.18",
-        "version_normalized": "4.4.18.0",
+        "version": "v4.4.19",
+        "version_normalized": "4.4.19.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/process.git",
-            "reference": "075316ff72233ce3d04a9743414292e834f2cb4a"
+            "reference": "7e950b6366d4da90292c2e7fa820b3c1842b965a"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/process/zipball/075316ff72233ce3d04a9743414292e834f2cb4a",
-            "reference": "075316ff72233ce3d04a9743414292e834f2cb4a",
+            "url": "https://api.github.com/repos/symfony/process/zipball/7e950b6366d4da90292c2e7fa820b3c1842b965a",
+            "reference": "7e950b6366d4da90292c2e7fa820b3c1842b965a",
             "shasum": ""
         },
         "require": {
             "php": ">=7.1.3"
         },
-        "time": "2020-12-08T16:59:59+00:00",
+        "time": "2021-01-27T09:09:26+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -6714,7 +6716,7 @@
                 "homepage": "https://symfony.com/contributors"
             }
         ],
-        "description": "Symfony Process Component",
+        "description": "Executes commands in sub-processes",
         "homepage": "https://symfony.com"
     },
     {
@@ -6783,17 +6785,17 @@
     },
     {
         "name": "symfony/translation",
-        "version": "v4.4.18",
-        "version_normalized": "4.4.18.0",
+        "version": "v4.4.19",
+        "version_normalized": "4.4.19.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/translation.git",
-            "reference": "c1001b7d75b3136648f94b245588209d881c6939"
+            "reference": "e1d0c67167a553556d9f974b5fa79c2448df317a"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/translation/zipball/c1001b7d75b3136648f94b245588209d881c6939",
-            "reference": "c1001b7d75b3136648f94b245588209d881c6939",
+            "url": "https://api.github.com/repos/symfony/translation/zipball/e1d0c67167a553556d9f974b5fa79c2448df317a",
+            "reference": "e1d0c67167a553556d9f974b5fa79c2448df317a",
             "shasum": ""
         },
         "require": {
@@ -6826,7 +6828,7 @@
             "symfony/config": "",
             "symfony/yaml": ""
         },
-        "time": "2020-12-08T16:59:59+00:00",
+        "time": "2021-01-27T09:09:26+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -6851,7 +6853,7 @@
                 "homepage": "https://symfony.com/contributors"
             }
         ],
-        "description": "Symfony Translation Component",
+        "description": "Provides tools to internationalize your application",
         "homepage": "https://symfony.com"
     },
     {
@@ -6919,17 +6921,17 @@
     },
     {
         "name": "symfony/yaml",
-        "version": "v4.4.18",
-        "version_normalized": "4.4.18.0",
+        "version": "v4.4.19",
+        "version_normalized": "4.4.19.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/yaml.git",
-            "reference": "bbce94f14d73732340740366fcbe63363663a403"
+            "reference": "17ed9f14c1aa05b1a5cf2e2c5ef2d0be28058ef9"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/yaml/zipball/bbce94f14d73732340740366fcbe63363663a403",
-            "reference": "bbce94f14d73732340740366fcbe63363663a403",
+            "url": "https://api.github.com/repos/symfony/yaml/zipball/17ed9f14c1aa05b1a5cf2e2c5ef2d0be28058ef9",
+            "reference": "17ed9f14c1aa05b1a5cf2e2c5ef2d0be28058ef9",
             "shasum": ""
         },
         "require": {
@@ -6945,7 +6947,7 @@
         "suggest": {
             "symfony/console": "For validating YAML files using the lint command"
         },
-        "time": "2020-12-08T16:59:59+00:00",
+        "time": "2021-01-27T09:09:26+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -6970,7 +6972,7 @@
                 "homepage": "https://symfony.com/contributors"
             }
         ],
-        "description": "Symfony Yaml Component",
+        "description": "Loads and dumps YAML files",
         "homepage": "https://symfony.com"
     },
     {
