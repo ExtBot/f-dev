@@ -915,12 +915,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/core.git",
-            "reference": "930fcf92504ec68840b655d09b6d7c6182a38803"
+            "reference": "843daf633d1b38f4d2ee0e0abf27169ef8ca34dc"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/core/zipball/930fcf92504ec68840b655d09b6d7c6182a38803",
-            "reference": "930fcf92504ec68840b655d09b6d7c6182a38803",
+            "url": "https://api.github.com/repos/flarum/core/zipball/843daf633d1b38f4d2ee0e0abf27169ef8ca34dc",
+            "reference": "843daf633d1b38f4d2ee0e0abf27169ef8ca34dc",
             "shasum": ""
         },
         "require": {
@@ -974,7 +974,7 @@
             "mockery/mockery": "^1.3.3",
             "phpunit/phpunit": "^8.0"
         },
-        "time": "2021-01-27T13:04:19+00:00",
+        "time": "2021-01-29T00:41:04+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4553,17 +4553,17 @@
     },
     {
         "name": "nesbot/carbon",
-        "version": "2.43.0",
-        "version_normalized": "2.43.0.0",
+        "version": "2.44.0",
+        "version_normalized": "2.44.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/briannesbitt/Carbon.git",
-            "reference": "d32c57d8389113742f4a88725a170236470012e2"
+            "reference": "e6ef33cb1f67a4bed831ed6d0f7e156739a5d8cd"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/d32c57d8389113742f4a88725a170236470012e2",
-            "reference": "d32c57d8389113742f4a88725a170236470012e2",
+            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/e6ef33cb1f67a4bed831ed6d0f7e156739a5d8cd",
+            "reference": "e6ef33cb1f67a4bed831ed6d0f7e156739a5d8cd",
             "shasum": ""
         },
         "require": {
@@ -4579,10 +4579,10 @@
             "phpmd/phpmd": "^2.9",
             "phpstan/extension-installer": "^1.0",
             "phpstan/phpstan": "^0.12.54",
-            "phpunit/phpunit": "^7.5 || ^8.0",
+            "phpunit/phpunit": "^7.5.20 || ^8.5.14",
             "squizlabs/php_codesniffer": "^3.4"
         },
-        "time": "2020-12-17T20:55:32+00:00",
+        "time": "2021-01-26T20:46:41+00:00",
         "bin": [
             "bin/carbon"
         ],
