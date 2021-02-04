@@ -5646,8 +5646,8 @@
     },
     {
         "name": "symfony/css-selector",
-        "version": "v5.2.2",
-        "version_normalized": "5.2.2.0",
+        "version": "v5.2.3",
+        "version_normalized": "5.2.3.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/css-selector.git",
@@ -5934,8 +5934,8 @@
     },
     {
         "name": "symfony/filesystem",
-        "version": "v5.2.2",
-        "version_normalized": "5.2.2.0",
+        "version": "v5.2.3",
+        "version_normalized": "5.2.3.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/filesystem.git",
@@ -6080,17 +6080,17 @@
     },
     {
         "name": "symfony/mime",
-        "version": "v5.2.2",
-        "version_normalized": "5.2.2.0",
+        "version": "v5.2.3",
+        "version_normalized": "5.2.3.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/mime.git",
-            "reference": "37bade585ea100d235c031b258eff93b5b6bb9a9"
+            "reference": "7dee6a43493f39b51ff6c5bb2bd576fe40a76c86"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/mime/zipball/37bade585ea100d235c031b258eff93b5b6bb9a9",
-            "reference": "37bade585ea100d235c031b258eff93b5b6bb9a9",
+            "url": "https://api.github.com/repos/symfony/mime/zipball/7dee6a43493f39b51ff6c5bb2bd576fe40a76c86",
+            "reference": "7dee6a43493f39b51ff6c5bb2bd576fe40a76c86",
             "shasum": ""
         },
         "require": {
@@ -6113,7 +6113,7 @@
             "symfony/property-info": "^4.4|^5.1",
             "symfony/serializer": "^5.2"
         },
-        "time": "2021-01-25T14:08:25+00:00",
+        "time": "2021-02-02T06:10:15+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
