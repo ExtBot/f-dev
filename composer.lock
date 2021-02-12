@@ -891,12 +891,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "0595aba76a63eeee3570dfdd3f69f7ad87a8b376"
+                "reference": "e7aed89e8f86b7a26ccfff816bdde996765108d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/0595aba76a63eeee3570dfdd3f69f7ad87a8b376",
-                "reference": "0595aba76a63eeee3570dfdd3f69f7ad87a8b376",
+                "url": "https://api.github.com/repos/flarum/core/zipball/e7aed89e8f86b7a26ccfff816bdde996765108d7",
+                "reference": "e7aed89e8f86b7a26ccfff816bdde996765108d7",
                 "shasum": ""
             },
             "require": {
@@ -1003,7 +1003,7 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2021-02-05T18:21:36+00:00"
+            "time": "2021-02-10T19:51:31+00:00"
         },
         {
             "name": "flarum/flags",
@@ -4404,16 +4404,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.44.0",
+            "version": "2.45.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "e6ef33cb1f67a4bed831ed6d0f7e156739a5d8cd"
+                "reference": "528783b188bdb853eb21239b1722831e0f000a8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/e6ef33cb1f67a4bed831ed6d0f7e156739a5d8cd",
-                "reference": "e6ef33cb1f67a4bed831ed6d0f7e156739a5d8cd",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/528783b188bdb853eb21239b1722831e0f000a8d",
+                "reference": "528783b188bdb853eb21239b1722831e0f000a8d",
                 "shasum": ""
             },
             "require": {
@@ -4479,7 +4479,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2021-01-26T20:46:41+00:00"
+            "time": "2021-02-11T18:30:17+00:00"
         },
         {
             "name": "nikic/fast-route",
@@ -5195,16 +5195,16 @@
         },
         {
             "name": "s9e/text-formatter",
-            "version": "2.8.2",
+            "version": "2.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/s9e/TextFormatter.git",
-                "reference": "a6edb261947230eff8457d9d87ce2cf80de72872"
+                "reference": "46ff5bf0a660caae4291f19a50bc742d93b6bf3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/a6edb261947230eff8457d9d87ce2cf80de72872",
-                "reference": "a6edb261947230eff8457d9d87ce2cf80de72872",
+                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/46ff5bf0a660caae4291f19a50bc742d93b6bf3e",
+                "reference": "46ff5bf0a660caae4291f19a50bc742d93b6bf3e",
                 "shasum": ""
             },
             "require": {
@@ -5231,7 +5231,7 @@
             },
             "type": "library",
             "extra": {
-                "version": "2.8.2"
+                "version": "2.8.3"
             },
             "autoload": {
                 "psr-4": {
@@ -5261,7 +5261,7 @@
                 "parser",
                 "shortcodes"
             ],
-            "time": "2021-01-23T00:22:46+00:00"
+            "time": "2021-02-10T23:46:49+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
