@@ -884,21 +884,21 @@
         },
         {
             "name": "flarum/approval",
-            "version": "v0.1.0-beta.15",
+            "version": "v0.1.0-beta.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/approval.git",
-                "reference": "6d73226a3dbe8867f48a53e98a2a7e55b33bbf32"
+                "reference": "6331da4a2aa77b1435cdb1b078f6c2c9683aa07a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/approval/zipball/6d73226a3dbe8867f48a53e98a2a7e55b33bbf32",
-                "reference": "6d73226a3dbe8867f48a53e98a2a7e55b33bbf32",
+                "url": "https://api.github.com/repos/flarum/approval/zipball/6331da4a2aa77b1435cdb1b078f6c2c9683aa07a",
+                "reference": "6331da4a2aa77b1435cdb1b078f6c2c9683aa07a",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.15",
-                "flarum/flags": "^0.1.0-beta.15"
+                "flarum/core": "^0.1.0-beta.16",
+                "flarum/flags": "^0.1.0-beta.16"
             },
             "type": "flarum-extension",
             "extra": {
@@ -907,7 +907,7 @@
                 },
                 "flarum-extension": {
                     "title": "Approval",
-                    "category": "moderation",
+                    "category": "feature",
                     "icon": {
                         "name": "fas fa-check",
                         "backgroundColor": "#ABDC88",
@@ -929,7 +929,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2020-12-14T20:31:13+00:00"
+            "time": "2021-03-15T09:24:28+00:00"
         },
         {
             "name": "flarum/core",
@@ -937,12 +937,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "cf2a636e81e0c84ef0d9d456ed21f751c273e08a"
+                "reference": "0e6a60bd5b364b3d4325b4d2489175e2bc635d3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/cf2a636e81e0c84ef0d9d456ed21f751c273e08a",
-                "reference": "cf2a636e81e0c84ef0d9d456ed21f751c273e08a",
+                "url": "https://api.github.com/repos/flarum/core/zipball/0e6a60bd5b364b3d4325b4d2489175e2bc635d3f",
+                "reference": "0e6a60bd5b364b3d4325b4d2489175e2bc635d3f",
                 "shasum": ""
             },
             "require": {
@@ -1027,24 +1027,24 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2021-03-13T22:16:18+00:00"
+            "time": "2021-03-16T01:43:59+00:00"
         },
         {
             "name": "flarum/flags",
-            "version": "v0.1.0-beta.15",
+            "version": "v0.1.0-beta.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/flags.git",
-                "reference": "4a6d7657d1259c217b43f814ca3e4918ab55ef6b"
+                "reference": "53465badf825392f402f70702dc5c5660a1bac76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flags/zipball/4a6d7657d1259c217b43f814ca3e4918ab55ef6b",
-                "reference": "4a6d7657d1259c217b43f814ca3e4918ab55ef6b",
+                "url": "https://api.github.com/repos/flarum/flags/zipball/53465badf825392f402f70702dc5c5660a1bac76",
+                "reference": "53465badf825392f402f70702dc5c5660a1bac76",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.15"
+                "flarum/core": "^0.1.0-beta.16"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1053,7 +1053,7 @@
                 },
                 "flarum-extension": {
                     "title": "Flags",
-                    "category": "moderation",
+                    "category": "feature",
                     "icon": {
                         "name": "fas fa-flag",
                         "backgroundColor": "#D659B5",
@@ -1075,7 +1075,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2020-12-14T21:36:54+00:00"
+            "time": "2021-03-15T10:27:30+00:00"
         },
         {
             "name": "flarum/flarum-ext-akismet",
@@ -5535,16 +5535,16 @@
         },
         {
             "name": "s9e/text-formatter",
-            "version": "2.8.4",
+            "version": "2.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/s9e/TextFormatter.git",
-                "reference": "7856f66f4cfaf1402b8ec30c0f0ba124da4e9b76"
+                "reference": "995235f221dbc7fd3ac495313f86af1e46aea441"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/7856f66f4cfaf1402b8ec30c0f0ba124da4e9b76",
-                "reference": "7856f66f4cfaf1402b8ec30c0f0ba124da4e9b76",
+                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/995235f221dbc7fd3ac495313f86af1e46aea441",
+                "reference": "995235f221dbc7fd3ac495313f86af1e46aea441",
                 "shasum": ""
             },
             "require": {
@@ -5571,7 +5571,7 @@
             },
             "type": "library",
             "extra": {
-                "version": "2.8.4"
+                "version": "2.8.5"
             },
             "autoload": {
                 "psr-4": {
@@ -5601,7 +5601,7 @@
                 "parser",
                 "shortcodes"
             ],
-            "time": "2021-03-02T08:58:26+00:00"
+            "time": "2021-03-15T08:31:53+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
