@@ -230,16 +230,16 @@
         },
         {
             "name": "components/font-awesome",
-            "version": "5.15.1",
+            "version": "5.15.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/font-awesome.git",
-                "reference": "6943708effe6d823d40255bcdbe9ee021312c880"
+                "reference": "09f1f2e02ea0cd319569b32f8639b37dfcd7a62d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/components/font-awesome/zipball/6943708effe6d823d40255bcdbe9ee021312c880",
-                "reference": "6943708effe6d823d40255bcdbe9ee021312c880",
+                "url": "https://api.github.com/repos/components/font-awesome/zipball/09f1f2e02ea0cd319569b32f8639b37dfcd7a62d",
+                "reference": "09f1f2e02ea0cd319569b32f8639b37dfcd7a62d",
                 "shasum": ""
             },
             "type": "component",
@@ -261,7 +261,7 @@
                 "OFL-1.1"
             ],
             "description": "Font Awesome, the iconic SVG, font, and CSS framework.",
-            "time": "2020-10-06T06:45:49+00:00"
+            "time": "2021-03-17T05:28:56+00:00"
         },
         {
             "name": "dflydev/fig-cookies",
@@ -937,12 +937,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "233b97329ce0996ee39a02a6a9c3d455ce62f876"
+                "reference": "298f6c39f2f56d6ac8c043426c583773d04df8e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/233b97329ce0996ee39a02a6a9c3d455ce62f876",
-                "reference": "233b97329ce0996ee39a02a6a9c3d455ce62f876",
+                "url": "https://api.github.com/repos/flarum/core/zipball/298f6c39f2f56d6ac8c043426c583773d04df8e2",
+                "reference": "298f6c39f2f56d6ac8c043426c583773d04df8e2",
                 "shasum": ""
             },
             "require": {
@@ -1027,7 +1027,7 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2021-03-16T16:41:07+00:00"
+            "time": "2021-03-17T14:54:42+00:00"
         },
         {
             "name": "flarum/flags",
