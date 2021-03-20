@@ -53,7 +53,6 @@ return array(
     'dd89a2771fc24829c6aade9a7786bd8f' => $vendorDir . '/laminas/laminas-stratigility/src/functions/path.legacy.php',
     '253c157292f75eb38082b5acb06f3f01' => $vendorDir . '/nikic/fast-route/src/functions.php',
     '84245cb95409c51c4ae97f8e59da883a' => $vendorDir . '/flarum/core/src/helpers.php',
-    'b71cbb215bc01dc90edaec1c3a55b3ef' => $vendorDir . '/flarum/core/src/TranslatorInterface.php',
     'c964ee0ededf28c96ebd9db5099ef910' => $vendorDir . '/guzzlehttp/promises/src/functions_include.php',
     '37a3dc5111fe8f707ab4c132ef1dbc62' => $vendorDir . '/guzzlehttp/guzzle/src/functions_include.php',
 );
