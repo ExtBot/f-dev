@@ -1195,12 +1195,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "2968341f77822bacd159a45783821b869fdbce69"
+                "reference": "b1f166d82af9baee6dac2ba5d0da36320d86d707"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/2968341f77822bacd159a45783821b869fdbce69",
-                "reference": "2968341f77822bacd159a45783821b869fdbce69",
+                "url": "https://api.github.com/repos/flarum/core/zipball/b1f166d82af9baee6dac2ba5d0da36320d86d707",
+                "reference": "b1f166d82af9baee6dac2ba5d0da36320d86d707",
                 "shasum": ""
             },
             "require": {
@@ -1306,7 +1306,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-04-08T00:08:21+00:00"
+            "time": "2021-04-09T12:13:47+00:00"
         },
         {
             "name": "flarum/flags",
@@ -4079,16 +4079,16 @@
         },
         {
             "name": "laminas/laminas-httphandlerrunner",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-httphandlerrunner.git",
-                "reference": "e8f850bd12cb82b268ff235fe74b2df906e8bfe8"
+                "reference": "6a2dd33e4166469ade07ad1283b45924383b224b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-httphandlerrunner/zipball/e8f850bd12cb82b268ff235fe74b2df906e8bfe8",
-                "reference": "e8f850bd12cb82b268ff235fe74b2df906e8bfe8",
+                "url": "https://api.github.com/repos/laminas/laminas-httphandlerrunner/zipball/6a2dd33e4166469ade07ad1283b45924383b224b",
+                "reference": "6a2dd33e4166469ade07ad1283b45924383b224b",
                 "shasum": ""
             },
             "require": {
@@ -4104,7 +4104,9 @@
             "require-dev": {
                 "laminas/laminas-coding-standard": "~1.0.0",
                 "laminas/laminas-diactoros": "^2.1.1",
-                "phpunit/phpunit": "^9.3"
+                "phpunit/phpunit": "^9.3",
+                "psalm/plugin-phpunit": "^0.15.1",
+                "vimeo/psalm": "^4.6"
             },
             "type": "library",
             "extra": {
@@ -4144,7 +4146,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2020-11-19T17:12:59+00:00"
+            "time": "2021-04-08T13:52:56+00:00"
         },
         {
             "name": "laminas/laminas-stratigility",
@@ -4937,16 +4939,16 @@
         },
         {
             "name": "middlewares/base-path",
-            "version": "v2.0.1",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/middlewares/base-path.git",
-                "reference": "a0ed501fe2e14ffd5994b38cb4443c4bc18d6bf5"
+                "reference": "9540b7b3aea29f22be269ad4c182455e70e38b4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/middlewares/base-path/zipball/a0ed501fe2e14ffd5994b38cb4443c4bc18d6bf5",
-                "reference": "a0ed501fe2e14ffd5994b38cb4443c4bc18d6bf5",
+                "url": "https://api.github.com/repos/middlewares/base-path/zipball/9540b7b3aea29f22be269ad4c182455e70e38b4a",
+                "reference": "9540b7b3aea29f22be269ad4c182455e70e38b4a",
                 "shasum": ""
             },
             "require": {
@@ -4983,9 +4985,9 @@
             ],
             "support": {
                 "issues": "https://github.com/middlewares/base-path/issues",
-                "source": "https://github.com/middlewares/base-path/tree/v2.0.1"
+                "source": "https://github.com/middlewares/base-path/tree/v2.1.0"
             },
-            "time": "2020-12-02T00:05:17+00:00"
+            "time": "2021-04-08T19:21:21+00:00"
         },
         {
             "name": "middlewares/base-path-router",
@@ -5390,16 +5392,16 @@
         },
         {
             "name": "opis/closure",
-            "version": "3.6.1",
+            "version": "3.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opis/closure.git",
-                "reference": "943b5d70cc5ae7483f6aff6ff43d7e34592ca0f5"
+                "reference": "06e2ebd25f2869e54a306dda991f7db58066f7f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/opis/closure/zipball/943b5d70cc5ae7483f6aff6ff43d7e34592ca0f5",
-                "reference": "943b5d70cc5ae7483f6aff6ff43d7e34592ca0f5",
+                "url": "https://api.github.com/repos/opis/closure/zipball/06e2ebd25f2869e54a306dda991f7db58066f7f6",
+                "reference": "06e2ebd25f2869e54a306dda991f7db58066f7f6",
                 "shasum": ""
             },
             "require": {
@@ -5449,9 +5451,9 @@
             ],
             "support": {
                 "issues": "https://github.com/opis/closure/issues",
-                "source": "https://github.com/opis/closure/tree/3.6.1"
+                "source": "https://github.com/opis/closure/tree/3.6.2"
             },
-            "time": "2020-11-07T02:01:34+00:00"
+            "time": "2021-04-09T13:42:10+00:00"
         },
         {
             "name": "paragonie/random_compat",

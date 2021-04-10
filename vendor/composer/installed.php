@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '406ccfa090b69e6de73d1fd1f8d2f818189d23d7',
+    'reference' => '8297e61ab6a3f021d0e2801a3a05c49c33b65b12',
     'name' => 'flarum/flarum',
   ),
   'versions' => 
@@ -182,7 +182,7 @@
         0 => '0.1',
         1 => '0.1.x-dev',
       ),
-      'reference' => '2968341f77822bacd159a45783821b869fdbce69',
+      'reference' => 'b1f166d82af9baee6dac2ba5d0da36320d86d707',
     ),
     'flarum/flags' => 
     array (
@@ -200,7 +200,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '406ccfa090b69e6de73d1fd1f8d2f818189d23d7',
+      'reference' => '8297e61ab6a3f021d0e2801a3a05c49c33b65b12',
     ),
     'flarum/flarum-ext-akismet' => 
     array (
@@ -656,12 +656,12 @@
     ),
     'laminas/laminas-httphandlerrunner' => 
     array (
-      'pretty_version' => '1.3.0',
-      'version' => '1.3.0.0',
+      'pretty_version' => '1.4.0',
+      'version' => '1.4.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'e8f850bd12cb82b268ff235fe74b2df906e8bfe8',
+      'reference' => '6a2dd33e4166469ade07ad1283b45924383b224b',
     ),
     'laminas/laminas-stratigility' => 
     array (
@@ -764,12 +764,12 @@
     ),
     'middlewares/base-path' => 
     array (
-      'pretty_version' => 'v2.0.1',
-      'version' => '2.0.1.0',
+      'pretty_version' => 'v2.1.0',
+      'version' => '2.1.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'a0ed501fe2e14ffd5994b38cb4443c4bc18d6bf5',
+      'reference' => '9540b7b3aea29f22be269ad4c182455e70e38b4a',
     ),
     'middlewares/base-path-router' => 
     array (
@@ -834,12 +834,12 @@
     ),
     'opis/closure' => 
     array (
-      'pretty_version' => '3.6.1',
-      'version' => '3.6.1.0',
+      'pretty_version' => '3.6.2',
+      'version' => '3.6.2.0',
       'aliases' => 
       array (
       ),
-      'reference' => '943b5d70cc5ae7483f6aff6ff43d7e34592ca0f5',
+      'reference' => '06e2ebd25f2869e54a306dda991f7db58066f7f6',
     ),
     'paragonie/random_compat' => 
     array (
