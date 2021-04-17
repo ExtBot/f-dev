@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '92b5116f18458a742d7d5f770b07e80b2ab974a3',
+    'reference' => '1134bfffdc081fec448c319d3f08cd3fa682b9ae',
     'name' => 'flarum/flarum',
   ),
   'versions' => 
@@ -182,7 +182,7 @@
         0 => '0.1',
         1 => '0.1.x-dev',
       ),
-      'reference' => '39a61068541962646ed9b799ccdc7c7d2633cc30',
+      'reference' => 'fb51fb4e6d82788ccf048e549a3f30cbfebefb00',
     ),
     'flarum/flags' => 
     array (
@@ -200,7 +200,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '92b5116f18458a742d7d5f770b07e80b2ab974a3',
+      'reference' => '1134bfffdc081fec448c319d3f08cd3fa682b9ae',
     ),
     'flarum/flarum-ext-akismet' => 
     array (
