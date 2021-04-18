@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '1134bfffdc081fec448c319d3f08cd3fa682b9ae',
+    'reference' => '70e0933ada3f5881fe40b233e21aa2ec7e4abed0',
     'name' => 'flarum/flarum',
   ),
   'versions' => 
@@ -224,7 +224,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '1134bfffdc081fec448c319d3f08cd3fa682b9ae',
+      'reference' => '70e0933ada3f5881fe40b233e21aa2ec7e4abed0',
     ),
     'flarum/flarum-ext-akismet' => 
     array (
@@ -1061,12 +1061,12 @@ private static $installed = array (
     ),
     's9e/text-formatter' => 
     array (
-      'pretty_version' => '2.8.6',
-      'version' => '2.8.6.0',
+      'pretty_version' => '2.9.0',
+      'version' => '2.9.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'e2d5fba85a92a62b477957943de3aecc0cc4d023',
+      'reference' => 'd764e9e4ac70b9bc398afe15b45b27568aa3ff23',
     ),
     'swiftmailer/swiftmailer' => 
     array (
