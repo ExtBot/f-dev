@@ -1244,12 +1244,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "fb51fb4e6d82788ccf048e549a3f30cbfebefb00"
+                "reference": "c7c456cb3ee00ba0cc39f591317b80caf1742e71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/fb51fb4e6d82788ccf048e549a3f30cbfebefb00",
-                "reference": "fb51fb4e6d82788ccf048e549a3f30cbfebefb00",
+                "url": "https://api.github.com/repos/flarum/core/zipball/c7c456cb3ee00ba0cc39f591317b80caf1742e71",
+                "reference": "c7c456cb3ee00ba0cc39f591317b80caf1742e71",
                 "shasum": ""
             },
             "require": {
@@ -1304,7 +1304,7 @@
             "require-dev": {
                 "flarum/testing": "^0.1.0-beta.16"
             },
-            "time": "2021-04-16T19:53:05+00:00",
+            "time": "2021-04-18T21:20:14+00:00",
             "default-branch": true,
             "type": "library",
             "extra": {
