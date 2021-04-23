@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'abb32823028b6a8f864a9585d597b1a07058eb77',
+    'reference' => '90a89967da9bc37dc711ae9f4b4b8a1e5ad3a164',
     'name' => 'flarum/flarum',
   ),
   'versions' => 
@@ -76,12 +76,12 @@
     ),
     'doctrine/cache' => 
     array (
-      'pretty_version' => '1.10.2',
-      'version' => '1.10.2.0',
+      'pretty_version' => '1.11.0',
+      'version' => '1.11.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '13e3381b25847283a91948d04640543941309727',
+      'reference' => 'a9c1b59eba5a08ca2770a76eddb88922f504e8e0',
     ),
     'doctrine/dbal' => 
     array (
@@ -182,7 +182,7 @@
         0 => '0.1',
         1 => '0.1.x-dev',
       ),
-      'reference' => '43d6b3104d8ca7d4343aa864dd898e2af38f955a',
+      'reference' => 'f4acb2c5db30f6b364e9bb0a592fb8bcd43eb9f8',
     ),
     'flarum/flags' => 
     array (
@@ -200,7 +200,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'abb32823028b6a8f864a9585d597b1a07058eb77',
+      'reference' => '90a89967da9bc37dc711ae9f4b4b8a1e5ad3a164',
     ),
     'flarum/flarum-ext-akismet' => 
     array (
