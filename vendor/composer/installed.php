@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '90a89967da9bc37dc711ae9f4b4b8a1e5ad3a164',
+    'reference' => '98c57ed42b78dacec34f4e275af08b1044f6b867',
     'name' => 'flarum/flarum',
   ),
   'versions' => 
@@ -200,7 +200,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '90a89967da9bc37dc711ae9f4b4b8a1e5ad3a164',
+      'reference' => '98c57ed42b78dacec34f4e275af08b1044f6b867',
     ),
     'flarum/flarum-ext-akismet' => 
     array (
