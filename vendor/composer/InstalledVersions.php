@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '98c57ed42b78dacec34f4e275af08b1044f6b867',
+    'reference' => '5d1187fc4f8af4725cf26d5c687f196fc00a66eb',
     'name' => 'flarum/flarum',
   ),
   'versions' => 
@@ -224,7 +224,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '98c57ed42b78dacec34f4e275af08b1044f6b867',
+      'reference' => '5d1187fc4f8af4725cf26d5c687f196fc00a66eb',
     ),
     'flarum/flarum-ext-akismet' => 
     array (
