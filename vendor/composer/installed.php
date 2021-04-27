@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '796ed2c643a597ec91a45bca26a01536df38092b',
+    'reference' => '3541eb657a7272ccb4971e0eb1ae60d726df097f',
     'name' => 'flarum/flarum',
   ),
   'versions' => 
@@ -182,7 +182,7 @@
         0 => '0.1',
         1 => '0.1.x-dev',
       ),
-      'reference' => 'f4acb2c5db30f6b364e9bb0a592fb8bcd43eb9f8',
+      'reference' => 'c119731e652fcfb96e1bb410e0550c6fbb3dc445',
     ),
     'flarum/flags' => 
     array (
@@ -200,7 +200,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '796ed2c643a597ec91a45bca26a01536df38092b',
+      'reference' => '3541eb657a7272ccb4971e0eb1ae60d726df097f',
     ),
     'flarum/flarum-ext-akismet' => 
     array (
@@ -440,12 +440,12 @@
     ),
     'guzzlehttp/psr7' => 
     array (
-      'pretty_version' => '1.8.1',
-      'version' => '1.8.1.0',
+      'pretty_version' => '1.8.2',
+      'version' => '1.8.2.0',
       'aliases' => 
       array (
       ),
-      'reference' => '35ea11d335fd638b5882ff1725228b3d35496ab1',
+      'reference' => 'dc960a912984efb74d0a90222870c72c87f10c91',
     ),
     'illuminate/bus' => 
     array (

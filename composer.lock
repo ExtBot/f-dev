@@ -1195,12 +1195,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "f4acb2c5db30f6b364e9bb0a592fb8bcd43eb9f8"
+                "reference": "c119731e652fcfb96e1bb410e0550c6fbb3dc445"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/f4acb2c5db30f6b364e9bb0a592fb8bcd43eb9f8",
-                "reference": "f4acb2c5db30f6b364e9bb0a592fb8bcd43eb9f8",
+                "url": "https://api.github.com/repos/flarum/core/zipball/c119731e652fcfb96e1bb410e0550c6fbb3dc445",
+                "reference": "c119731e652fcfb96e1bb410e0550c6fbb3dc445",
                 "shasum": ""
             },
             "require": {
@@ -1306,7 +1306,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-04-22T22:37:03+00:00"
+            "time": "2021-04-26T16:15:37+00:00"
         },
         {
             "name": "flarum/flags",
@@ -2654,16 +2654,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.8.1",
+            "version": "1.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "35ea11d335fd638b5882ff1725228b3d35496ab1"
+                "reference": "dc960a912984efb74d0a90222870c72c87f10c91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/35ea11d335fd638b5882ff1725228b3d35496ab1",
-                "reference": "35ea11d335fd638b5882ff1725228b3d35496ab1",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/dc960a912984efb74d0a90222870c72c87f10c91",
+                "reference": "dc960a912984efb74d0a90222870c72c87f10c91",
                 "shasum": ""
             },
             "require": {
@@ -2723,9 +2723,9 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/1.8.1"
+                "source": "https://github.com/guzzle/psr7/tree/1.8.2"
             },
-            "time": "2021-03-21T16:25:00+00:00"
+            "time": "2021-04-26T09:17:50+00:00"
         },
         {
             "name": "illuminate/bus",
