@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'cc3ea7b3d59b76e630a70f7f9c36b0f31b8c577b',
+    'reference' => 'bfed74b4a1dfe2253748dbd25e3a219ff758f8a7',
     'name' => 'flarum/flarum',
   ),
   'versions' => 
@@ -182,7 +182,7 @@
         0 => '0.1',
         1 => '0.1.x-dev',
       ),
-      'reference' => 'c119731e652fcfb96e1bb410e0550c6fbb3dc445',
+      'reference' => 'edaf45d133baa1ec67778b15dfc09c337933774b',
     ),
     'flarum/flags' => 
     array (
@@ -200,7 +200,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'cc3ea7b3d59b76e630a70f7f9c36b0f31b8c577b',
+      'reference' => 'bfed74b4a1dfe2253748dbd25e3a219ff758f8a7',
     ),
     'flarum/flarum-ext-akismet' => 
     array (
@@ -1019,12 +1019,12 @@
     ),
     's9e/regexp-builder' => 
     array (
-      'pretty_version' => '1.4.4',
-      'version' => '1.4.4.0',
+      'pretty_version' => '1.4.5',
+      'version' => '1.4.5.0',
       'aliases' => 
       array (
       ),
-      'reference' => '605b33841a766abd40ba3d07c15d0f62b5e7f033',
+      'reference' => '45992e3389e0179672f3a3605d66891a8b64918c',
     ),
     's9e/sweetdom' => 
     array (

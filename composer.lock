@@ -1195,12 +1195,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "c119731e652fcfb96e1bb410e0550c6fbb3dc445"
+                "reference": "edaf45d133baa1ec67778b15dfc09c337933774b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/c119731e652fcfb96e1bb410e0550c6fbb3dc445",
-                "reference": "c119731e652fcfb96e1bb410e0550c6fbb3dc445",
+                "url": "https://api.github.com/repos/flarum/core/zipball/edaf45d133baa1ec67778b15dfc09c337933774b",
+                "reference": "edaf45d133baa1ec67778b15dfc09c337933774b",
                 "shasum": ""
             },
             "require": {
@@ -1306,7 +1306,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-04-26T16:15:37+00:00"
+            "time": "2021-04-29T22:31:19+00:00"
         },
         {
             "name": "flarum/flags",
@@ -6241,21 +6241,21 @@
         },
         {
             "name": "s9e/regexp-builder",
-            "version": "1.4.4",
+            "version": "1.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/s9e/RegexpBuilder.git",
-                "reference": "605b33841a766abd40ba3d07c15d0f62b5e7f033"
+                "reference": "45992e3389e0179672f3a3605d66891a8b64918c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/s9e/RegexpBuilder/zipball/605b33841a766abd40ba3d07c15d0f62b5e7f033",
-                "reference": "605b33841a766abd40ba3d07c15d0f62b5e7f033",
+                "url": "https://api.github.com/repos/s9e/RegexpBuilder/zipball/45992e3389e0179672f3a3605d66891a8b64918c",
+                "reference": "45992e3389e0179672f3a3605d66891a8b64918c",
                 "shasum": ""
             },
             "require": {
                 "lib-pcre": ">=7.2",
-                "php": ">=5.5.1"
+                "php": ">=7.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "*"
@@ -6277,9 +6277,9 @@
             ],
             "support": {
                 "issues": "https://github.com/s9e/RegexpBuilder/issues",
-                "source": "https://github.com/s9e/RegexpBuilder/tree/1.4.4"
+                "source": "https://github.com/s9e/RegexpBuilder/tree/1.4.5"
             },
-            "time": "2020-01-08T02:46:22+00:00"
+            "time": "2021-04-28T21:45:11+00:00"
         },
         {
             "name": "s9e/sweetdom",
