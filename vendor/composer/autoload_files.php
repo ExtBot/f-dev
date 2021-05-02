@@ -43,6 +43,7 @@ return array(
     'ef65a1626449d89d0811cf9befce46f0' => $vendorDir . '/illuminate/events/functions.php',
     'e39a8b23c42d4e1452234d762b03835a' => $vendorDir . '/ramsey/uuid/src/functions.php',
     '538ca81a9a966a6716601ecf48f4eaef' => $vendorDir . '/opis/closure/functions.php',
+    '04b6576f786ea6b5b4b577af08f8e4d1' => $vendorDir . '/symfony/polyfill-intl-messageformatter/bootstrap.php',
     '253c157292f75eb38082b5acb06f3f01' => $vendorDir . '/nikic/fast-route/src/functions.php',
     '3f8ee9969da604d0f15c841b77b11450' => $vendorDir . '/laminas/laminas-stratigility/src/functions/double-pass-middleware.php',
     'ee5523a5d51d6d51030227439db1ef74' => $vendorDir . '/laminas/laminas-stratigility/src/functions/host.php',
