@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '17cdc9d20b96edaf4da37f954420c1c6776b1043',
+    'reference' => '9dd446ffe74c4e8b459d4386a5eb05d7b0f9326a',
     'name' => 'flarum/flarum',
   ),
   'versions' => 
@@ -182,7 +182,7 @@
         0 => '0.1',
         1 => '0.1.x-dev',
       ),
-      'reference' => 'a78cbf644c85cc73852555ed97271328d9a6a2e8',
+      'reference' => '2ffec2ee71537a5aa85ce2f7aeb082e8e4575d37',
     ),
     'flarum/flags' => 
     array (
@@ -200,7 +200,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '17cdc9d20b96edaf4da37f954420c1c6776b1043',
+      'reference' => '9dd446ffe74c4e8b459d4386a5eb05d7b0f9326a',
     ),
     'flarum/flarum-ext-akismet' => 
     array (
@@ -816,12 +816,12 @@
     ),
     'nesbot/carbon' => 
     array (
-      'pretty_version' => '2.46.0',
-      'version' => '2.46.0.0',
+      'pretty_version' => '2.47.0',
+      'version' => '2.47.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '2fd2c4a77d58a4e95234c8a61c5df1f157a91bf4',
+      'reference' => '606262fd8888b75317ba9461825a24fc34001e1e',
     ),
     'nikic/fast-route' => 
     array (
@@ -950,12 +950,12 @@
     ),
     'psr/log' => 
     array (
-      'pretty_version' => '1.1.3',
-      'version' => '1.1.3.0',
+      'pretty_version' => '1.1.4',
+      'version' => '1.1.4.0',
       'aliases' => 
       array (
       ),
-      'reference' => '0f73288fd15629204f9d42b7055f72dacbe811fc',
+      'reference' => 'd49695b909c3b7628b6289db5479a1c204601f11',
     ),
     'psr/log-implementation' => 
     array (
