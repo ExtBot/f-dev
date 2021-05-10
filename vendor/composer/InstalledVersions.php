@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '0769a6e70349993f99f5200a364d1837546a2768',
+    'reference' => 'db23cbcb65188be38bfde3ac76c398e9569e5e15',
     'name' => 'flarum/flarum',
   ),
   'versions' => 
@@ -206,7 +206,7 @@ private static $installed = array (
         0 => '0.1',
         1 => '0.1.x-dev',
       ),
-      'reference' => '2cd1c2964a734c1be813c5ecea44a29dc7dd3fec',
+      'reference' => '9bfb7f978da14cdc6d754add2df106c476dd46e0',
     ),
     'flarum/flags' => 
     array (
@@ -224,7 +224,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '0769a6e70349993f99f5200a364d1837546a2768',
+      'reference' => 'db23cbcb65188be38bfde3ac76c398e9569e5e15',
     ),
     'flarum/flarum-ext-akismet' => 
     array (
@@ -707,12 +707,12 @@ private static $installed = array (
     ),
     'league/commonmark' => 
     array (
-      'pretty_version' => '1.6.0',
-      'version' => '1.6.0.0',
+      'pretty_version' => '1.6.1',
+      'version' => '1.6.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => '19a9673b833cc37770439097b381d86cd125bfe8',
+      'reference' => '2651c497f005de305c7ba3f232cbd87b8c00ee8c',
     ),
     'league/flysystem' => 
     array (
@@ -1061,12 +1061,12 @@ private static $installed = array (
     ),
     's9e/text-formatter' => 
     array (
-      'pretty_version' => '2.9.0',
-      'version' => '2.9.0.0',
+      'pretty_version' => '2.9.1',
+      'version' => '2.9.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'd764e9e4ac70b9bc398afe15b45b27568aa3ff23',
+      'reference' => 'e81057d923f654f1fa6a5a6ed22c872723ff6c33',
     ),
     'swiftmailer/swiftmailer' => 
     array (

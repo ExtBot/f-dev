@@ -1195,12 +1195,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "2cd1c2964a734c1be813c5ecea44a29dc7dd3fec"
+                "reference": "9bfb7f978da14cdc6d754add2df106c476dd46e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/2cd1c2964a734c1be813c5ecea44a29dc7dd3fec",
-                "reference": "2cd1c2964a734c1be813c5ecea44a29dc7dd3fec",
+                "url": "https://api.github.com/repos/flarum/core/zipball/9bfb7f978da14cdc6d754add2df106c476dd46e0",
+                "reference": "9bfb7f978da14cdc6d754add2df106c476dd46e0",
                 "shasum": ""
             },
             "require": {
@@ -1307,7 +1307,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-07T16:31:01+00:00"
+            "time": "2021-05-09T22:10:56+00:00"
         },
         {
             "name": "flarum/flags",
@@ -4297,16 +4297,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "19a9673b833cc37770439097b381d86cd125bfe8"
+                "reference": "2651c497f005de305c7ba3f232cbd87b8c00ee8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/19a9673b833cc37770439097b381d86cd125bfe8",
-                "reference": "19a9673b833cc37770439097b381d86cd125bfe8",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/2651c497f005de305c7ba3f232cbd87b8c00ee8c",
+                "reference": "2651c497f005de305c7ba3f232cbd87b8c00ee8c",
                 "shasum": ""
             },
             "require": {
@@ -4394,7 +4394,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-01T19:00:49+00:00"
+            "time": "2021-05-08T16:08:00+00:00"
         },
         {
             "name": "league/flysystem",
@@ -6328,16 +6328,16 @@
         },
         {
             "name": "s9e/text-formatter",
-            "version": "2.9.0",
+            "version": "2.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/s9e/TextFormatter.git",
-                "reference": "d764e9e4ac70b9bc398afe15b45b27568aa3ff23"
+                "reference": "e81057d923f654f1fa6a5a6ed22c872723ff6c33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/d764e9e4ac70b9bc398afe15b45b27568aa3ff23",
-                "reference": "d764e9e4ac70b9bc398afe15b45b27568aa3ff23",
+                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/e81057d923f654f1fa6a5a6ed22c872723ff6c33",
+                "reference": "e81057d923f654f1fa6a5a6ed22c872723ff6c33",
                 "shasum": ""
             },
             "require": {
@@ -6364,7 +6364,7 @@
             },
             "type": "library",
             "extra": {
-                "version": "2.9.0"
+                "version": "2.9.1"
             },
             "autoload": {
                 "psr-4": {
@@ -6396,9 +6396,9 @@
             ],
             "support": {
                 "issues": "https://github.com/s9e/TextFormatter/issues",
-                "source": "https://github.com/s9e/TextFormatter/tree/2.9.0"
+                "source": "https://github.com/s9e/TextFormatter/tree/2.9.1"
             },
-            "time": "2021-04-17T23:41:09+00:00"
+            "time": "2021-05-09T00:43:29+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
