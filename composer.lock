@@ -1195,12 +1195,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "9bfb7f978da14cdc6d754add2df106c476dd46e0"
+                "reference": "765bd599659cee58d7a975eff2b8d93164455984"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/9bfb7f978da14cdc6d754add2df106c476dd46e0",
-                "reference": "9bfb7f978da14cdc6d754add2df106c476dd46e0",
+                "url": "https://api.github.com/repos/flarum/core/zipball/765bd599659cee58d7a975eff2b8d93164455984",
+                "reference": "765bd599659cee58d7a975eff2b8d93164455984",
                 "shasum": ""
             },
             "require": {
@@ -1307,7 +1307,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-09T22:10:56+00:00"
+            "time": "2021-05-10T23:20:47+00:00"
         },
         {
             "name": "flarum/flags",
