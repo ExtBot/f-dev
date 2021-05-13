@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'a1652df2ee3e6ddfc84512606d1d089021b0629c',
+    'reference' => 'a94e6138b03208873f02962f3b898372c590fdc3',
     'name' => 'flarum/flarum',
   ),
   'versions' => 
@@ -206,7 +206,7 @@ private static $installed = array (
         0 => '0.1',
         1 => '0.1.x-dev',
       ),
-      'reference' => '92e1d0843c1130f0a2dd46bc8b6256f4b6f763bc',
+      'reference' => 'e3f506817b2b26e800ebe0608163a37ce820dd9e',
     ),
     'flarum/flags' => 
     array (
@@ -224,7 +224,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'a1652df2ee3e6ddfc84512606d1d089021b0629c',
+      'reference' => 'a94e6138b03208873f02962f3b898372c590fdc3',
     ),
     'flarum/flarum-ext-akismet' => 
     array (
@@ -707,12 +707,12 @@ private static $installed = array (
     ),
     'league/commonmark' => 
     array (
-      'pretty_version' => '1.6.1',
-      'version' => '1.6.1.0',
+      'pretty_version' => '1.6.2',
+      'version' => '1.6.2.0',
       'aliases' => 
       array (
       ),
-      'reference' => '2651c497f005de305c7ba3f232cbd87b8c00ee8c',
+      'reference' => '7d70d2f19c84bcc16275ea47edabee24747352eb',
     ),
     'league/flysystem' => 
     array (
@@ -840,12 +840,12 @@ private static $installed = array (
     ),
     'nesbot/carbon' => 
     array (
-      'pretty_version' => '2.47.0',
-      'version' => '2.47.0.0',
+      'pretty_version' => '2.48.0',
+      'version' => '2.48.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '606262fd8888b75317ba9461825a24fc34001e1e',
+      'reference' => 'd3c447f21072766cddec3522f9468a5849a76147',
     ),
     'nikic/fast-route' => 
     array (
@@ -1079,21 +1079,21 @@ private static $installed = array (
     ),
     'symfony/config' => 
     array (
-      'pretty_version' => 'v5.2.7',
-      'version' => '5.2.7.0',
+      'pretty_version' => 'v5.2.8',
+      'version' => '5.2.8.0',
       'aliases' => 
       array (
       ),
-      'reference' => '3817662ada105c8c4d1afdb4ec003003efd1d8d8',
+      'reference' => '8dfa5f8adea9cd5155920069224beb04f11d6b7e',
     ),
     'symfony/console' => 
     array (
-      'pretty_version' => 'v5.2.7',
-      'version' => '5.2.7.0',
+      'pretty_version' => 'v5.2.8',
+      'version' => '5.2.8.0',
       'aliases' => 
       array (
       ),
-      'reference' => '90374b8ed059325b49a29b55b3f8bb4062c87629',
+      'reference' => '864568fdc0208b3eba3638b6000b69d2386e6768',
     ),
     'symfony/css-selector' => 
     array (
@@ -1149,21 +1149,21 @@ private static $installed = array (
     ),
     'symfony/finder' => 
     array (
-      'pretty_version' => 'v5.2.4',
-      'version' => '5.2.4.0',
+      'pretty_version' => 'v5.2.8',
+      'version' => '5.2.8.0',
       'aliases' => 
       array (
       ),
-      'reference' => '0d639a0943822626290d169965804f79400e6a04',
+      'reference' => 'eccb8be70d7a6a2230d05f6ecede40f3fdd9e252',
     ),
     'symfony/http-foundation' => 
     array (
-      'pretty_version' => 'v5.2.7',
-      'version' => '5.2.7.0',
+      'pretty_version' => 'v5.2.8',
+      'version' => '5.2.8.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'a416487a73bb9c9d120e9ba3a60547f4a3fb7a1f',
+      'reference' => 'e8fbbab7c4a71592985019477532629cb2e142dc',
     ),
     'symfony/mime' => 
     array (
@@ -1284,21 +1284,21 @@ private static $installed = array (
     ),
     'symfony/string' => 
     array (
-      'pretty_version' => 'v5.2.6',
-      'version' => '5.2.6.0',
+      'pretty_version' => 'v5.2.8',
+      'version' => '5.2.8.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'ad0bd91bce2054103f5eaa18ebeba8d3bc2a0572',
+      'reference' => '01b35eb64cac8467c3f94cd0ce2d0d376bb7d1db',
     ),
     'symfony/translation' => 
     array (
-      'pretty_version' => 'v5.2.7',
-      'version' => '5.2.7.0',
+      'pretty_version' => 'v5.2.8',
+      'version' => '5.2.8.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'e37ece5242564bceea54d709eafc948377ec9749',
+      'reference' => '445caa74a5986f1cc9dd91a2975ef68fa7cb2068',
     ),
     'symfony/translation-contracts' => 
     array (
