@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'e3e083b6706a644f457d6e828224d016936b207d',
+    'reference' => '6476415c1c0400b0d03d06d297644b2dca0f1ca2',
     'name' => 'flarum/flarum',
   ),
   'versions' => 
@@ -206,7 +206,7 @@ private static $installed = array (
         0 => '0.1',
         1 => '1.x-dev',
       ),
-      'reference' => 'e855c498249445109e26e5f83d6909b3e74ad27b',
+      'reference' => 'b3de5157fec8498ba938dffe6bc7d105bf3d5890',
     ),
     'flarum/flags' => 
     array (
@@ -224,7 +224,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'e3e083b6706a644f457d6e828224d016936b207d',
+      'reference' => '6476415c1c0400b0d03d06d297644b2dca0f1ca2',
     ),
     'flarum/flarum-ext-akismet' => 
     array (
@@ -473,26 +473,26 @@ private static $installed = array (
     ),
     'illuminate/bus' => 
     array (
-      'pretty_version' => 'v8.41.0',
-      'version' => '8.41.0.0',
+      'pretty_version' => 'v8.42.0',
+      'version' => '8.42.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '7b5c0f1aa52cc70259352ff6b7adb67c7d46bcc5',
+      'reference' => '2156797125702623af47983867c05cc965490c19',
     ),
     'illuminate/cache' => 
     array (
-      'pretty_version' => 'v8.41.0',
-      'version' => '8.41.0.0',
+      'pretty_version' => 'v8.42.0',
+      'version' => '8.42.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '267a541171a375d56622117fbd0a60515402f2ef',
+      'reference' => '499d15db9b58b5701aa85a4790ae1404d79009aa',
     ),
     'illuminate/collections' => 
     array (
-      'pretty_version' => 'v8.41.0',
-      'version' => '8.41.0.0',
+      'pretty_version' => 'v8.42.0',
+      'version' => '8.42.0.0',
       'aliases' => 
       array (
       ),
@@ -500,8 +500,8 @@ private static $installed = array (
     ),
     'illuminate/config' => 
     array (
-      'pretty_version' => 'v8.41.0',
-      'version' => '8.41.0.0',
+      'pretty_version' => 'v8.42.0',
+      'version' => '8.42.0.0',
       'aliases' => 
       array (
       ),
@@ -509,44 +509,44 @@ private static $installed = array (
     ),
     'illuminate/console' => 
     array (
-      'pretty_version' => 'v8.41.0',
-      'version' => '8.41.0.0',
+      'pretty_version' => 'v8.42.0',
+      'version' => '8.42.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '395002ac2d4ec404c42e6e97997f4236dc8ab2b6',
+      'reference' => '01d6bec8d741ca812cfa14a9b91cf081f8d7fdad',
     ),
     'illuminate/container' => 
     array (
-      'pretty_version' => 'v8.41.0',
-      'version' => '8.41.0.0',
+      'pretty_version' => 'v8.42.0',
+      'version' => '8.42.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '0e38ee1632d470e56aece0079e6e22d13e6bea8e',
+      'reference' => '07342efca88cf9fff4f2fa0e3c378ea6ee86e5e2',
     ),
     'illuminate/contracts' => 
     array (
-      'pretty_version' => 'v8.41.0',
-      'version' => '8.41.0.0',
+      'pretty_version' => 'v8.42.0',
+      'version' => '8.42.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '64abbe2aeee0855a11cfce49d0ea08a0aa967cd2',
+      'reference' => '68036b4fb17ad40a599323bda3f2c0845c8100d8',
     ),
     'illuminate/database' => 
     array (
-      'pretty_version' => 'v8.41.0',
-      'version' => '8.41.0.0',
+      'pretty_version' => 'v8.42.0',
+      'version' => '8.42.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '6277b39728bce436d2509d215223137d87265792',
+      'reference' => '40861d878522426fb5acd15c0bdb0fd5249ff9e0',
     ),
     'illuminate/events' => 
     array (
-      'pretty_version' => 'v8.41.0',
-      'version' => '8.41.0.0',
+      'pretty_version' => 'v8.42.0',
+      'version' => '8.42.0.0',
       'aliases' => 
       array (
       ),
@@ -554,17 +554,17 @@ private static $installed = array (
     ),
     'illuminate/filesystem' => 
     array (
-      'pretty_version' => 'v8.41.0',
-      'version' => '8.41.0.0',
+      'pretty_version' => 'v8.42.0',
+      'version' => '8.42.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '8ef5902052c5b3bb4a6c1c3afc399f30e7723cb8',
+      'reference' => '7c7372874615475f46d484a2190f90e8effcd8b5',
     ),
     'illuminate/hashing' => 
     array (
-      'pretty_version' => 'v8.41.0',
-      'version' => '8.41.0.0',
+      'pretty_version' => 'v8.42.0',
+      'version' => '8.42.0.0',
       'aliases' => 
       array (
       ),
@@ -572,8 +572,8 @@ private static $installed = array (
     ),
     'illuminate/macroable' => 
     array (
-      'pretty_version' => 'v8.41.0',
-      'version' => '8.41.0.0',
+      'pretty_version' => 'v8.42.0',
+      'version' => '8.42.0.0',
       'aliases' => 
       array (
       ),
@@ -581,17 +581,17 @@ private static $installed = array (
     ),
     'illuminate/mail' => 
     array (
-      'pretty_version' => 'v8.41.0',
-      'version' => '8.41.0.0',
+      'pretty_version' => 'v8.42.0',
+      'version' => '8.42.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '6e2af3a60ac68669ee302fdc98501f55980b653f',
+      'reference' => 'ab6ba9329353ce82f6aab1bff65bdf639dd1ab1d',
     ),
     'illuminate/pipeline' => 
     array (
-      'pretty_version' => 'v8.41.0',
-      'version' => '8.41.0.0',
+      'pretty_version' => 'v8.42.0',
+      'version' => '8.42.0.0',
       'aliases' => 
       array (
       ),
@@ -599,17 +599,17 @@ private static $installed = array (
     ),
     'illuminate/queue' => 
     array (
-      'pretty_version' => 'v8.41.0',
-      'version' => '8.41.0.0',
+      'pretty_version' => 'v8.42.0',
+      'version' => '8.42.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'ecb4913c86349c64cdb09e3912042446855a02d7',
+      'reference' => 'c490f2b0c5136e0e9aac197a74a8037a341f3b26',
     ),
     'illuminate/session' => 
     array (
-      'pretty_version' => 'v8.41.0',
-      'version' => '8.41.0.0',
+      'pretty_version' => 'v8.42.0',
+      'version' => '8.42.0.0',
       'aliases' => 
       array (
       ),
@@ -617,26 +617,26 @@ private static $installed = array (
     ),
     'illuminate/support' => 
     array (
-      'pretty_version' => 'v8.41.0',
-      'version' => '8.41.0.0',
+      'pretty_version' => 'v8.42.0',
+      'version' => '8.42.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '31e91a12f0aac770d02a05b5d5771829132213b4',
+      'reference' => 'ed5adf8494e6c047fcf6de8b56153640379bf08d',
     ),
     'illuminate/translation' => 
     array (
-      'pretty_version' => 'v8.41.0',
-      'version' => '8.41.0.0',
+      'pretty_version' => 'v8.42.0',
+      'version' => '8.42.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '0fffa8b8f6eed8b4e17eac9d457befbcbae02b47',
+      'reference' => '2af0b8af56468284d7ce4fb61e0fc7b3c0194fc8',
     ),
     'illuminate/validation' => 
     array (
-      'pretty_version' => 'v8.41.0',
-      'version' => '8.41.0.0',
+      'pretty_version' => 'v8.42.0',
+      'version' => '8.42.0.0',
       'aliases' => 
       array (
       ),
@@ -644,12 +644,12 @@ private static $installed = array (
     ),
     'illuminate/view' => 
     array (
-      'pretty_version' => 'v8.41.0',
-      'version' => '8.41.0.0',
+      'pretty_version' => 'v8.42.0',
+      'version' => '8.42.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '696a1d6d2213be192429e97245a3d2bb4d6d1849',
+      'reference' => 'e5157304e3c29f4f04ec6dd566252c3cbb51c190',
     ),
     'intervention/image' => 
     array (
@@ -662,12 +662,12 @@ private static $installed = array (
     ),
     'laminas/laminas-diactoros' => 
     array (
-      'pretty_version' => '2.5.1',
-      'version' => '2.5.1.0',
+      'pretty_version' => '2.6.0',
+      'version' => '2.6.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '53df7b7cd66e0905e6133970a4b90392a7a08075',
+      'reference' => '7d2034110ae18afe05050b796a3ee4b3fe177876',
     ),
     'laminas/laminas-escaper' => 
     array (
@@ -1061,12 +1061,12 @@ private static $installed = array (
     ),
     's9e/text-formatter' => 
     array (
-      'pretty_version' => '2.9.1',
-      'version' => '2.9.1.0',
+      'pretty_version' => '2.9.2',
+      'version' => '2.9.2.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'e81057d923f654f1fa6a5a6ed22c872723ff6c33',
+      'reference' => '918f105365229056cb2b8710fc2e2470f4783ae4',
     ),
     'swiftmailer/swiftmailer' => 
     array (
