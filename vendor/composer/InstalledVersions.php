@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '270ad05d47def54aefdfe3aeb943768632747a14',
+    'reference' => '1fbeb053904cb25cf086a5e46e6f539aea10ca12',
     'name' => 'flarum/flarum',
   ),
   'versions' => 
@@ -224,7 +224,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '270ad05d47def54aefdfe3aeb943768632747a14',
+      'reference' => '1fbeb053904cb25cf086a5e46e6f539aea10ca12',
     ),
     'flarum/flarum-ext-akismet' => 
     array (
@@ -840,12 +840,12 @@ private static $installed = array (
     ),
     'nesbot/carbon' => 
     array (
-      'pretty_version' => '2.48.0',
-      'version' => '2.48.0.0',
+      'pretty_version' => '2.48.1',
+      'version' => '2.48.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'd3c447f21072766cddec3522f9468a5849a76147',
+      'reference' => '8d1f50f1436fb4b05e7127360483dd9c6e73da16',
     ),
     'nikic/fast-route' => 
     array (
