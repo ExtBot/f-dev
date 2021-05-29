@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '2c1bf4e399bb4aa559d2f1f62bc61d9b8a0ec509',
+    'reference' => '80e404865b341cc210dd374bd0dcd5c28abb5126',
     'name' => 'flarum/flarum',
   ),
   'versions' => 
@@ -200,7 +200,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '2c1bf4e399bb4aa559d2f1f62bc61d9b8a0ec509',
+      'reference' => '80e404865b341cc210dd374bd0dcd5c28abb5126',
     ),
     'flarum/flarum-ext-akismet' => 
     array (
@@ -800,12 +800,12 @@
     ),
     'monolog/monolog' => 
     array (
-      'pretty_version' => '1.26.0',
-      'version' => '1.26.0.0',
+      'pretty_version' => '1.26.1',
+      'version' => '1.26.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => '2209ddd84e7ef1256b7af205d0717fb62cfc9c33',
+      'reference' => 'c6b00f05152ae2c9b04a448f99c7590beb6042f5',
     ),
     'mtdowling/cron-expression' => 
     array (
