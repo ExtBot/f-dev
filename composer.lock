@@ -1195,12 +1195,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "a976a2118a98dffa174e97f35ce239e03bea180f"
+                "reference": "1bbfea4aa3576499179deeb876407da1a1c017f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/a976a2118a98dffa174e97f35ce239e03bea180f",
-                "reference": "a976a2118a98dffa174e97f35ce239e03bea180f",
+                "url": "https://api.github.com/repos/flarum/core/zipball/1bbfea4aa3576499179deeb876407da1a1c017f0",
+                "reference": "1bbfea4aa3576499179deeb876407da1a1c017f0",
                 "shasum": ""
             },
             "require": {
@@ -1307,7 +1307,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-25T21:01:54+00:00"
+            "time": "2021-05-29T20:42:28+00:00"
         },
         {
             "name": "flarum/flags",
@@ -6330,16 +6330,16 @@
         },
         {
             "name": "s9e/text-formatter",
-            "version": "2.9.2",
+            "version": "2.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/s9e/TextFormatter.git",
-                "reference": "918f105365229056cb2b8710fc2e2470f4783ae4"
+                "reference": "a8767be0fd9febecf4d1f88a76b8fc01c26abed9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/918f105365229056cb2b8710fc2e2470f4783ae4",
-                "reference": "918f105365229056cb2b8710fc2e2470f4783ae4",
+                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/a8767be0fd9febecf4d1f88a76b8fc01c26abed9",
+                "reference": "a8767be0fd9febecf4d1f88a76b8fc01c26abed9",
                 "shasum": ""
             },
             "require": {
@@ -6366,7 +6366,7 @@
             },
             "type": "library",
             "extra": {
-                "version": "2.9.2"
+                "version": "2.9.3"
             },
             "autoload": {
                 "psr-4": {
@@ -6398,9 +6398,9 @@
             ],
             "support": {
                 "issues": "https://github.com/s9e/TextFormatter/issues",
-                "source": "https://github.com/s9e/TextFormatter/tree/2.9.2"
+                "source": "https://github.com/s9e/TextFormatter/tree/2.9.3"
             },
-            "time": "2021-05-17T16:13:01+00:00"
+            "time": "2021-05-30T11:33:06+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

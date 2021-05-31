@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '80e404865b341cc210dd374bd0dcd5c28abb5126',
+    'reference' => '7cd0466ec00f9c2c37586ccbc61f8011084a9b45',
     'name' => 'flarum/flarum',
   ),
   'versions' => 
@@ -61,15 +61,6 @@ private static $installed = array (
       array (
       ),
       'reference' => '2c64374ae2b9ca51304c09b6b6acc275557fc34f',
-    ),
-    'axy/sourcemap' => 
-    array (
-      'pretty_version' => '0.1.5',
-      'version' => '0.1.5.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '95a52df5a08c3a011031dae2e79390134e28467c',
     ),
     'brick/math' => 
     array (
@@ -206,7 +197,7 @@ private static $installed = array (
         0 => '0.1',
         1 => '1.x-dev',
       ),
-      'reference' => 'a976a2118a98dffa174e97f35ce239e03bea180f',
+      'reference' => '1bbfea4aa3576499179deeb876407da1a1c017f0',
     ),
     'flarum/flags' => 
     array (
@@ -224,7 +215,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '80e404865b341cc210dd374bd0dcd5c28abb5126',
+      'reference' => '7cd0466ec00f9c2c37586ccbc61f8011084a9b45',
     ),
     'flarum/flarum-ext-akismet' => 
     array (
@@ -430,8 +421,6 @@ private static $installed = array (
       'version' => 'dev-master',
       'aliases' => 
       array (
-        0 => '0.1',
-        1 => '0.1.x-dev',
       ),
       'reference' => '85ca89dd63b5c629a10c1faf9cd53df070794f08',
     ),
@@ -1061,12 +1050,12 @@ private static $installed = array (
     ),
     's9e/text-formatter' => 
     array (
-      'pretty_version' => '2.9.2',
-      'version' => '2.9.2.0',
+      'pretty_version' => '2.9.3',
+      'version' => '2.9.3.0',
       'aliases' => 
       array (
       ),
-      'reference' => '918f105365229056cb2b8710fc2e2470f4783ae4',
+      'reference' => 'a8767be0fd9febecf4d1f88a76b8fc01c26abed9',
     ),
     'swiftmailer/swiftmailer' => 
     array (
