@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'fd99ae986bca501cccd0624a84739236e6eaa95b',
+    'reference' => '535acc7cb2ec6eca4cdc4725f06e7660b9945bbf',
     'name' => 'flarum/flarum',
   ),
   'versions' => 
@@ -157,12 +157,12 @@
     ),
     'filp/whoops' => 
     array (
-      'pretty_version' => '2.12.1',
-      'version' => '2.12.1.0',
+      'pretty_version' => '2.13.0',
+      'version' => '2.13.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'c13c0be93cff50f88bbd70827d993026821914dd',
+      'reference' => '2edbc73a4687d9085c8f20f398eebade844e8424',
     ),
     'flarum/approval' => 
     array (
@@ -200,7 +200,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'fd99ae986bca501cccd0624a84739236e6eaa95b',
+      'reference' => '535acc7cb2ec6eca4cdc4725f06e7660b9945bbf',
     ),
     'flarum/flarum-ext-akismet' => 
     array (
