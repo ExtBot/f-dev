@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '6b380cb07a3c0b714801d635cb11173f0ac88457',
+    'reference' => 'a53566e7b2e308a5fd73d01b81f2819950fc81d8',
     'name' => 'flarum/flarum',
   ),
   'versions' => 
@@ -200,7 +200,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '6b380cb07a3c0b714801d635cb11173f0ac88457',
+      'reference' => 'a53566e7b2e308a5fd73d01b81f2819950fc81d8',
     ),
     'flarum/flarum-ext-akismet' => 
     array (
@@ -816,12 +816,12 @@
     ),
     'nesbot/carbon' => 
     array (
-      'pretty_version' => '2.48.1',
-      'version' => '2.48.1.0',
+      'pretty_version' => '2.49.0',
+      'version' => '2.49.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '8d1f50f1436fb4b05e7127360483dd9c6e73da16',
+      'reference' => '93d9db91c0235c486875d22f1e08b50bdf3e6eee',
     ),
     'nikic/fast-route' => 
     array (
